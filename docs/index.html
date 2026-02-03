@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ninglin Liu · AI × Web3 · Quant · ZK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0b0f;
+      --bg-elevated: #111318;
+      --surface: #16181f;
+      --border: rgba(255, 255, 255, 0.06);
+      --text: #e8eaed;
+      --text-muted: #9ca3af;
+      --accent: #22d3ee;
+      --accent-dim: rgba(34, 211, 238, 0.15);
+      --accent-glow: rgba(34, 211, 238, 0.25);
+      --gold: #fbbf24;
+      --gold-dim: rgba(251, 191, 36, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Background art */
+    .bg-art {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-dim), transparent 50%),
+        radial-gradient(ellipse 60% 40% at 100% 80%, rgba(34, 211, 238, 0.06), transparent 40%),
+        linear-gradient(180deg, var(--bg) 0%, #0d0e14 100%);
+    }
+    .bg-art::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 64px 64px;
+      opacity: 0.5;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(2rem, 6vw, 4rem) 1.5rem 4rem;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 3rem 0 4rem;
+      animation: fadeUp 0.8s ease-out;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero .tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #fff 0%, var(--text-muted) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero .sub {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      max-width: 480px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero .meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .hero .meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .cta {
+      display: inline-flex;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .cta a {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--accent);
+      border: 1px solid rgba(34, 211, 238, 0.35);
+      transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+    .cta a:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      box-shadow: 0 0 20px var(--accent-glow);
+    }
+    .cta a.primary {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: var(--accent);
+    }
+    .cta a.primary:hover {
+      box-shadow: 0 0 24px var(--accent-glow);
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 3rem;
+      animation: fadeUp 0.6s ease-out backwards;
+    }
+    section:nth-child(2) { animation-delay: 0.1s; }
+    section:nth-child(3) { animation-delay: 0.15s; }
+    section:nth-child(4) { animation-delay: 0.2s; }
+    section:nth-child(5) { animation-delay: 0.25s; }
+    section:nth-child(6) { animation-delay: 0.3s; }
+    section:nth-child(7) { animation-delay: 0.35s; }
+    section:nth-child(8) { animation-delay: 0.4s; }
+    section:nth-child(9) { animation-delay: 0.45s; }
+
+    .sec-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    /* Cards */
+    .card-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      border-color: rgba(34, 211, 238, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+      color: #fff;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .card .stack {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.9;
+    }
+    .card a.repo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 0.5rem;
+      transition: color 0.2s;
+    }
+    .card a.repo:hover {
+      color: var(--gold);
+    }
+
+    /* Quant table */
+    .quant-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .quant-table th {
+      text-align: left;
+      padding: 0.6rem 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .quant-table td {
+      padding: 0.6rem 1rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .quant-table tr:hover td {
+      color: var(--text);
+    }
+
+    /* Project list */
+    .project-list {
+      list-style: none;
+    }
+    .project-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .project-list li:last-child { border-bottom: none; }
+    .project-list a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .project-list a:hover {
+      color: var(--gold);
+    }
+    .project-list .desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      width: 100%;
+      margin-top: 0.2rem;
+    }
+
+    /* Stack block */
+    .stack-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      line-height: 1.9;
+      color: var(--text-muted);
+    }
+    .stack-block strong {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* More repos */
+    .more-repos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .more-repos a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.35rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+    .more-repos a:hover {
+      color: var(--accent);
+      border-color: rgba(34, 211, 238, 0.3);
+      background: var(--accent-dim);
+    }
+
+    /* Internship */
+    .internship p {
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .internship ul {
+      list-style: none;
+    }
+    .internship li {
+      padding: 0.35rem 0;
+      padding-left: 1.25rem;
+      position: relative;
+      color: var(--text-muted);
+    }
+    .internship li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      border-top: 1px solid var(--border);
+    }
+    footer p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    footer a:hover {
+      color: var(--gold);
+    }
+    .foot-dot {
+      color: var(--accent);
+      opacity: 0.6;
+      margin: 0 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-art"></div>
+  <div class="wrap">
+    <header class="hero">
+      <p class="tag">AI × Web3 · Quant · ZK / DePIN</p>
+      <h1>Ninglin Liu</h1>
+      <p class="sub">I build verifiable on-chain systems, AI agent applications, and quant tooling — fast iteration, clean architecture, reproducible setups.</p>
+      <div class="meta">
+        <span>📍 XJTLU (China) · Remote-first</span>
+        <span>🎯 ZK verification · On-chain intelligence · DeFi · Quant</span>
+      </div>
+      <div class="cta">
+        <a href="https://github.com/ninglinLiu" class="primary">GitHub</a>
+        <a href="mailto:x07514475479@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <section>
+      <p class="sec-label">Featured Work</p>
+      <h2>Best signal</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>1) Parallel ZK Playground (Monad Testnet)</h3>
+          <p>Batch verification demo — storage layout for parallel execution, no write hot-spots. Batch verify 10 / 50 / 100 proofs per tx; metrics dashboard (gas, latency, success rate).</p>
+          <p class="stack">Solidity 0.8.24 · Hardhat · Next.js 14 · ethers v6 · Tailwind · PNPM monorepo</p>
+          <a href="https://github.com/ninglinLiu/zkhahaha" class="repo">→ zkhahaha</a>
+        </div>
+        <div class="card">
+          <h3>2) LLM Werewolf Arena (DeepSeek)</h3>
+          <p>Multi-agent simulation — system prompts, personas, private memory isolation. Single API, multi-role agents; voting / night actions pipeline.</p>
+          <p class="stack">Agent orchestration · prompt protocols · state management</p>
+          <a href="https://github.com/ninglinLiu/AI-llm-werewolf-arena-" class="repo">→ AI-llm-werewolf-arena-</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="sec-label">Quant track</p>
+      <h2>Engineering + research, not vibes</h2>
+      <table class="quant-table">
+        <thead>
+          <tr><th>Area</th><th>Focus</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Research / Modeling</td><td>Regime awareness, indicator diagnostics, signal design with leakage awareness</td></tr>
+          <tr><td>Backtesting</td><td>Crypto pipelines (Binance), MAE/MFE, win-rate vs tail-risk, stop-loss sensitivity</td></tr>
+          <tr><td>Execution</td><td>Bot-driven workflow on Linux/VPS, Docker, reproducible runs</td></tr>
+          <tr><td>Risk / Process</td><td>Position sizing, failure-mode thinking, robustness over “perfect params”</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:1rem;"><a href="https://github.com/ninglinLiu/quantlab-trading1.0" style="color:var(--accent);text-decoration:none;">→ QuantLab Trading (TA + Backtesting)</a></p>
+    </section>
+
+    <section>
+      <p class="sec-label">Web3 / AI systems</p>
+      <h2>Building</h2>
+      <ul class="project-list">
+        <li><a href="https://github.com/ninglinLiu/edgenetai">EdgeNet.AI</a><span class="desc">Verifiable AI Inference Network (Proof-of-Inference / DePIN)</span></li>
+        <li><a href="https://github.com/ninglinLiu/RiskLights-AI-driven-Crypto-Market-Risk-Radar-with-Automated-Alerts">RiskLights</a><span class="desc">Crypto × Macro × On-chain Risk Indicator Engine</span></li>
+        <li><a href="https://github.com/ninglinLiu/onchain-data-copyright-saas">On-chain Data Copyright SaaS</a><span class="desc">Dataset licensing & NFT receipts (tokenized provenance)</span></li>
+        <li><a href="https://github.com/ninglinLiu/awsome-alpha-radar-crypto-intelligence">Alpha Radar</a><span class="desc">AI-driven crypto intelligence & signal aggregation</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="sec-label">Tech stack</p>
+      <h2>Engineering-first</h2>
+      <div class="stack-block">
+        <strong>Languages</strong>   TypeScript · JavaScript · Python · C/C++ · Solidity<br/>
+        <strong>Web</strong>         Next.js · Node.js · Prisma · REST/SDK<br/>
+        <strong>Web3</strong>        Hardhat · ethers.js · DeFi patterns · Chainlink<br/>
+        <strong>AI/Agents</strong>   LLM apps · RAG · agent personas / state isolation<br/>
+        <strong>Infra</strong>       Docker · Linux · Git · CI-friendly repos
+      </div>
+    </section>
+
+    <section>
+      <p class="sec-label">More repos</p>
+      <h2>Experiments & demos</h2>
+      <div class="more-repos">
+        <a href="https://github.com/ninglinLiu/info-aggregator">Info Aggregator</a>
+        <a href="https://github.com/ninglinLiu/hello-storage-dapp">Hello Storage DApp</a>
+        <a href="https://github.com/ninglinLiu/monad-counter-dapp1.0">Monad Counter DApp</a>
+        <a href="https://github.com/ninglinLiu/group86-Pac-Man-project">Pac-Man group86</a>
+        <a href="https://github.com/ninglinLiu/cyberpunk-pacman-game-hihihi">cyberpunk-pacman</a>
+      </div>
+    </section>
+
+    <section class="internship">
+      <p class="sec-label">Internship fit</p>
+      <h2>Looking for</h2>
+      <p>Roles in Web3 engineering (protocol / infra / tooling), AI agent applications (orchestration, state, productization), Quant dev / data pipelines (research → backtest → execution).</p>
+      <p>Teams that value clean code, measurable iteration, and systems thinking.</p>
+    </section>
+
+    <footer>
+      <p><a href="https://github.com/ninglinLiu">GitHub</a><span class="foot-dot">·</span><a href="mailto:x07514475479@gmail.com">x07514475479@gmail.com</a></p>
+      <p style="font-size:0.8rem;opacity:0.7;">✦</p>
+    </footer>
+  </div>
+</body>
+</html>
