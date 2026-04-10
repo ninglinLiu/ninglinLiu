@@ -27,7 +27,8 @@ _Fast iteration · Clean architecture · Reproducible setups_
 | 🏅 Event | 🔨 Project | 📝 What It Does |
 |---|---|---|
 | 🌟 **XJTLU Global Entrepreneurship Dream Competition** | [**EdgeNet.AI**](https://github.com/ninglinLiu/edgenetai) | Verifiable AI Inference Network — Proof-of-Inference / DePIN |
-| 🦞 **Beijing Zhongguancun Lobster Hackathon** | [**ShrimpNest**](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) | Solana Shadow Hunter — on-chain tracking & analytics |
+| 🦞 **Beijing Zhongguancun Lobster Hackathon** | [**ShrimpNest**](https://github.com/ninglinLiu/ShrimpNest) | On-chain analytics & intelligence pipeline |
+| 🌊 **Solana Breakpoint 2025** | [**Shadow Hunter**](https://github.com/ninglinLiu/-solana-shadow-hunter) | Solana on-chain copy trading system — risk circuit breaker, DRY_RUN, Telegram alerts |
 | ⚡ **Monad Shenzhen Hackathon** | [**zkhahaha**](https://github.com/ninglinLiu/zkhahaha) | Parallel ZK batch verification on Monad Testnet |
 | 🔐 **ETH Shanghai 2025** | [**On-chain Data Copyright SaaS**](https://github.com/ninglinLiu/onchain-data-copyright-saas) | Dataset licensing & NFT receipts (tokenized provenance) |
 
@@ -42,7 +43,12 @@ _Fast iteration · Clean architecture · Reproducible setups_
 
 ---
 
-| 🦞 [ShrimpNest](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) — Solana Shadow Hunter<br/><br/>**On-chain wallet tracking & intelligence on Solana** — shadow tracking of smart money, real-time on-chain event monitoring, and automated alert pipelines for traders and analysts.<br/><br/>**Tech Stack:** `Solana` `TypeScript` `Web3.js` `Anchor` `Rust`<br/><br/>🦞 **Beijing Zhongguancun Lobster Hackathon** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/ShrimpNest-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) [![Forks](https://img.shields.io/github/forks/ninglinLiu/ShrimpNest-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/ShrimpNest-solana-shadow-hunter)](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/ShrimpNest-solana-shadow-hunter) |
+| 🦞 [ShrimpNest](https://github.com/ninglinLiu/ShrimpNest) — On-chain Analytics Pipeline<br/><br/>**Solana on-chain intelligence** — tracking, signal aggregation and analytics pipeline for DeFi traders.<br/><br/>**Tech Stack:** `Solana` `TypeScript` `Web3.js`<br/><br/>🦞 **Beijing Zhongguancun Lobster Hackathon** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/ShrimpNest?style=social)](https://github.com/ninglinLiu/ShrimpNest) [![Forks](https://img.shields.io/github/forks/ninglinLiu/ShrimpNest?style=social)](https://github.com/ninglinLiu/ShrimpNest) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/ShrimpNest)](https://github.com/ninglinLiu/ShrimpNest) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/ShrimpNest) |
+|---|---|
+
+---
+
+| 🌊 [-solana-shadow-hunter](https://github.com/ninglinLiu/-solana-shadow-hunter) — Solana On-chain Copy Trading System<br/><br/>**Production-grade copy trading pipeline** — Pydantic models, trace_id, dedup/idempotency, Hard TTL, DRY_RUN mode, rate limiting, error grading, private key isolation, risk circuit breaker, and replayable logs. Telegram alerts with `/panic` & `/status` commands.<br/><br/>**Tech Stack:** `Python` `Solana` `Jupiter DEX` `Pydantic v2` `aiolimiter` `SQLite` `Telegram Bot`<br/><br/>🌊 **Solana Breakpoint 2025** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/-solana-shadow-hunter) [![Forks](https://img.shields.io/github/forks/ninglinLiu/-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/-solana-shadow-hunter) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/-solana-shadow-hunter)](https://github.com/ninglinLiu/-solana-shadow-hunter) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/-solana-shadow-hunter) |
 |---|---|
 
 ---
