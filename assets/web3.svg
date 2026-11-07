@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title">
+<title id="title">Web3 engineering: on-chain applications, data pipelines, research and trading systems.</title><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#182c32"/><stop offset="1" stop-color="#0c171e"/></linearGradient>
+<linearGradient id="metal" x2="1" y2="1"><stop stop-color="#c2efdd"/><stop offset=".35" stop-color="#6aaf9c"/><stop offset=".7" stop-color="#243c43"/><stop offset="1" stop-color="#dcc494"/></linearGradient>
+<linearGradient id="fade"><stop stop-color="#89d9c1" stop-opacity="0"/><stop offset=".5" stop-color="#89d9c1" stop-opacity=".5"/><stop offset="1" stop-color="#89d9c1" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#7ec9b5" stop-opacity=".18"/><stop offset="1" stop-color="#7ec9b5" stop-opacity="0"/></radialGradient>
+<clipPath id="outer"><rect width="1200" height="430" rx="24"/></clipPath>
+</defs><style>
+text{font-kerning:normal} .trace{stroke-dasharray:8 16;animation:flow 4s linear infinite}
+.trace-slow{stroke-dasharray:3 13;animation:flow 8s linear infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.spin{animation:spin 24s linear infinite;transform-box:fill-box;transform-origin:center}
+.spin-reverse{animation:spin 35s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+.float{animation:float 5s ease-in-out infinite}
+.draw{stroke-dasharray:1200;animation:draw 7s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:bar 4s ease-in-out infinite}
+.cursor{animation:cursor 1.5s step-end infinite}
+.sheen{animation:sheen 9s ease-in-out infinite}
+.frame{animation:frame 9s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-192}}
+@keyframes pulse{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes draw{0%{stroke-dashoffset:1200}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-1200}}
+@keyframes bar{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+@keyframes cursor{50%{opacity:0}}
+@keyframes sheen{0%,20%{transform:translateX(-500px);opacity:0}35%{opacity:.5}65%{transform:translateX(1300px);opacity:0}100%{transform:translateX(1300px);opacity:0}}
+@keyframes frame{0%,100%{opacity:.4}35%,65%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><g clip-path="url(#outer)"><rect x="0" y="0" width="1200" height="430" rx="24" fill="url(#bg)"/><text x="36" y="44" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="2.5">04 / WEB3 + DATA SYSTEMS</text><text x="36" y="108" fill="#f4f0e6" font-family="Georgia, serif" font-size="57" font-weight="400" >Follow the data.</text><text x="38" y="151" fill="#adbec1" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" >On-chain events to research and execution.</text><rect x="36" y="209" width="348" height="123" rx="13" fill="#1b2d35"/><text x="58" y="245" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" >EVM / SOLANA</text><text x="58" y="281" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >Events &amp; contracts</text><path d="M58 308 q30 -20 60 0 t60 0 t60 0 t60 0" fill="none" stroke="#dfbc84" stroke-width="2" class="draw"/><line x1="386" y1="269" x2="423" y2="269" stroke="#89d9c1" stroke-width="2" class="trace"/><rect x="426" y="209" width="348" height="123" rx="13" fill="#1b2d35"/><text x="448" y="245" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" >DATA SYSTEMS</text><text x="448" y="281" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >Pipelines &amp; storage</text><path d="M448 308 q30 -20 60 0 t60 0 t60 0 t60 0" fill="none" stroke="#dfbc84" stroke-width="2" class="draw"/><line x1="776" y1="269" x2="813" y2="269" stroke="#89d9c1" stroke-width="2" class="trace"/><rect x="816" y="209" width="348" height="123" rx="13" fill="#1b2d35"/><text x="838" y="245" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" >EXECUTION</text><text x="838" y="281" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >Trading &amp; risk</text><path d="M838 308 q30 -20 60 0 t60 0 t60 0 t60 0" fill="none" stroke="#dfbc84" stroke-width="2" class="draw"/><text x="36" y="403" fill="#adbec1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" >Solidity / Python / TypeScript / ClickHouse / Redis</text></g></svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="550" viewBox="0 0 600 550" role="img" aria-labelledby="title">
+<title id="title">Technology stack by engineering area.</title><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#182c32"/><stop offset="1" stop-color="#0c171e"/></linearGradient>
+<linearGradient id="metal" x2="1" y2="1"><stop stop-color="#c2efdd"/><stop offset=".35" stop-color="#6aaf9c"/><stop offset=".7" stop-color="#243c43"/><stop offset="1" stop-color="#dcc494"/></linearGradient>
+<linearGradient id="fade"><stop stop-color="#89d9c1" stop-opacity="0"/><stop offset=".5" stop-color="#89d9c1" stop-opacity=".5"/><stop offset="1" stop-color="#89d9c1" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#7ec9b5" stop-opacity=".18"/><stop offset="1" stop-color="#7ec9b5" stop-opacity="0"/></radialGradient>
+<clipPath id="outer"><rect width="600" height="550" rx="24"/></clipPath>
+</defs><style>
+text{font-kerning:normal} .trace{stroke-dasharray:8 16;animation:flow 4s linear infinite}
+.trace-slow{stroke-dasharray:3 13;animation:flow 8s linear infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.spin{animation:spin 24s linear infinite;transform-box:fill-box;transform-origin:center}
+.spin-reverse{animation:spin 35s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+.float{animation:float 5s ease-in-out infinite}
+.draw{stroke-dasharray:1200;animation:draw 7s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:bar 4s ease-in-out infinite}
+.cursor{animation:cursor 1.5s step-end infinite}
+.sheen{animation:sheen 9s ease-in-out infinite}
+.frame{animation:frame 9s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-192}}
+@keyframes pulse{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes draw{0%{stroke-dashoffset:1200}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-1200}}
+@keyframes bar{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+@keyframes cursor{50%{opacity:0}}
+@keyframes sheen{0%,20%{transform:translateX(-500px);opacity:0}35%{opacity:.5}65%{transform:translateX(1300px);opacity:0}100%{transform:translateX(1300px);opacity:0}}
+@keyframes frame{0%,100%{opacity:.4}35%,65%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><g clip-path="url(#outer)"><rect x="0" y="0" width="600" height="550" rx="24" fill="url(#bg)"/><text x="36" y="44" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="2.5">05 / TOOLS OF THE TRADE</text><text x="36" y="90" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="1.8">BUILD</text><text x="36" y="124" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >TypeScript   Python   Rust   Solidity</text><line x1="36" y1="139" x2="564" y2="139" stroke="#32434a" stroke-width="1" /><text x="36" y="177" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="1.8">PRODUCT</text><text x="36" y="211" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >React   Next.js   Three.js   Tailwind</text><line x1="36" y1="226" x2="564" y2="226" stroke="#32434a" stroke-width="1" /><text x="36" y="264" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="1.8">AGENTS</text><text x="36" y="298" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >RAG   Tool Calling   MCP   SSE</text><line x1="36" y1="313" x2="564" y2="313" stroke="#32434a" stroke-width="1" /><text x="36" y="351" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="1.8">DATA</text><text x="36" y="385" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >SQL   ClickHouse   Redis   SQLite</text><line x1="36" y1="400" x2="564" y2="400" stroke="#32434a" stroke-width="1" /><text x="36" y="438" fill="#89d9c1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="1.8">SHIP</text><text x="36" y="472" fill="#f4f0e6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" >Linux   Docker   Git   CI / CD</text><line x1="36" y1="487" x2="564" y2="487" stroke="#32434a" stroke-width="1" /></g></svg>

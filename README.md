@@ -1,138 +1,143 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+  <img src="assets/hero.svg" width="100%" alt="Yu Liu · 刘羽 — AI engineer, full-stack builder and open-source contributor. 1,000+ omniAI registered users, 173 merged upstream PRs across 25 repositories.">
+</picture>
 
-[**✦ Live portfolio → ninglinliu.github.io/ninglinLiu**](https://ninglinliu.github.io/ninglinLiu/)
+<p align="center">
+  <a href="https://omniaihello.com"><b>EXPLORE omniAI ↗</b></a> &nbsp; / &nbsp;
+  <a href="https://github.com/ninglinLiu/script-to-video-skill"><b>VIDEO SKILL ↗</b></a> &nbsp; / &nbsp;
+  <a href="docs/OPEN_SOURCE.md"><b>OPEN SOURCE ↗</b></a> &nbsp; / &nbsp;
+  <a href="mailto:x07514475479@gmail.com"><b>CONTACT ↗</b></a>
+</p>
 
-# 👋 Hi, I'm Ninglin Liu
-
-**AI × Web3 Builder · ZK / DePIN · Quant Research & Trading**
-
-_Verifiable on-chain systems · AI agent applications · Quant tooling_  
-_Fast iteration · Clean architecture · Reproducible setups_
-
-[![GitHub followers](https://img.shields.io/github/followers/ninglinLiu?style=social)](https://github.com/ninglinLiu)
-[![GitHub](https://img.shields.io/badge/GitHub-ninglinLiu-181717?style=flat&logo=github)](https://github.com/ninglinLiu)
-[![Email](https://img.shields.io/badge/Email-x07514475479%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:x07514475479@gmail.com)
-
-<br/>
-
-| 📍 **XJTLU (Suzhou, China)** · Remote-first | 🎯 **ZK verification** · **On-chain intelligence** · **DeFi** · **Quant** | 🧱 Repo-first · Clear READMEs · Modular code |
-|:---:|:---:|:---:|
-
-</div>
+**刘羽 / Yu Liu** · XJTLU, IoT Engineering · Shanghai / Remote<br>
+I build **AI agents, full-stack products, creative developer tools and on-chain systems** — from business workflows to software people can use.<br>
+专注 **Agent 应用、全栈产品与开源工程**，持续探索 AI × Web3、金融数据与代码驱动的视觉表达。
 
 ---
 
-## 🏆 Hackathon Track Record
+<a href="https://omniaihello.com">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/omniai-mobile.svg">
+  <img src="assets/omniai.svg" width="100%" alt="omniAI — 1,000+ registered users. Explore a bilingual financial research agent through a 3D workspace.">
+</picture>
+</a>
 
-| 🏅 Event | 🔨 Project | 📝 What It Does |
-|---|---|---|
-| 🌟 **XJTLU Global Entrepreneurship Dream Competition** | [**EdgeNet.AI**](https://github.com/ninglinLiu/edgenetai) | Verifiable AI Inference Network — Proof-of-Inference / DePIN |
-| 🦞 **Beijing Zhongguancun Lobster Hackathon** | [**ShrimpNest**](https://github.com/ninglinLiu/ShrimpNest) | On-chain analytics & intelligence pipeline |
-| 🌊 **Solana Breakpoint 2025** | [**Shadow Hunter**](https://github.com/ninglinLiu/-solana-shadow-hunter) | Solana on-chain copy trading system — risk circuit breaker, DRY_RUN, Telegram alerts |
-| ⚡ **Monad Shenzhen Hackathon** | [**zkhahaha**](https://github.com/ninglinLiu/zkhahaha) | Parallel ZK batch verification on Monad Testnet |
-| 🔐 **ETH Shanghai 2025** | [**On-chain Data Copyright SaaS**](https://github.com/ninglinLiu/onchain-data-copyright-saas) | Dataset licensing & NFT receipts (tokenized provenance) |
+### omniAI · 金融研究 Agent 与交互式学习产品
 
----
+**1,000+ registered users · 从研究问题到有来源的回答，再到可体验的产品。**
 
-## 💎 Featured Projects
+<a href="https://omniaihello.com"><img src="assets/omniai-live.gif" width="100%" alt="Silent recording of omniAI's live public homepage, showing its animated market-data and research interface."></a>
 
----
+- **Agent engineering** — RAG retrieval, bounded tool calling, streaming responses, structured output and shared MCP tools.
+- **Product engineering** — bilingual Next.js experience, interactive Three.js workspace, market visualizations and research workflows.
+- **My role** — project lead, product implementation, Agent integration and release iteration.
 
-| 🌐 [EdgeNet.AI](https://github.com/ninglinLiu/edgenetai) — Verifiable AI Inference Network<br/><br/>**DePIN meets AI** — a decentralized edge inference network with on-chain Proof-of-Inference. Nodes compete to serve AI workloads; results are verified on-chain for trustless, permissionless AI compute.<br/><br/>**Tech Stack:** `Solidity` `Next.js` `Node.js` `AI/LLM` `DePIN`<br/><br/>🌟 **XJTLU Global Entrepreneurship Dream Competition** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/edgenetai?style=social)](https://github.com/ninglinLiu/edgenetai) [![Forks](https://img.shields.io/github/forks/ninglinLiu/edgenetai?style=social)](https://github.com/ninglinLiu/edgenetai) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/edgenetai)](https://github.com/ninglinLiu/edgenetai) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/edgenetai) |
-|---|---|
-
----
-
-| 🦞 [ShrimpNest](https://github.com/ninglinLiu/ShrimpNest) — On-chain Analytics Pipeline<br/><br/>**Solana on-chain intelligence** — tracking, signal aggregation and analytics pipeline for DeFi traders.<br/><br/>**Tech Stack:** `Solana` `TypeScript` `Web3.js`<br/><br/>🦞 **Beijing Zhongguancun Lobster Hackathon** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/ShrimpNest?style=social)](https://github.com/ninglinLiu/ShrimpNest) [![Forks](https://img.shields.io/github/forks/ninglinLiu/ShrimpNest?style=social)](https://github.com/ninglinLiu/ShrimpNest) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/ShrimpNest)](https://github.com/ninglinLiu/ShrimpNest) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/ShrimpNest) |
-|---|---|
+**[Live product →](https://omniaihello.com)** &nbsp; **[Source code →](https://github.com/ninglinLiu/infent-agent)** &nbsp; **[Agent internals →](https://github.com/ninglinLiu/infent-agent/tree/main/lib/ai)**
 
 ---
 
-| 🌊 [-solana-shadow-hunter](https://github.com/ninglinLiu/-solana-shadow-hunter) — Solana On-chain Copy Trading System<br/><br/>**Production-grade copy trading pipeline** — Pydantic models, trace_id, dedup/idempotency, Hard TTL, DRY_RUN mode, rate limiting, error grading, private key isolation, risk circuit breaker, and replayable logs. Telegram alerts with `/panic` & `/status` commands.<br/><br/>**Tech Stack:** `Python` `Solana` `Jupiter DEX` `Pydantic v2` `aiolimiter` `SQLite` `Telegram Bot`<br/><br/>🌊 **Solana Breakpoint 2025** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/-solana-shadow-hunter) [![Forks](https://img.shields.io/github/forks/ninglinLiu/-solana-shadow-hunter?style=social)](https://github.com/ninglinLiu/-solana-shadow-hunter) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/-solana-shadow-hunter)](https://github.com/ninglinLiu/-solana-shadow-hunter) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/-solana-shadow-hunter) |
-|---|---|
+<a href="docs/OPEN_SOURCE.md">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/oss-atlas-mobile.svg">
+  <img src="assets/oss-atlas.svg" width="100%" alt="Open-source contribution atlas: 173 merged PRs in 25 upstream repositories. Features, fixes, tests, refactors and documentation.">
+</picture>
+</a>
+
+### Selected engineering contributions · 代表性开源贡献
+
+| Upstream | Contribution | Merged PR |
+| :--- | :--- | :---: |
+| **Microsoft Agent Framework** | Correct Anthropic cached-input token accounting; restore consistent usage metrics across providers. | [#9859](https://github.com/microsoft/agent-framework/pull/9859) |
+| **Apache Arrow** | Merge dictionary arrays without panicking on dictionary-key overflow; add regression coverage. | [#11925](https://github.com/apache/arrow-rs/pull/11925) |
+| **LiveKit** | Restore E2EE data-packet decryption after key rotation; fix the retry path and its tests. | [#2188](https://github.com/livekit/client-sdk-js/pull/2188) |
+| **Foundry** | Detect integer overflow during amount-unit conversion and return a typed error. | [#283](https://github.com/foundry-rs/foundry-core/pull/283) |
+| **Pipecat** | Preserve Chinese and Japanese sentence boundaries in streamed context chunking. | [#6413](https://github.com/pipecat-ai/pipecat/pull/6413) |
+| **AG2** | Expose Anthropic OpenTelemetry configuration through the framework's typed configuration. | [#3519](https://github.com/ag2ai/ag2/pull/3519) |
+| **CrossGL / CrossTL** | Contribute fixes and tests across shader/compiler backends, including WGSL, HLSL, CUDA, HIP and Metal. | [Merged work](https://github.com/CrossGL/crosstl/pulls?q=is%3Apr+author%3AninglinLiu+is%3Amerged) |
+
+**Full contribution archive** — engineering fixes, tests, refactors, API examples and documentation across the AI, data and Web3 ecosystem.<br>
+功能修复、测试、重构与文档贡献，逐项链接上游记录。
+
+**[Browse every merged contribution →](docs/OPEN_SOURCE.md)** &nbsp; **[Live GitHub activity →](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)**
+
+<sub>Snapshot: 2026-11-07 · merged PRs authored by ninglinLiu · own repositories excluded.</sub>
 
 ---
 
-| ⚡ [zkhahaha](https://github.com/ninglinLiu/zkhahaha) — Parallel ZK Playground (Monad Testnet)<br/><br/>**Batch ZK verification demo** — storage layout for parallel execution, zero write hot-spots. Batch verify 10 / 50 / 100 proofs per tx; tracks batch size, gas used, gas/proof, latency, and success rate.<br/><br/>**Tech Stack:** `Solidity 0.8.24` `Hardhat` `Next.js 14` `ethers v6` `Tailwind` `PNPM monorepo`<br/><br/>⚡ **Monad Shenzhen Hackathon** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/zkhahaha?style=social)](https://github.com/ninglinLiu/zkhahaha) [![Forks](https://img.shields.io/github/forks/ninglinLiu/zkhahaha?style=social)](https://github.com/ninglinLiu/zkhahaha) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/zkhahaha)](https://github.com/ninglinLiu/zkhahaha) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/zkhahaha) |
-|---|---|
+<a href="https://github.com/ninglinLiu/script-to-video-skill">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/video-pipeline-mobile.svg">
+  <img src="assets/video-pipeline.svg" width="100%" alt="Script to Video — evidence, script, narration, Three.js motion, rendering and editable delivery.">
+</picture>
+</a>
+
+<a href="https://ninglinliu.github.io/script-to-video-skill/examples/binance-1029/">
+  <img src="assets/video-showcase.gif" width="100%" alt="Actual rendered animation from Script to Video: moving funds, freezing, gates and a miniature character.">
+</a>
+
+### Script to Video · 让 Agent 把文章做成知识动画
+
+**A creative engineering toolkit: research → script → voice → 3D scenes → rendered video.**
+
+- **Motion as code** — Three.js scenes, reusable action components, camera choreography and frame-by-frame rendering.
+- **A complete production workflow** — evidence research, narration timing, subtitles, visual review and editable project delivery.
+- **A reusable Agent Skill** — a compact entry point, on-demand references, production tools and a growing library of examples.
+
+**[Watch the showcase →](https://ninglinliu.github.io/script-to-video-skill/examples/binance-1029/)** &nbsp; **[Explore the code →](https://github.com/ninglinLiu/script-to-video-skill)** &nbsp; **[Skill entry →](https://github.com/ninglinLiu/script-to-video-skill/blob/main/SKILL.md)**
 
 ---
 
-| 🔐 [On-chain Data Copyright SaaS](https://github.com/ninglinLiu/onchain-data-copyright-saas) — Tokenized Dataset Provenance<br/><br/>**Dataset licensing on-chain** — creators register datasets and mint NFT receipts as proof of ownership. Buyers get verifiable, tamper-proof licenses; the full provenance chain lives on Ethereum.<br/><br/>**Tech Stack:** `Solidity` `Hardhat` `ERC-721` `Next.js` `IPFS` `ethers.js`<br/><br/>🔐 **ETH Shanghai 2025** | [![Stars](https://img.shields.io/github/stars/ninglinLiu/onchain-data-copyright-saas?style=social)](https://github.com/ninglinLiu/onchain-data-copyright-saas) [![Forks](https://img.shields.io/github/forks/ninglinLiu/onchain-data-copyright-saas?style=social)](https://github.com/ninglinLiu/onchain-data-copyright-saas) [![Language](https://img.shields.io/github/languages/top/ninglinLiu/onchain-data-copyright-saas)](https://github.com/ninglinLiu/onchain-data-copyright-saas) <br/><br/>[**→ View Repository**](https://github.com/ninglinLiu/onchain-data-copyright-saas) |
-|---|---|
+### More AI engineering · 从业务流程到研究工具
+
+| Project | What I build | Explore |
+| :--- | :--- | :--- |
+| **Business Bid Agent** | Business-document workflows: requirement extraction, local knowledge retrieval, structured drafting and DOCX delivery. Developed through an internal business internship. | Private business project |
+| **Xfinresearch Lab** | Financial research Agent with source tracking, deterministic tools, structured reports and strategy comparison. | [Repository](https://github.com/ninglinLiu/Xfinresearch-lab) |
+| **ETF / CIO Reliability** | Event-driven backtesting, execution contracts, independently reconciled ledgers and CLI integration checks. | [Repository](https://github.com/ninglinLiu/etf-cio-reliability) |
+| **LLM Werewolf Arena** | Multi-agent experimentation with personas, role-specific behavior and private memory isolation. | [Repository](https://github.com/ninglinLiu/AI-llm-werewolf-arena-) |
 
 ---
 
-## 🧠 Quant Track
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/web3-mobile.svg">
+  <img src="assets/web3.svg" width="100%" alt="Web3 and data systems: on-chain events, data pipelines, applications and trading execution.">
+</picture>
 
-*Engineering + research, not vibes.*
+### Web3 · Data & Trading Systems · 链上工程与交易系统
 
-| Area | Focus |
-|------|--------|
-| **Research / Modeling** | Regime awareness (trend vs mean-reversion), indicator diagnostics, signal design with leakage awareness |
-| **Backtesting** | Crypto pipelines (Binance), MAE/MFE, win-rate vs tail-risk, stop-loss sensitivity |
-| **Execution** | Bot-driven workflow on Linux/VPS, Docker, reproducible runs |
-| **Risk / Process** | Position sizing, failure-mode thinking, robustness over "perfect params" |
+| Project | Focus | Stack |
+| :--- | :--- | :--- |
+| **[EATLQ](https://github.com/ninglinLiu/eatlq-public)** | On-chain data, crypto research and trading-system engineering. | Python · SQL · EVM · ClickHouse |
+| **[Solana Shadow Hunter](https://github.com/ninglinLiu/-solana-shadow-hunter)** | Copy-trading pipeline, event deduplication, risk circuit breakers and Telegram alerts. | Python · Solana · Jupiter |
+| **[zkParallel / zkhahaha](https://github.com/ninglinLiu/zkhahaha)** | Parallel ZK batch-verification experiments on Monad Testnet. | Solidity · Hardhat · Next.js |
+| **[EdgeNet.AI](https://github.com/ninglinLiu/edgenetai)** | Verifiable decentralized AI inference and Proof-of-Inference prototyping. | Solidity · TypeScript · DePIN |
+| **[On-chain Data Copyright](https://github.com/ninglinLiu/onchain-data-copyright-saas)** | Dataset licensing, tokenized receipts and on-chain provenance. | Solidity · ERC-721 · IPFS |
+| **[ShrimpNest](https://github.com/ninglinLiu/ShrimpNest)** | Solana on-chain analytics and intelligence pipeline. | TypeScript · Solana |
 
-**[→ QuantLab Trading (TA + Backtesting)](https://github.com/ninglinLiu/quantlab-trading1.0)**
+<details>
+<summary><b>More projects & hackathon builds ↗</b></summary>
 
----
+- [RiskLights](https://github.com/ninglinLiu/RiskLights-AI-driven-Crypto-Market-Risk-Radar-with-Automated-Alerts) — crypto, macro and on-chain risk signals.
+- [Alpha Radar](https://github.com/ninglinLiu/awsome-alpha-radar-crypto-intelligence) — crypto intelligence aggregation.
+- [QuantLab](https://github.com/ninglinLiu/quantlab-trading1.0) — technical analysis and backtesting tools.
+- [Info Aggregator](https://github.com/ninglinLiu/info-aggregator) — multi-source information pipeline.
+- [Hello Storage](https://github.com/ninglinLiu/hello-storage-dapp) · [Monad Counter](https://github.com/ninglinLiu/monad-counter-dapp1.0) — on-chain application experiments.
+- [Cyberpunk Pac-Man](https://github.com/ninglinLiu/cyberpunk-pacman-game-hihihi) · [Group86 Pac-Man](https://github.com/ninglinLiu/group86-Pac-Man-project) — game projects.
 
-## 🛠️ Tech Arsenal
-
-| 🔗 Blockchain / Web3 | 🤖 AI / Agents | 🌐 Full-Stack | 📊 Quant |
-|---|---|---|---|
-| ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat&logo=ethereum&logoColor=black) ![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat&logo=ethereum&logoColor=white) | ![OpenAI](https://img.shields.io/badge/LLM_Apps-10A37F?style=flat&logo=openai&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-9B59B6?style=flat&logo=pinecone&logoColor=white) ![Agents](https://img.shields.io/badge/AI_Agents-FF6F61?style=flat&logo=openai&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Backtrader](https://img.shields.io/badge/Backtrader-FF6F00?style=flat&logo=python&logoColor=white) |
-| ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-14F195?style=flat&logo=solana&logoColor=white) ![Monad](https://img.shields.io/badge/Monad-836EF9?style=flat&logo=ethereum&logoColor=white) | ![DeepSeek](https://img.shields.io/badge/DeepSeek-0066CC?style=flat&logo=openai&logoColor=white) ![Prompt Eng](https://img.shields.io/badge/Prompt_Engineering-FF9900?style=flat&logo=openai&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) | ![ccxt](https://img.shields.io/badge/ccxt-000000?style=flat&logo=bitcoin&logoColor=white) ![Binance](https://img.shields.io/badge/Binance_API-F3BA2F?style=flat&logo=binance&logoColor=black) |
-| ![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=flat&logo=ethereum&logoColor=white) ![ZK-SNARKs](https://img.shields.io/badge/ZK--SNARKs-6A1B9A?style=flat&logo=ethereum&logoColor=white) ![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white) | | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) | |
-
-**Languages:** `TypeScript` · `JavaScript` · `Python` · `Solidity` · `Rust` · `C/C++`
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Ninglin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ninglinLiu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ninglinLiu&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=ninglinLiu&theme=tokyonight&hide_border=true)
-
-</div>
+</details>
 
 ---
 
-## 🧱 More Projects
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
+  <img src="assets/stack.svg" width="100%" alt="Tools: TypeScript, Python, Rust, Solidity, React, Next.js, Three.js, RAG, MCP, SQL, ClickHouse, Redis, Linux and Docker.">
+</picture>
 
-| Project | Description |
-|---------|-------------|
-| [**RiskLights**](https://github.com/ninglinLiu/RiskLights-AI-driven-Crypto-Market-Risk-Radar-with-Automated-Alerts) | Crypto × Macro × On-chain Risk Indicator Engine |
-| [**Alpha Radar**](https://github.com/ninglinLiu/awsome-alpha-radar-crypto-intelligence) | AI-driven crypto intelligence & signal aggregation |
-| [**LLM Werewolf Arena**](https://github.com/ninglinLiu/AI-llm-werewolf-arena-) | Multi-agent simulation — DeepSeek, personas, private memory isolation |
-| [**Info Aggregator**](https://github.com/ninglinLiu/info-aggregator) | Multi-source information pipeline |
-| [**Hello Storage DApp**](https://github.com/ninglinLiu/hello-storage-dapp) · [**Monad Counter DApp**](https://github.com/ninglinLiu/monad-counter-dapp1.0) | On-chain storage demos |
-| [**Pac-Man: group86**](https://github.com/ninglinLiu/group86-Pac-Man-project) · [**cyberpunk-pacman**](https://github.com/ninglinLiu/cyberpunk-pacman-game-hihihi) | Game projects |
-
----
-
-## 🎯 Looking For
-
-- **Web3 engineering** — protocol / infra / tooling
-- **AI agent applications** — orchestration, state, productization
-- **Quant dev / data pipelines** — research → backtest → execution
-
-*Teams that value clean code, measurable iteration, and systems thinking.*
-
----
-
-<div align="center">
-
-**📫 [GitHub](https://github.com/ninglinLiu) · [Email](mailto:x07514475479@gmail.com)**
-
-![Profile Views](https://komarev.com/ghpvc/?username=ninglinLiu&color=836EF9&style=flat)
-
-*✦*
-
-</div>
+<p align="center">
+  <b>LET'S BUILD SOMETHING WORTH OPENING.</b><br><br>
+  AI Agent development · Full-stack engineering · Web3 data & trading systems<br><br>
+  <a href="mailto:x07514475479@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://omniaihello.com">omniAI</a> &nbsp; / &nbsp;
+  <a href="https://github.com/ninglinLiu?tab=repositories">Repositories</a>
+</p>

@@ -1,0 +1,1217 @@
+{
+  "updated_at": "2026-11-07",
+  "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
+  "contributions": [
+    {
+      "repository": "pydantic/pydantic",
+      "number": 14226,
+      "title": "Fix typo in `ErrorTypeDefaults` comment",
+      "url": "https://github.com/pydantic/pydantic/pull/14226",
+      "merged_at": "2026-11-06T09:40:52Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2237,
+      "title": "docs: fix withing typo in WrapAroundUnsignedInt comment",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2237",
+      "merged_at": "2026-11-06T00:48:02Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 10108,
+      "title": ".NET: docs: fix dont typos in ChatCompletions comments",
+      "url": "https://github.com/microsoft/agent-framework/pull/10108",
+      "merged_at": "2026-11-05T12:25:08Z"
+    },
+    {
+      "repository": "foundry-rs/foundry",
+      "number": 18097,
+      "title": "docs: fix dont typos in fmt dynamic comments",
+      "url": "https://github.com/foundry-rs/foundry/pull/18097",
+      "merged_at": "2026-11-04T16:25:29Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 10070,
+      "title": "docs: fix spelling typos in decision records",
+      "url": "https://github.com/microsoft/agent-framework/pull/10070",
+      "merged_at": "2026-11-04T10:22:28Z"
+    },
+    {
+      "repository": "livekit/components-js",
+      "number": 1503,
+      "title": "docs: fix controling/visualing typos in Agents UI README",
+      "url": "https://github.com/livekit/components-js/pull/1503",
+      "merged_at": "2026-11-04T00:38:46Z"
+    },
+    {
+      "repository": "foundry-rs/foundry",
+      "number": 17926,
+      "title": "fix(cast): hint when a trailing flag is eaten as an ABI encode arg",
+      "url": "https://github.com/foundry-rs/foundry/pull/17926",
+      "merged_at": "2026-11-03T23:39:57Z"
+    },
+    {
+      "repository": "livekit/components-js",
+      "number": 1498,
+      "title": "docs: remove duplicated word in README examples note",
+      "url": "https://github.com/livekit/components-js/pull/1498",
+      "merged_at": "2026-11-03T23:03:37Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2789,
+      "title": "docs(tutorials): stop teaching instructor.patch() as the core path",
+      "url": "https://github.com/567-labs/instructor/pull/2789",
+      "merged_at": "2026-11-03T16:01:33Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2788,
+      "title": "docs(tutorials): fix OpenAI().create(...) in 1-introduction.ipynb",
+      "url": "https://github.com/567-labs/instructor/pull/2788",
+      "merged_at": "2026-11-03T16:01:20Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2794,
+      "title": "docs(llms.txt): fix Maybe factory and result/error/message fields",
+      "url": "https://github.com/567-labs/instructor/pull/2794",
+      "merged_at": "2026-11-03T16:01:06Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2793,
+      "title": "docs(partial): stop requiring deprecated PartialLiteralMixin",
+      "url": "https://github.com/567-labs/instructor/pull/2793",
+      "merged_at": "2026-11-03T16:00:52Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2786,
+      "title": "docs(blog): drop non-existent RedisCache from native caching callout",
+      "url": "https://github.com/567-labs/instructor/pull/2786",
+      "merged_at": "2026-11-03T16:00:38Z"
+    },
+    {
+      "repository": "567-labs/instructor",
+      "number": 2785,
+      "title": "docs(anthropic): fix PdfWithCacheControl → PDFWithCacheControl",
+      "url": "https://github.com/567-labs/instructor/pull/2785",
+      "merged_at": "2026-11-03T15:15:53Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6413,
+      "title": "fix(openai-live): chunk Chinese and Japanese context appends at sentence endings",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6413",
+      "merged_at": "2026-11-03T02:31:25Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6405,
+      "title": "fix(turns): match Chinese and Japanese wake phrases inside unspaced transcripts",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6405",
+      "merged_at": "2026-11-03T02:13:47Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9873,
+      "title": ".NET: fall back when a restored agent mode is no longer configured",
+      "url": "https://github.com/microsoft/agent-framework/pull/9873",
+      "merged_at": "2026-11-02T13:04:52Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9781,
+      "title": "Python: use FOUNDRY_* settings in the red teaming sample README",
+      "url": "https://github.com/microsoft/agent-framework/pull/9781",
+      "merged_at": "2026-11-02T11:19:56Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9758,
+      "title": "Python: use FOUNDRY_* settings in the ChatKit integration sample README",
+      "url": "https://github.com/microsoft/agent-framework/pull/9758",
+      "merged_at": "2026-11-02T11:17:17Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9740,
+      "title": "Python: use FOUNDRY_MODEL in the Content Understanding DevUI sample READMEs",
+      "url": "https://github.com/microsoft/agent-framework/pull/9740",
+      "merged_at": "2026-11-02T11:15:16Z"
+    },
+    {
+      "repository": "foundry-rs/foundry",
+      "number": 17925,
+      "title": "fix(cast): keep decode-error/event --json stdout as JSON only",
+      "url": "https://github.com/foundry-rs/foundry/pull/17925",
+      "merged_at": "2026-11-02T10:46:33Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9859,
+      "title": "Python: include Anthropic cache tokens in input_token_count",
+      "url": "https://github.com/microsoft/agent-framework/pull/9859",
+      "merged_at": "2026-11-02T09:36:22Z"
+    },
+    {
+      "repository": "livekit/agents",
+      "number": 8270,
+      "title": "fix(tools): omit cancel_task from duplicate reject/confirm when not cancellable",
+      "url": "https://github.com/livekit/agents/pull/8270",
+      "merged_at": "2026-11-02T02:58:41Z"
+    },
+    {
+      "repository": "apache/arrow-rs",
+      "number": 11925,
+      "title": "fix(arrow-select): merge dictionaries in merge and merge_n instead of panicking on key overflow",
+      "url": "https://github.com/apache/arrow-rs/pull/11925",
+      "merged_at": "2026-10-28T17:58:53Z"
+    },
+    {
+      "repository": "ag2ai/ag2",
+      "number": 3516,
+      "title": "fix(acp,mcp): preserve explicitly provided empty session storage",
+      "url": "https://github.com/ag2ai/ag2/pull/3516",
+      "merged_at": "2026-10-31T16:58:34Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3616,
+      "title": "fix(wgsl): lower StructuredBuffer.length() to arrayLength",
+      "url": "https://github.com/CrossGL/crosstl/pull/3616",
+      "merged_at": "2026-10-31T12:56:56Z"
+    },
+    {
+      "repository": "foundry-rs/foundry",
+      "number": 17933,
+      "title": "fix(forge): defer DTL-disable warning until compile succeeds",
+      "url": "https://github.com/foundry-rs/foundry/pull/17933",
+      "merged_at": "2026-10-30T21:35:14Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3411,
+      "title": "fix(wgsl): lower struct, array and matrix conditionals to if/else instead of select",
+      "url": "https://github.com/CrossGL/crosstl/pull/3411",
+      "merged_at": "2026-10-30T17:26:14Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3176,
+      "title": "test(cuda,hip): cover scalar length, distance and normalize on parameters",
+      "url": "https://github.com/CrossGL/crosstl/pull/3176",
+      "merged_at": "2026-10-30T15:12:33Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3534,
+      "title": "fix(wgsl): bind gl_PrimitiveID and SV_PrimitiveID to primitive_index",
+      "url": "https://github.com/CrossGL/crosstl/pull/3534",
+      "merged_at": "2026-10-30T15:02:57Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3410,
+      "title": "fix(cuda,hip,opencl): rename types named after CrossGL keywords on import",
+      "url": "https://github.com/CrossGL/crosstl/pull/3410",
+      "merged_at": "2026-10-30T15:02:22Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3533,
+      "title": "fix(wgsl): write flat, noperspective, centroid and sample interpolation as @interpolate",
+      "url": "https://github.com/CrossGL/crosstl/pull/3533",
+      "merged_at": "2026-10-30T14:43:38Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3409,
+      "title": "fix(slang): import C-style casts to array types such as (float[3])0",
+      "url": "https://github.com/CrossGL/crosstl/pull/3409",
+      "merged_at": "2026-10-30T14:43:38Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3408,
+      "title": "fix(cuda,hip): import namespace-scope const and constexpr variables as CrossGL constants",
+      "url": "https://github.com/CrossGL/crosstl/pull/3408",
+      "merged_at": "2026-10-30T14:42:51Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3407,
+      "title": "fix(metal): rename shader-scope constants spelled like Metal keywords",
+      "url": "https://github.com/CrossGL/crosstl/pull/3407",
+      "merged_at": "2026-10-30T14:41:54Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3406,
+      "title": "fix(wgsl): pass the array texture layer to offset, gradient and shadow lookups",
+      "url": "https://github.com/CrossGL/crosstl/pull/3406",
+      "merged_at": "2026-10-30T14:41:54Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3405,
+      "title": "fix(cuda,hip): run the out/inout argument checks on calls to generic functions",
+      "url": "https://github.com/CrossGL/crosstl/pull/3405",
+      "merged_at": "2026-10-30T14:38:23Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2982,
+      "title": "[DOCS][MixtureOfAgents][Document id as the telemetry instance identifier]",
+      "url": "https://github.com/kyegomez/swarms/pull/2982",
+      "merged_at": "2026-10-29T20:02:27Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2981,
+      "title": "[REFACTOR][Agent.run][Remove the n parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2981",
+      "merged_at": "2026-10-29T18:39:01Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2980,
+      "title": "[DOCS][HeavySwarm][Drop the removed agents parameter from the docstring]",
+      "url": "https://github.com/kyegomez/swarms/pull/2980",
+      "merged_at": "2026-10-29T02:04:33Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2966,
+      "title": "[FIX][Agent._handle_run_error][Log provider errors without str.format on braces]",
+      "url": "https://github.com/kyegomez/swarms/pull/2966",
+      "merged_at": "2026-10-29T00:56:19Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2978,
+      "title": "[DOCS][CLAUDE.md][Show PlannerWorkerSwarm(agents=, planner_model_name=)]",
+      "url": "https://github.com/kyegomez/swarms/pull/2978",
+      "merged_at": "2026-10-28T20:44:42Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2965,
+      "title": "[PERF][Conversation][Import yaml inside the methods that use it]",
+      "url": "https://github.com/kyegomez/swarms/pull/2965",
+      "merged_at": "2026-10-28T18:56:11Z"
+    },
+    {
+      "repository": "ag2ai/ag2",
+      "number": 3521,
+      "title": "docs: drop dead notebook links and the orphaned MCP client snippet",
+      "url": "https://github.com/ag2ai/ag2/pull/3521",
+      "merged_at": "2026-10-28T18:39:00Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3177,
+      "title": "fix(hip): keep static and const on variable declarations",
+      "url": "https://github.com/CrossGL/crosstl/pull/3177",
+      "merged_at": "2026-10-28T14:30:51Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3195,
+      "title": "fix(cuda,hip): keep the grouping of nested prefix operators",
+      "url": "https://github.com/CrossGL/crosstl/pull/3195",
+      "merged_at": "2026-10-28T14:30:51Z"
+    },
+    {
+      "repository": "OpenZeppelin/openzeppelin-monitor",
+      "number": 526,
+      "title": "test: add a shared MonitorMatch test builder",
+      "url": "https://github.com/OpenZeppelin/openzeppelin-monitor/pull/526",
+      "merged_at": "2026-10-28T08:24:03Z"
+    },
+    {
+      "repository": "ag2ai/ag2",
+      "number": 3519,
+      "title": "feat(anthropic): expose the SDK's open_telemetry option on AnthropicConfig",
+      "url": "https://github.com/ag2ai/ag2/pull/3519",
+      "merged_at": "2026-10-27T19:47:07Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6411,
+      "title": "fix(utils): keep exact microseconds in nanoseconds_to_str",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6411",
+      "merged_at": "2026-10-28T01:37:17Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat-examples",
+      "number": 260,
+      "title": "docs: fix dead links in the audio recording, PSTN server and P2P READMEs",
+      "url": "https://github.com/pipecat-ai/pipecat-examples/pull/260",
+      "merged_at": "2026-10-27T20:49:07Z"
+    },
+    {
+      "repository": "pipecat-ai/docs",
+      "number": 1599,
+      "title": "docs: fix dead links to moved examples and external docs",
+      "url": "https://github.com/pipecat-ai/docs/pull/1599",
+      "merged_at": "2026-10-27T20:26:24Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2198,
+      "title": "fix(token-source): don't return the cached response for options whose fetch failed",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2198",
+      "merged_at": "2026-10-27T19:42:20Z"
+    },
+    {
+      "repository": "BerriAI/litellm",
+      "number": 46171,
+      "title": "fix: correct Palm 'decommissioned' typo in error message",
+      "url": "https://github.com/BerriAI/litellm/pull/46171",
+      "merged_at": "2026-10-27T18:55:16Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2911,
+      "title": "[REFACTOR][AgentRearrange][Remove the unread memory_system parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2911",
+      "merged_at": "2026-10-27T18:05:04Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2918,
+      "title": "[REFACTOR][GroupChat][Remove the deprecated idle_timeout parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2918",
+      "merged_at": "2026-10-27T18:02:41Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 279,
+      "title": "fix(artifacts): keep a context's trailing slash when displaying remappings on Windows",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/279",
+      "merged_at": "2026-10-27T17:57:35Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 276,
+      "title": "test(explorers): use a still-unverified address in the mainnet verify test",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/276",
+      "merged_at": "2026-10-27T17:55:39Z"
+    },
+    {
+      "repository": "apache/iceberg-rust",
+      "number": 3553,
+      "title": "chore(release): check crate LICENSE/NOTICE files in verify_rc.sh",
+      "url": "https://github.com/apache/iceberg-rust/pull/3553",
+      "merged_at": "2026-10-27T16:09:37Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 283,
+      "title": "fix(explorers): return ParseOverflow instead of wrapping or panicking in parse_units",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/283",
+      "merged_at": "2026-10-27T15:36:08Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 282,
+      "title": "fix(explorers): reject negative and oversized integers when converting to Units",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/282",
+      "merged_at": "2026-10-27T15:29:44Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 284,
+      "title": "fix(explorers): return an error for a malformed getblocknobytime result instead of panicking",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/284",
+      "merged_at": "2026-10-27T15:19:45Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 285,
+      "title": "fix(explorers): don't panic on a cache TTL that overflows",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/285",
+      "merged_at": "2026-10-27T15:17:36Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2188,
+      "title": "fix(e2ee): decrypt data packets with the ratcheted key when retrying",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2188",
+      "merged_at": "2026-10-27T15:04:15Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6398,
+      "title": "Fix dead LiveAvatar sandbox and SageMaker deployment links in examples",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6398",
+      "merged_at": "2026-10-27T13:48:43Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3181,
+      "title": "fix(cuda,hip): refuse swizzles passed to out and inout parameters",
+      "url": "https://github.com/CrossGL/crosstl/pull/3181",
+      "merged_at": "2026-10-27T13:43:24Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3180,
+      "title": "fix(cuda,hip): lower HLSL atomics that return the original value through an argument",
+      "url": "https://github.com/CrossGL/crosstl/pull/3180",
+      "merged_at": "2026-10-27T13:03:06Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3188,
+      "title": "test(slang): cover bare block statements with their own scope",
+      "url": "https://github.com/CrossGL/crosstl/pull/3188",
+      "merged_at": "2026-10-27T13:00:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3182,
+      "title": "fix(wgsl): refuse filtered texture lookups on integer samplers",
+      "url": "https://github.com/CrossGL/crosstl/pull/3182",
+      "merged_at": "2026-10-27T12:49:10Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6389,
+      "title": "Fix the Gradium key name and drop removed services in env.example",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6389",
+      "merged_at": "2026-10-27T12:46:47Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 9741,
+      "title": "Python: use AZURE_OPENAI_EMBEDDING_MODEL in the Foundry memory sample README",
+      "url": "https://github.com/microsoft/agent-framework/pull/9741",
+      "merged_at": "2026-10-27T12:36:59Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3184,
+      "title": "fix(wgsl): pass the layer of array texture lookups as its own argument",
+      "url": "https://github.com/CrossGL/crosstl/pull/3184",
+      "merged_at": "2026-10-27T12:31:18Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3126,
+      "title": "fix(cuda,hip): lower length, normalize, distance and cross on half vectors to helpers",
+      "url": "https://github.com/CrossGL/crosstl/pull/3126",
+      "merged_at": "2026-10-27T12:23:05Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2196,
+      "title": "docs(tempo): fix dead TIP-1049 link",
+      "url": "https://github.com/foundry-rs/book/pull/2196",
+      "merged_at": "2026-10-27T11:31:49Z"
+    },
+    {
+      "repository": "livekit/components-js",
+      "number": 1479,
+      "title": "refactor(react): use areTokenSourceFetchOptionsEqual from livekit-client in useSession",
+      "url": "https://github.com/livekit/components-js/pull/1479",
+      "merged_at": "2026-10-27T10:07:58Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2196,
+      "title": "fix(engine): ignore the mid mapping of a stale publisher answer",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2196",
+      "merged_at": "2026-10-27T10:06:29Z"
+    },
+    {
+      "repository": "apache/iceberg-rust",
+      "number": 3528,
+      "title": "chore(dev): fold the crate LICENSE/NOTICE check into licenses.py",
+      "url": "https://github.com/apache/iceberg-rust/pull/3528",
+      "merged_at": "2026-10-27T05:15:36Z"
+    },
+    {
+      "repository": "livekit/agents",
+      "number": 8151,
+      "title": "docs(plugins): fix environment variables in the neuphonic and rtzr READMEs",
+      "url": "https://github.com/livekit/agents/pull/8151",
+      "merged_at": "2026-10-27T05:11:11Z"
+    },
+    {
+      "repository": "pipecat-ai/pipecat",
+      "number": 6387,
+      "title": "Fix the 404 Pipecat Cloud docs link printed by pipecat init",
+      "url": "https://github.com/pipecat-ai/pipecat/pull/6387",
+      "merged_at": "2026-10-27T04:59:58Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2920,
+      "title": "[REFACTOR][Agent.run][Remove the unused correct_answer parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2920",
+      "merged_at": "2026-10-27T01:51:36Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2912,
+      "title": "[REFACTOR][SequentialWorkflow][Remove the unread shared_memory_system parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2912",
+      "merged_at": "2026-10-27T01:31:49Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2917,
+      "title": "[REFACTOR][MultiAgentRouter][Remove the unread shared_memory_system parameter]",
+      "url": "https://github.com/kyegomez/swarms/pull/2917",
+      "merged_at": "2026-10-27T01:31:15Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2189,
+      "title": "fix(engine): apply peerConnectionTimeout to the negotiation deadline",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2189",
+      "merged_at": "2026-10-26T21:54:10Z"
+    },
+    {
+      "repository": "kyegomez/swarms",
+      "number": 2891,
+      "title": "chore(agent): remove unused Agent.check_available_tokens",
+      "url": "https://github.com/kyegomez/swarms/pull/2891",
+      "merged_at": "2026-10-26T21:43:13Z"
+    },
+    {
+      "repository": "livekit/client-sdk-js",
+      "number": 2192,
+      "title": "fix(signal): don't log a requested signal close as a read error",
+      "url": "https://github.com/livekit/client-sdk-js/pull/2192",
+      "merged_at": "2026-10-26T21:35:44Z"
+    },
+    {
+      "repository": "apache/arrow-rs",
+      "number": 11915,
+      "title": "fix(arrow-avro): keep nulls when reading strings as Utf8View",
+      "url": "https://github.com/apache/arrow-rs/pull/11915",
+      "merged_at": "2026-10-26T20:19:07Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3179,
+      "title": "fix(cuda,hip,metal): keep parentheses around the operand of a postfix update",
+      "url": "https://github.com/CrossGL/crosstl/pull/3179",
+      "merged_at": "2026-10-26T20:11:57Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 274,
+      "title": "fix(compilers): store cached remappings root-relative",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/274",
+      "merged_at": "2026-10-26T13:26:49Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 275,
+      "title": "chore(deps): bump crypto-bigint to 0.7.10 for RUSTSEC-2026-0387",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/275",
+      "merged_at": "2026-10-26T11:54:12Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3170,
+      "title": "fix(wgsl): map integer 1D, 3D and cube samplers to typed textures",
+      "url": "https://github.com/CrossGL/crosstl/pull/3170",
+      "merged_at": "2026-10-26T11:38:52Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3169,
+      "title": "fix(wgsl): give imageSize the GLSL result shape for 1D, 3D and array images",
+      "url": "https://github.com/CrossGL/crosstl/pull/3169",
+      "merged_at": "2026-10-26T11:38:52Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3158,
+      "title": "fix(opencl): order the memory that barrier flags name",
+      "url": "https://github.com/CrossGL/crosstl/pull/3158",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3123,
+      "title": "fix(cuda,hip): apply scalar math built-ins to half vectors through per-component helpers",
+      "url": "https://github.com/CrossGL/crosstl/pull/3123",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3149,
+      "title": "fix(slang): carry the WaveSize attribute into the CrossGL entry point",
+      "url": "https://github.com/CrossGL/crosstl/pull/3149",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3146,
+      "title": "fix(wgsl): expand one-scalar matrix constructors into diagonal columns",
+      "url": "https://github.com/CrossGL/crosstl/pull/3146",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3145,
+      "title": "fix(mojo): splat a bool into a boolean vector with the fill keyword",
+      "url": "https://github.com/CrossGL/crosstl/pull/3145",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3150,
+      "title": "fix(metal): refuse derivatives in kernel, mesh and object functions",
+      "url": "https://github.com/CrossGL/crosstl/pull/3150",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3157,
+      "title": "fix(metal): keep the common operand type for mixed vectors declared as integer vectors",
+      "url": "https://github.com/CrossGL/crosstl/pull/3157",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3143,
+      "title": "fix(directx): refuse the WaveSize attribute for the dx10 and dx11 profiles",
+      "url": "https://github.com/CrossGL/crosstl/pull/3143",
+      "merged_at": "2026-10-26T07:16:13Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3120,
+      "title": "fix(cuda,hip): expand half vector swizzles through the half constructors",
+      "url": "https://github.com/CrossGL/crosstl/pull/3120",
+      "merged_at": "2026-10-26T06:53:54Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2812,
+      "title": "fix(hlsl): keep the dx:: namespace on imported HitObject types",
+      "url": "https://github.com/CrossGL/crosstl/pull/2812",
+      "merged_at": "2026-10-26T06:49:14Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3140,
+      "title": "fix(mojo): combine boolean vector masks with & and | for && and ||",
+      "url": "https://github.com/CrossGL/crosstl/pull/3140",
+      "merged_at": "2026-10-26T06:45:55Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3118,
+      "title": "fix(cuda,hip): compute half vector % and mod through the float mod helper",
+      "url": "https://github.com/CrossGL/crosstl/pull/3118",
+      "merged_at": "2026-10-26T06:21:12Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3138,
+      "title": "fix(directx): refuse mesh and amplification stages for the dx10 and dx11 profiles",
+      "url": "https://github.com/CrossGL/crosstl/pull/3138",
+      "merged_at": "2026-10-26T06:14:12Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3139,
+      "title": "fix(directx): report directx-12 only for DXR, mesh shading and wave intrinsic HLSL",
+      "url": "https://github.com/CrossGL/crosstl/pull/3139",
+      "merged_at": "2026-10-26T06:14:12Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2818,
+      "title": "fix(slang): type matrix-valued expressions and lower matrix built-ins",
+      "url": "https://github.com/CrossGL/crosstl/pull/2818",
+      "merged_at": "2026-10-26T06:09:28Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3129,
+      "title": "test(fuzz): keep float-to-integer conversions defined",
+      "url": "https://github.com/CrossGL/crosstl/pull/3129",
+      "merged_at": "2026-10-26T05:05:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3133,
+      "title": "fix(mojo): refuse implicit vector to scalar conversions",
+      "url": "https://github.com/CrossGL/crosstl/pull/3133",
+      "merged_at": "2026-10-26T05:05:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3117,
+      "title": "fix(cuda,hip): use vector-scalar helpers when the scalar operand is a constructor call",
+      "url": "https://github.com/CrossGL/crosstl/pull/3117",
+      "merged_at": "2026-10-26T05:05:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3130,
+      "title": "fix(directx): refuse ray tracing stages for the dx10 and dx11 profiles",
+      "url": "https://github.com/CrossGL/crosstl/pull/3130",
+      "merged_at": "2026-10-26T05:05:45Z"
+    },
+    {
+      "repository": "apache/arrow-rs",
+      "number": 11906,
+      "title": "fix(arrow-data): extend Interval(DayTime) as IntervalDayTime in MutableArrayData",
+      "url": "https://github.com/apache/arrow-rs/pull/11906",
+      "merged_at": "2026-10-26T05:04:15Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3112,
+      "title": "fix(cuda,hip): lower half vector and half scalar arithmetic to scalar helpers",
+      "url": "https://github.com/CrossGL/crosstl/pull/3112",
+      "merged_at": "2026-10-26T00:37:02Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3110,
+      "title": "fix(cuda,hip): splat a half vector constructor of a native half2 component",
+      "url": "https://github.com/CrossGL/crosstl/pull/3110",
+      "merged_at": "2026-10-26T00:11:24Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3108,
+      "title": "fix(wgsl): discard the value of @must_use built-in call statements",
+      "url": "https://github.com/CrossGL/crosstl/pull/3108",
+      "merged_at": "2026-10-25T23:38:52Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2996,
+      "title": "fix(opencl): lower atomic_sub, atomic_fetch_sub and atomic_dec to atomicAdd of the negated operand",
+      "url": "https://github.com/CrossGL/crosstl/pull/2996",
+      "merged_at": "2026-10-25T23:33:43Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2993,
+      "title": "fix(opencl): lower read_imagef to textureLod, texelFetch and imageLoad",
+      "url": "https://github.com/CrossGL/crosstl/pull/2993",
+      "merged_at": "2026-10-25T23:05:31Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3106,
+      "title": "fix(cuda,hip): splat a vector constructor of a scalar cast",
+      "url": "https://github.com/CrossGL/crosstl/pull/3106",
+      "merged_at": "2026-10-25T23:04:13Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2988,
+      "title": "fix(opencl): refuse device-side enqueue event builtins for every target",
+      "url": "https://github.com/CrossGL/crosstl/pull/2988",
+      "merged_at": "2026-10-25T22:32:15Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3104,
+      "title": "fix(cuda,hip): keep sinpi and cospi instead of refusing them",
+      "url": "https://github.com/CrossGL/crosstl/pull/3104",
+      "merged_at": "2026-10-25T22:31:00Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2984,
+      "title": "fix(opencl): lower write_imagef, write_imagei and write_imageui to imageStore",
+      "url": "https://github.com/CrossGL/crosstl/pull/2984",
+      "merged_at": "2026-10-25T22:04:36Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3103,
+      "title": "fix(hlsl,wgsl): accept the GLSL importer's fwidth_fine and fwidth_coarse spellings",
+      "url": "https://github.com/CrossGL/crosstl/pull/3103",
+      "merged_at": "2026-10-25T21:51:55Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2977,
+      "title": "fix(opencl): drop prefetch hints instead of copying them into CrossGL",
+      "url": "https://github.com/CrossGL/crosstl/pull/2977",
+      "merged_at": "2026-10-25T21:33:51Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2792,
+      "title": "fix(cuda): emit normf/rnormf for float euclidean norm arrays",
+      "url": "https://github.com/CrossGL/crosstl/pull/2792",
+      "merged_at": "2026-10-25T21:19:23Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2830,
+      "title": "fix(cuda): lower doubleBitsToLong and longBitsToDouble to CUDA intrinsics",
+      "url": "https://github.com/CrossGL/crosstl/pull/2830",
+      "merged_at": "2026-10-25T21:04:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2972,
+      "title": "fix(opencl): lower OpenCL C fences and sub_group_barrier to CrossGL fences",
+      "url": "https://github.com/CrossGL/crosstl/pull/2972",
+      "merged_at": "2026-10-25T21:01:58Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2918,
+      "title": "fix(wgsl): lower HLSL 8-bit pack intrinsics to WGSL pack4x builtins",
+      "url": "https://github.com/CrossGL/crosstl/pull/2918",
+      "merged_at": "2026-10-25T21:01:58Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2974,
+      "title": "fix(mojo): do not lower comptime DType aliases to CrossGL globals",
+      "url": "https://github.com/CrossGL/crosstl/pull/2974",
+      "merged_at": "2026-10-25T17:36:39Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2935,
+      "title": "fix(metal): lower fine and coarse derivatives to dfdx, dfdy and fwidth",
+      "url": "https://github.com/CrossGL/crosstl/pull/2935",
+      "merged_at": "2026-10-25T17:30:10Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2963,
+      "title": "fix(metal): import make_filled_matrix as a matrix of column splats",
+      "url": "https://github.com/CrossGL/crosstl/pull/2963",
+      "merged_at": "2026-10-25T17:23:29Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2979,
+      "title": "fix(hip): lower doubleBitsToLong and longBitsToDouble to HIP intrinsics",
+      "url": "https://github.com/CrossGL/crosstl/pull/2979",
+      "merged_at": "2026-10-25T17:23:11Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2954,
+      "title": "fix(wgsl): give Slang SV_Target results a location",
+      "url": "https://github.com/CrossGL/crosstl/pull/2954",
+      "merged_at": "2026-10-25T17:20:30Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2931,
+      "title": "fix(metal): lower HLSL 8-bit pack intrinsics to byte vectors and as_type",
+      "url": "https://github.com/CrossGL/crosstl/pull/2931",
+      "merged_at": "2026-10-25T17:20:09Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3008,
+      "title": "fix(hip): lower countLeadingZeros to __clz and __clzll",
+      "url": "https://github.com/CrossGL/crosstl/pull/3008",
+      "merged_at": "2026-10-25T17:11:22Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2945,
+      "title": "test(hlsl): check column subscripts of matrixCompMult and outerProduct results",
+      "url": "https://github.com/CrossGL/crosstl/pull/2945",
+      "merged_at": "2026-10-25T17:11:22Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2927,
+      "title": "fix(metal): lower dot4add_i8packed and dot4add_u8packed to lane dot products",
+      "url": "https://github.com/CrossGL/crosstl/pull/2927",
+      "merged_at": "2026-10-25T17:07:50Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2948,
+      "title": "fix(slang): map @builtin(...) parameters to system values and bind gl_NumWorkGroups from WorkgroupCount()",
+      "url": "https://github.com/CrossGL/crosstl/pull/2948",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2999,
+      "title": "fix(cuda): lower countLeadingZeros to __clz and __clzll",
+      "url": "https://github.com/CrossGL/crosstl/pull/2999",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2966,
+      "title": "fix(opencl): drop relaxed explicit atomic orders and refuse the rest",
+      "url": "https://github.com/CrossGL/crosstl/pull/2966",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2955,
+      "title": "fix(hlsl): refuse inout SV_Position vertex parameters outside HLSL",
+      "url": "https://github.com/CrossGL/crosstl/pull/2955",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3018,
+      "title": "fix(wgsl): return signed textureSize results and add array layer counts",
+      "url": "https://github.com/CrossGL/crosstl/pull/3018",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3025,
+      "title": "fix(wgsl): lower two-argument atan to atan2",
+      "url": "https://github.com/CrossGL/crosstl/pull/3025",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2923,
+      "title": "fix(glsl): lower HLSL 8-bit pack intrinsics to packUnorm4x8 and lane shifts",
+      "url": "https://github.com/CrossGL/crosstl/pull/2923",
+      "merged_at": "2026-10-25T14:49:33Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3029,
+      "title": "fix(hlsl): lower gl_HelperInvocation to IsHelperLane()",
+      "url": "https://github.com/CrossGL/crosstl/pull/3029",
+      "merged_at": "2026-10-25T14:42:21Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3015,
+      "title": "fix(wgsl): lower mix with a boolean selector to select",
+      "url": "https://github.com/CrossGL/crosstl/pull/3015",
+      "merged_at": "2026-10-25T14:35:22Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2890,
+      "title": "fix(slang): map GLSL 8-bit and 64-bit integer spellings to Slang types",
+      "url": "https://github.com/CrossGL/crosstl/pull/2890",
+      "merged_at": "2026-10-25T14:31:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2876,
+      "title": "fix(slang): lower fwidthCoarse and fwidthFine to fwidth_coarse and fwidth_fine",
+      "url": "https://github.com/CrossGL/crosstl/pull/2876",
+      "merged_at": "2026-10-25T14:29:10Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2998,
+      "title": "fix(cuda): include <cstdint> so fixed-width integer types are declared",
+      "url": "https://github.com/CrossGL/crosstl/pull/2998",
+      "merged_at": "2026-10-25T14:29:10Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2919,
+      "title": "fix(glsl): lower dot4add_i8packed and dot4add_u8packed to lane dot products",
+      "url": "https://github.com/CrossGL/crosstl/pull/2919",
+      "merged_at": "2026-10-25T14:26:43Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2964,
+      "title": "fix(opencl): import get_local_linear_id() as the local invocation index",
+      "url": "https://github.com/CrossGL/crosstl/pull/2964",
+      "merged_at": "2026-10-25T14:23:03Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2797,
+      "title": "fix(slang): map HLSL barrier intrinsics like the HLSL importer",
+      "url": "https://github.com/CrossGL/crosstl/pull/2797",
+      "merged_at": "2026-10-25T14:18:23Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2802,
+      "title": "fix(slang): map int8_t4_packed and uint8_t4_packed to uint",
+      "url": "https://github.com/CrossGL/crosstl/pull/2802",
+      "merged_at": "2026-10-25T14:02:01Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2856,
+      "title": "fix(slang): map GLSL 16-bit integer spellings to Slang types",
+      "url": "https://github.com/CrossGL/crosstl/pull/2856",
+      "merged_at": "2026-10-25T13:59:59Z"
+    },
+    {
+      "repository": "livekit/agents",
+      "number": 8093,
+      "title": "fix(worker): return 503 from health until RegisterWorkerResponse",
+      "url": "https://github.com/livekit/agents/pull/8093",
+      "merged_at": "2026-10-25T06:38:35Z"
+    },
+    {
+      "repository": "livekit/agents",
+      "number": 7891,
+      "title": "fix(google): count Gemini thinking tokens in LLM completion_tokens",
+      "url": "https://github.com/livekit/agents/pull/7891",
+      "merged_at": "2026-10-25T06:04:37Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2913,
+      "title": "fix(wgsl): lower dot4add_i8packed and dot4add_u8packed to packed dot products",
+      "url": "https://github.com/CrossGL/crosstl/pull/2913",
+      "merged_at": "2026-10-24T23:34:06Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2895,
+      "title": "fix(hlsl): lower fwidthFine and fwidthCoarse to fine and coarse derivatives",
+      "url": "https://github.com/CrossGL/crosstl/pull/2895",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2881,
+      "title": "fix(slang): lower gl_NumWorkGroups to WorkgroupCount() in compute shaders",
+      "url": "https://github.com/CrossGL/crosstl/pull/2881",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2904,
+      "title": "fix(wgsl): lower memory barriers to WGSL workgroup, storage and texture barriers",
+      "url": "https://github.com/CrossGL/crosstl/pull/2904",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2900,
+      "title": "fix(wgsl): lower matrix-scalar arithmetic, matrixCompMult and outerProduct by column",
+      "url": "https://github.com/CrossGL/crosstl/pull/2900",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2891,
+      "title": "fix(hlsl): map packed 8-bit aliases in structured buffer element types",
+      "url": "https://github.com/CrossGL/crosstl/pull/2891",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2790,
+      "title": "fix(slang): keep groupshared on imported globals",
+      "url": "https://github.com/CrossGL/crosstl/pull/2790",
+      "merged_at": "2026-10-24T13:39:51Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2780,
+      "title": "fix(slang): match HLSL matrix orientation for constructors and types",
+      "url": "https://github.com/CrossGL/crosstl/pull/2780",
+      "merged_at": "2026-10-24T12:52:50Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2791,
+      "title": "fix(wgsl): pass workgroup pointer to workgroupUniformLoad",
+      "url": "https://github.com/CrossGL/crosstl/pull/2791",
+      "merged_at": "2026-10-24T12:52:17Z"
+    },
+    {
+      "repository": "apache/datafusion",
+      "number": 26681,
+      "title": "chore(csv): use shared aggr_test_schema in CSV scan tests",
+      "url": "https://github.com/apache/datafusion/pull/26681",
+      "merged_at": "2026-10-24T11:16:18Z"
+    },
+    {
+      "repository": "topoteretes/cognee",
+      "number": 6266,
+      "title": "docs(ollama): add self-hosted Ollama and OpenAI-compatible setup",
+      "url": "https://github.com/topoteretes/cognee/pull/6266",
+      "merged_at": "2026-10-23T23:13:46Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2751,
+      "title": "docs: close Sphinx inline literal in private_global_prefix docstring",
+      "url": "https://github.com/CrossGL/crosstl/pull/2751",
+      "merged_at": "2026-10-23T16:28:51Z"
+    },
+    {
+      "repository": "microsoft/onnxruntime",
+      "number": 33532,
+      "title": "fix: scope tpause_spin_delay_cycles to the _tpause branch",
+      "url": "https://github.com/microsoft/onnxruntime/pull/33532",
+      "merged_at": "2026-10-22T20:24:01Z"
+    },
+    {
+      "repository": "browser-use/browser-use",
+      "number": 6052,
+      "title": "docs(skills): update browser-hour price $0.05 → $0.02",
+      "url": "https://github.com/browser-use/browser-use/pull/6052",
+      "merged_at": "2026-10-17T17:53:12Z"
+    },
+    {
+      "repository": "browser-use/browser-use",
+      "number": 6051,
+      "title": "docs(skills): align signup credit with live pricing ($15 → $1)",
+      "url": "https://github.com/browser-use/browser-use/pull/6051",
+      "merged_at": "2026-10-17T17:49:21Z"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "number": 10230,
+      "title": "Use the `result.usage` property in the `ModelResponse.usage` docstring",
+      "url": "https://github.com/pydantic/pydantic-ai/pull/10230",
+      "merged_at": "2026-10-15T15:16:23Z"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "number": 10171,
+      "title": "Use the `result.usage` property in the `SystemReminders` docs",
+      "url": "https://github.com/pydantic/pydantic-ai/pull/10171",
+      "merged_at": "2026-10-13T19:59:29Z"
+    },
+    {
+      "repository": "NonceGeek/dim-sum-right-proof",
+      "number": 8,
+      "title": "Feat/sync main architecture",
+      "url": "https://github.com/NonceGeek/dim-sum-right-proof/pull/8",
+      "merged_at": "2025-10-19T07:30:40Z"
+    },
+    {
+      "repository": "NonceGeek/dim-sum-right-proof",
+      "number": 7,
+      "title": "chore: Align with main architecture after leeduckgo's merge",
+      "url": "https://github.com/NonceGeek/dim-sum-right-proof/pull/7",
+      "merged_at": "2025-10-18T20:01:34Z"
+    },
+    {
+      "repository": "NonceGeek/dim-sum-right-proof",
+      "number": 6,
+      "title": "Feat: Update verified BodhiBasedCopyright Holesky deployment & DApp integration",
+      "url": "https://github.com/NonceGeek/dim-sum-right-proof/pull/6",
+      "merged_at": "2025-10-18T02:37:29Z"
+    }
+  ]
+}
