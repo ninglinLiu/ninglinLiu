@@ -21,8 +21,8 @@ Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#3407 — fix(metal): rename shader-scope constants spelled like Metal keywords](https://github.com/CrossGL/crosstl/pull/3407) | 2026-10-30 |
 | [#3406 — fix(wgsl): pass the array texture layer to offset, gradient and shadow lookups](https://github.com/CrossGL/crosstl/pull/3406) | 2026-10-30 |
 | [#3405 — fix(cuda,hip): run the out/inout argument checks on calls to generic functions](https://github.com/CrossGL/crosstl/pull/3405) | 2026-10-30 |
-| [#3177 — fix(hip): keep static and const on variable declarations](https://github.com/CrossGL/crosstl/pull/3177) | 2026-10-28 |
 | [#3195 — fix(cuda,hip): keep the grouping of nested prefix operators](https://github.com/CrossGL/crosstl/pull/3195) | 2026-10-28 |
+| [#3177 — fix(hip): keep static and const on variable declarations](https://github.com/CrossGL/crosstl/pull/3177) | 2026-10-28 |
 | [#3181 — fix(cuda,hip): refuse swizzles passed to out and inout parameters](https://github.com/CrossGL/crosstl/pull/3181) | 2026-10-27 |
 | [#3180 — fix(cuda,hip): lower HLSL atomics that return the original value through an argument](https://github.com/CrossGL/crosstl/pull/3180) | 2026-10-27 |
 | [#3188 — test(slang): cover bare block statements with their own scope](https://github.com/CrossGL/crosstl/pull/3188) | 2026-10-27 |
@@ -33,24 +33,24 @@ Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#3170 — fix(wgsl): map integer 1D, 3D and cube samplers to typed textures](https://github.com/CrossGL/crosstl/pull/3170) | 2026-10-26 |
 | [#3169 — fix(wgsl): give imageSize the GLSL result shape for 1D, 3D and array images](https://github.com/CrossGL/crosstl/pull/3169) | 2026-10-26 |
 | [#3158 — fix(opencl): order the memory that barrier flags name](https://github.com/CrossGL/crosstl/pull/3158) | 2026-10-26 |
-| [#3123 — fix(cuda,hip): apply scalar math built-ins to half vectors through per-component helpers](https://github.com/CrossGL/crosstl/pull/3123) | 2026-10-26 |
+| [#3157 — fix(metal): keep the common operand type for mixed vectors declared as integer vectors](https://github.com/CrossGL/crosstl/pull/3157) | 2026-10-26 |
+| [#3150 — fix(metal): refuse derivatives in kernel, mesh and object functions](https://github.com/CrossGL/crosstl/pull/3150) | 2026-10-26 |
 | [#3149 — fix(slang): carry the WaveSize attribute into the CrossGL entry point](https://github.com/CrossGL/crosstl/pull/3149) | 2026-10-26 |
 | [#3146 — fix(wgsl): expand one-scalar matrix constructors into diagonal columns](https://github.com/CrossGL/crosstl/pull/3146) | 2026-10-26 |
 | [#3145 — fix(mojo): splat a bool into a boolean vector with the fill keyword](https://github.com/CrossGL/crosstl/pull/3145) | 2026-10-26 |
-| [#3150 — fix(metal): refuse derivatives in kernel, mesh and object functions](https://github.com/CrossGL/crosstl/pull/3150) | 2026-10-26 |
-| [#3157 — fix(metal): keep the common operand type for mixed vectors declared as integer vectors](https://github.com/CrossGL/crosstl/pull/3157) | 2026-10-26 |
+| [#3123 — fix(cuda,hip): apply scalar math built-ins to half vectors through per-component helpers](https://github.com/CrossGL/crosstl/pull/3123) | 2026-10-26 |
 | [#3143 — fix(directx): refuse the WaveSize attribute for the dx10 and dx11 profiles](https://github.com/CrossGL/crosstl/pull/3143) | 2026-10-26 |
 | [#3120 — fix(cuda,hip): expand half vector swizzles through the half constructors](https://github.com/CrossGL/crosstl/pull/3120) | 2026-10-26 |
 | [#2812 — fix(hlsl): keep the dx:: namespace on imported HitObject types](https://github.com/CrossGL/crosstl/pull/2812) | 2026-10-26 |
 | [#3140 — fix(mojo): combine boolean vector masks with & and \| for && and \|\|](https://github.com/CrossGL/crosstl/pull/3140) | 2026-10-26 |
 | [#3118 — fix(cuda,hip): compute half vector % and mod through the float mod helper](https://github.com/CrossGL/crosstl/pull/3118) | 2026-10-26 |
-| [#3138 — fix(directx): refuse mesh and amplification stages for the dx10 and dx11 profiles](https://github.com/CrossGL/crosstl/pull/3138) | 2026-10-26 |
 | [#3139 — fix(directx): report directx-12 only for DXR, mesh shading and wave intrinsic HLSL](https://github.com/CrossGL/crosstl/pull/3139) | 2026-10-26 |
+| [#3138 — fix(directx): refuse mesh and amplification stages for the dx10 and dx11 profiles](https://github.com/CrossGL/crosstl/pull/3138) | 2026-10-26 |
 | [#2818 — fix(slang): type matrix-valued expressions and lower matrix built-ins](https://github.com/CrossGL/crosstl/pull/2818) | 2026-10-26 |
-| [#3129 — test(fuzz): keep float-to-integer conversions defined](https://github.com/CrossGL/crosstl/pull/3129) | 2026-10-26 |
 | [#3133 — fix(mojo): refuse implicit vector to scalar conversions](https://github.com/CrossGL/crosstl/pull/3133) | 2026-10-26 |
-| [#3117 — fix(cuda,hip): use vector-scalar helpers when the scalar operand is a constructor call](https://github.com/CrossGL/crosstl/pull/3117) | 2026-10-26 |
 | [#3130 — fix(directx): refuse ray tracing stages for the dx10 and dx11 profiles](https://github.com/CrossGL/crosstl/pull/3130) | 2026-10-26 |
+| [#3129 — test(fuzz): keep float-to-integer conversions defined](https://github.com/CrossGL/crosstl/pull/3129) | 2026-10-26 |
+| [#3117 — fix(cuda,hip): use vector-scalar helpers when the scalar operand is a constructor call](https://github.com/CrossGL/crosstl/pull/3117) | 2026-10-26 |
 | [#3112 — fix(cuda,hip): lower half vector and half scalar arithmetic to scalar helpers](https://github.com/CrossGL/crosstl/pull/3112) | 2026-10-26 |
 | [#3110 — fix(cuda,hip): splat a half vector constructor of a native half2 component](https://github.com/CrossGL/crosstl/pull/3110) | 2026-10-26 |
 | [#3108 — fix(wgsl): discard the value of @must_use built-in call statements](https://github.com/CrossGL/crosstl/pull/3108) | 2026-10-25 |
@@ -75,29 +75,29 @@ Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#3008 — fix(hip): lower countLeadingZeros to __clz and __clzll](https://github.com/CrossGL/crosstl/pull/3008) | 2026-10-25 |
 | [#2945 — test(hlsl): check column subscripts of matrixCompMult and outerProduct results](https://github.com/CrossGL/crosstl/pull/2945) | 2026-10-25 |
 | [#2927 — fix(metal): lower dot4add_i8packed and dot4add_u8packed to lane dot products](https://github.com/CrossGL/crosstl/pull/2927) | 2026-10-25 |
-| [#2948 — fix(slang): map @builtin(...) parameters to system values and bind gl_NumWorkGroups from WorkgroupCount()](https://github.com/CrossGL/crosstl/pull/2948) | 2026-10-25 |
+| [#3025 — fix(wgsl): lower two-argument atan to atan2](https://github.com/CrossGL/crosstl/pull/3025) | 2026-10-25 |
+| [#3018 — fix(wgsl): return signed textureSize results and add array layer counts](https://github.com/CrossGL/crosstl/pull/3018) | 2026-10-25 |
 | [#2999 — fix(cuda): lower countLeadingZeros to __clz and __clzll](https://github.com/CrossGL/crosstl/pull/2999) | 2026-10-25 |
 | [#2966 — fix(opencl): drop relaxed explicit atomic orders and refuse the rest](https://github.com/CrossGL/crosstl/pull/2966) | 2026-10-25 |
 | [#2955 — fix(hlsl): refuse inout SV_Position vertex parameters outside HLSL](https://github.com/CrossGL/crosstl/pull/2955) | 2026-10-25 |
-| [#3018 — fix(wgsl): return signed textureSize results and add array layer counts](https://github.com/CrossGL/crosstl/pull/3018) | 2026-10-25 |
-| [#3025 — fix(wgsl): lower two-argument atan to atan2](https://github.com/CrossGL/crosstl/pull/3025) | 2026-10-25 |
+| [#2948 — fix(slang): map @builtin(...) parameters to system values and bind gl_NumWorkGroups from WorkgroupCount()](https://github.com/CrossGL/crosstl/pull/2948) | 2026-10-25 |
 | [#2923 — fix(glsl): lower HLSL 8-bit pack intrinsics to packUnorm4x8 and lane shifts](https://github.com/CrossGL/crosstl/pull/2923) | 2026-10-25 |
 | [#3029 — fix(hlsl): lower gl_HelperInvocation to IsHelperLane()](https://github.com/CrossGL/crosstl/pull/3029) | 2026-10-25 |
 | [#3015 — fix(wgsl): lower mix with a boolean selector to select](https://github.com/CrossGL/crosstl/pull/3015) | 2026-10-25 |
 | [#2890 — fix(slang): map GLSL 8-bit and 64-bit integer spellings to Slang types](https://github.com/CrossGL/crosstl/pull/2890) | 2026-10-25 |
-| [#2876 — fix(slang): lower fwidthCoarse and fwidthFine to fwidth_coarse and fwidth_fine](https://github.com/CrossGL/crosstl/pull/2876) | 2026-10-25 |
 | [#2998 — fix(cuda): include <cstdint> so fixed-width integer types are declared](https://github.com/CrossGL/crosstl/pull/2998) | 2026-10-25 |
+| [#2876 — fix(slang): lower fwidthCoarse and fwidthFine to fwidth_coarse and fwidth_fine](https://github.com/CrossGL/crosstl/pull/2876) | 2026-10-25 |
 | [#2919 — fix(glsl): lower dot4add_i8packed and dot4add_u8packed to lane dot products](https://github.com/CrossGL/crosstl/pull/2919) | 2026-10-25 |
 | [#2964 — fix(opencl): import get_local_linear_id() as the local invocation index](https://github.com/CrossGL/crosstl/pull/2964) | 2026-10-25 |
 | [#2797 — fix(slang): map HLSL barrier intrinsics like the HLSL importer](https://github.com/CrossGL/crosstl/pull/2797) | 2026-10-25 |
 | [#2802 — fix(slang): map int8_t4_packed and uint8_t4_packed to uint](https://github.com/CrossGL/crosstl/pull/2802) | 2026-10-25 |
 | [#2856 — fix(slang): map GLSL 16-bit integer spellings to Slang types](https://github.com/CrossGL/crosstl/pull/2856) | 2026-10-25 |
 | [#2913 — fix(wgsl): lower dot4add_i8packed and dot4add_u8packed to packed dot products](https://github.com/CrossGL/crosstl/pull/2913) | 2026-10-24 |
-| [#2895 — fix(hlsl): lower fwidthFine and fwidthCoarse to fine and coarse derivatives](https://github.com/CrossGL/crosstl/pull/2895) | 2026-10-24 |
-| [#2881 — fix(slang): lower gl_NumWorkGroups to WorkgroupCount() in compute shaders](https://github.com/CrossGL/crosstl/pull/2881) | 2026-10-24 |
 | [#2904 — fix(wgsl): lower memory barriers to WGSL workgroup, storage and texture barriers](https://github.com/CrossGL/crosstl/pull/2904) | 2026-10-24 |
 | [#2900 — fix(wgsl): lower matrix-scalar arithmetic, matrixCompMult and outerProduct by column](https://github.com/CrossGL/crosstl/pull/2900) | 2026-10-24 |
+| [#2895 — fix(hlsl): lower fwidthFine and fwidthCoarse to fine and coarse derivatives](https://github.com/CrossGL/crosstl/pull/2895) | 2026-10-24 |
 | [#2891 — fix(hlsl): map packed 8-bit aliases in structured buffer element types](https://github.com/CrossGL/crosstl/pull/2891) | 2026-10-24 |
+| [#2881 — fix(slang): lower gl_NumWorkGroups to WorkgroupCount() in compute shaders](https://github.com/CrossGL/crosstl/pull/2881) | 2026-10-24 |
 | [#2790 — fix(slang): keep groupshared on imported globals](https://github.com/CrossGL/crosstl/pull/2790) | 2026-10-24 |
 | [#2780 — fix(slang): match HLSL matrix orientation for constructors and types](https://github.com/CrossGL/crosstl/pull/2780) | 2026-10-24 |
 | [#2791 — fix(wgsl): pass workgroup pointer to workgroupUniformLoad](https://github.com/CrossGL/crosstl/pull/2791) | 2026-10-24 |

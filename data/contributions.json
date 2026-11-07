@@ -164,13 +164,6 @@
       "merged_at": "2026-11-02T02:58:41Z"
     },
     {
-      "repository": "apache/arrow-rs",
-      "number": 11925,
-      "title": "fix(arrow-select): merge dictionaries in merge and merge_n instead of panicking on key overflow",
-      "url": "https://github.com/apache/arrow-rs/pull/11925",
-      "merged_at": "2026-10-28T17:58:53Z"
-    },
-    {
       "repository": "ag2ai/ag2",
       "number": 3516,
       "title": "fix(acp,mcp): preserve explicitly provided empty session storage",
@@ -311,11 +304,11 @@
       "merged_at": "2026-10-28T18:39:00Z"
     },
     {
-      "repository": "CrossGL/crosstl",
-      "number": 3177,
-      "title": "fix(hip): keep static and const on variable declarations",
-      "url": "https://github.com/CrossGL/crosstl/pull/3177",
-      "merged_at": "2026-10-28T14:30:51Z"
+      "repository": "apache/arrow-rs",
+      "number": 11925,
+      "title": "fix(arrow-select): merge dictionaries in merge and merge_n instead of panicking on key overflow",
+      "url": "https://github.com/apache/arrow-rs/pull/11925",
+      "merged_at": "2026-10-28T17:58:53Z"
     },
     {
       "repository": "CrossGL/crosstl",
@@ -325,18 +318,18 @@
       "merged_at": "2026-10-28T14:30:51Z"
     },
     {
+      "repository": "CrossGL/crosstl",
+      "number": 3177,
+      "title": "fix(hip): keep static and const on variable declarations",
+      "url": "https://github.com/CrossGL/crosstl/pull/3177",
+      "merged_at": "2026-10-28T14:30:51Z"
+    },
+    {
       "repository": "OpenZeppelin/openzeppelin-monitor",
       "number": 526,
       "title": "test: add a shared MonitorMatch test builder",
       "url": "https://github.com/OpenZeppelin/openzeppelin-monitor/pull/526",
       "merged_at": "2026-10-28T08:24:03Z"
-    },
-    {
-      "repository": "ag2ai/ag2",
-      "number": 3519,
-      "title": "feat(anthropic): expose the SDK's open_telemetry option on AnthropicConfig",
-      "url": "https://github.com/ag2ai/ag2/pull/3519",
-      "merged_at": "2026-10-27T19:47:07Z"
     },
     {
       "repository": "pipecat-ai/pipecat",
@@ -358,6 +351,13 @@
       "title": "docs: fix dead links to moved examples and external docs",
       "url": "https://github.com/pipecat-ai/docs/pull/1599",
       "merged_at": "2026-10-27T20:26:24Z"
+    },
+    {
+      "repository": "ag2ai/ag2",
+      "number": 3519,
+      "title": "feat(anthropic): expose the SDK's open_telemetry option on AnthropicConfig",
+      "url": "https://github.com/ag2ai/ag2/pull/3519",
+      "merged_at": "2026-10-27T19:47:07Z"
     },
     {
       "repository": "livekit/client-sdk-js",
@@ -641,9 +641,16 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3123,
-      "title": "fix(cuda,hip): apply scalar math built-ins to half vectors through per-component helpers",
-      "url": "https://github.com/CrossGL/crosstl/pull/3123",
+      "number": 3157,
+      "title": "fix(metal): keep the common operand type for mixed vectors declared as integer vectors",
+      "url": "https://github.com/CrossGL/crosstl/pull/3157",
+      "merged_at": "2026-10-26T11:38:48Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3150,
+      "title": "fix(metal): refuse derivatives in kernel, mesh and object functions",
+      "url": "https://github.com/CrossGL/crosstl/pull/3150",
       "merged_at": "2026-10-26T11:38:48Z"
     },
     {
@@ -669,16 +676,9 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3150,
-      "title": "fix(metal): refuse derivatives in kernel, mesh and object functions",
-      "url": "https://github.com/CrossGL/crosstl/pull/3150",
-      "merged_at": "2026-10-26T11:38:48Z"
-    },
-    {
-      "repository": "CrossGL/crosstl",
-      "number": 3157,
-      "title": "fix(metal): keep the common operand type for mixed vectors declared as integer vectors",
-      "url": "https://github.com/CrossGL/crosstl/pull/3157",
+      "number": 3123,
+      "title": "fix(cuda,hip): apply scalar math built-ins to half vectors through per-component helpers",
+      "url": "https://github.com/CrossGL/crosstl/pull/3123",
       "merged_at": "2026-10-26T11:38:48Z"
     },
     {
@@ -718,16 +718,16 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3138,
-      "title": "fix(directx): refuse mesh and amplification stages for the dx10 and dx11 profiles",
-      "url": "https://github.com/CrossGL/crosstl/pull/3138",
+      "number": 3139,
+      "title": "fix(directx): report directx-12 only for DXR, mesh shading and wave intrinsic HLSL",
+      "url": "https://github.com/CrossGL/crosstl/pull/3139",
       "merged_at": "2026-10-26T06:14:12Z"
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3139,
-      "title": "fix(directx): report directx-12 only for DXR, mesh shading and wave intrinsic HLSL",
-      "url": "https://github.com/CrossGL/crosstl/pull/3139",
+      "number": 3138,
+      "title": "fix(directx): refuse mesh and amplification stages for the dx10 and dx11 profiles",
+      "url": "https://github.com/CrossGL/crosstl/pull/3138",
       "merged_at": "2026-10-26T06:14:12Z"
     },
     {
@@ -739,13 +739,6 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3129,
-      "title": "test(fuzz): keep float-to-integer conversions defined",
-      "url": "https://github.com/CrossGL/crosstl/pull/3129",
-      "merged_at": "2026-10-26T05:05:45Z"
-    },
-    {
-      "repository": "CrossGL/crosstl",
       "number": 3133,
       "title": "fix(mojo): refuse implicit vector to scalar conversions",
       "url": "https://github.com/CrossGL/crosstl/pull/3133",
@@ -753,16 +746,23 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3117,
-      "title": "fix(cuda,hip): use vector-scalar helpers when the scalar operand is a constructor call",
-      "url": "https://github.com/CrossGL/crosstl/pull/3117",
+      "number": 3130,
+      "title": "fix(directx): refuse ray tracing stages for the dx10 and dx11 profiles",
+      "url": "https://github.com/CrossGL/crosstl/pull/3130",
       "merged_at": "2026-10-26T05:05:45Z"
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3130,
-      "title": "fix(directx): refuse ray tracing stages for the dx10 and dx11 profiles",
-      "url": "https://github.com/CrossGL/crosstl/pull/3130",
+      "number": 3129,
+      "title": "test(fuzz): keep float-to-integer conversions defined",
+      "url": "https://github.com/CrossGL/crosstl/pull/3129",
+      "merged_at": "2026-10-26T05:05:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3117,
+      "title": "fix(cuda,hip): use vector-scalar helpers when the scalar operand is a constructor call",
+      "url": "https://github.com/CrossGL/crosstl/pull/3117",
       "merged_at": "2026-10-26T05:05:45Z"
     },
     {
@@ -942,9 +942,16 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 2948,
-      "title": "fix(slang): map @builtin(...) parameters to system values and bind gl_NumWorkGroups from WorkgroupCount()",
-      "url": "https://github.com/CrossGL/crosstl/pull/2948",
+      "number": 3025,
+      "title": "fix(wgsl): lower two-argument atan to atan2",
+      "url": "https://github.com/CrossGL/crosstl/pull/3025",
+      "merged_at": "2026-10-25T17:06:35Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 3018,
+      "title": "fix(wgsl): return signed textureSize results and add array layer counts",
+      "url": "https://github.com/CrossGL/crosstl/pull/3018",
       "merged_at": "2026-10-25T17:06:35Z"
     },
     {
@@ -970,16 +977,9 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 3018,
-      "title": "fix(wgsl): return signed textureSize results and add array layer counts",
-      "url": "https://github.com/CrossGL/crosstl/pull/3018",
-      "merged_at": "2026-10-25T17:06:35Z"
-    },
-    {
-      "repository": "CrossGL/crosstl",
-      "number": 3025,
-      "title": "fix(wgsl): lower two-argument atan to atan2",
-      "url": "https://github.com/CrossGL/crosstl/pull/3025",
+      "number": 2948,
+      "title": "fix(slang): map @builtin(...) parameters to system values and bind gl_NumWorkGroups from WorkgroupCount()",
+      "url": "https://github.com/CrossGL/crosstl/pull/2948",
       "merged_at": "2026-10-25T17:06:35Z"
     },
     {
@@ -1012,16 +1012,16 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 2876,
-      "title": "fix(slang): lower fwidthCoarse and fwidthFine to fwidth_coarse and fwidth_fine",
-      "url": "https://github.com/CrossGL/crosstl/pull/2876",
+      "number": 2998,
+      "title": "fix(cuda): include <cstdint> so fixed-width integer types are declared",
+      "url": "https://github.com/CrossGL/crosstl/pull/2998",
       "merged_at": "2026-10-25T14:29:10Z"
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 2998,
-      "title": "fix(cuda): include <cstdint> so fixed-width integer types are declared",
-      "url": "https://github.com/CrossGL/crosstl/pull/2998",
+      "number": 2876,
+      "title": "fix(slang): lower fwidthCoarse and fwidthFine to fwidth_coarse and fwidth_fine",
+      "url": "https://github.com/CrossGL/crosstl/pull/2876",
       "merged_at": "2026-10-25T14:29:10Z"
     },
     {
@@ -1082,20 +1082,6 @@
     },
     {
       "repository": "CrossGL/crosstl",
-      "number": 2895,
-      "title": "fix(hlsl): lower fwidthFine and fwidthCoarse to fine and coarse derivatives",
-      "url": "https://github.com/CrossGL/crosstl/pull/2895",
-      "merged_at": "2026-10-24T23:01:45Z"
-    },
-    {
-      "repository": "CrossGL/crosstl",
-      "number": 2881,
-      "title": "fix(slang): lower gl_NumWorkGroups to WorkgroupCount() in compute shaders",
-      "url": "https://github.com/CrossGL/crosstl/pull/2881",
-      "merged_at": "2026-10-24T23:01:45Z"
-    },
-    {
-      "repository": "CrossGL/crosstl",
       "number": 2904,
       "title": "fix(wgsl): lower memory barriers to WGSL workgroup, storage and texture barriers",
       "url": "https://github.com/CrossGL/crosstl/pull/2904",
@@ -1110,9 +1096,23 @@
     },
     {
       "repository": "CrossGL/crosstl",
+      "number": 2895,
+      "title": "fix(hlsl): lower fwidthFine and fwidthCoarse to fine and coarse derivatives",
+      "url": "https://github.com/CrossGL/crosstl/pull/2895",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
       "number": 2891,
       "title": "fix(hlsl): map packed 8-bit aliases in structured buffer element types",
       "url": "https://github.com/CrossGL/crosstl/pull/2891",
+      "merged_at": "2026-10-24T23:01:45Z"
+    },
+    {
+      "repository": "CrossGL/crosstl",
+      "number": 2881,
+      "title": "fix(slang): lower gl_NumWorkGroups to WorkgroupCount() in compute shaders",
+      "url": "https://github.com/CrossGL/crosstl/pull/2881",
       "merged_at": "2026-10-24T23:01:45Z"
     },
     {
