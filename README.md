@@ -7,12 +7,17 @@
   <a href="https://omniaihello.com"><b>EXPLORE omniAI ↗</b></a> &nbsp; / &nbsp;
   <a href="https://github.com/ninglinLiu/script-to-video-skill"><b>VIDEO SKILL ↗</b></a> &nbsp; / &nbsp;
   <a href="docs/OPEN_SOURCE.md"><b>OPEN SOURCE ↗</b></a> &nbsp; / &nbsp;
-  <a href="mailto:x07514475479@gmail.com"><b>CONTACT ↗</b></a>
+  <a href="#contact"><b>CONTACT ↗</b></a>
 </p>
 
 **刘羽 / Yu Liu** · XJTLU, IoT Engineering · Shanghai / Remote<br>
 I build **AI agents, full-stack products, creative developer tools and on-chain systems** — from business workflows to software people can use.<br>
 专注 **Agent 应用、全栈产品与开源工程**，持续探索 AI × Web3、金融数据与代码驱动的视觉表达。
+
+### Contact
+
+**EMAIL · [x07514475479@gmail.com](mailto:x07514475479@gmail.com)**<br>
+[Write in Gmail ↗](https://mail.google.com/mail/?view=cm&fs=1&to=x07514475479%40gmail.com) &nbsp; · &nbsp; **[LinkedIn ↗](https://www.linkedin.com/in/yu-liu-359521383/)** &nbsp; · &nbsp; **[X · @ninglin000 ↗](https://x.com/ninglin000)**
 
 ---
 
@@ -131,13 +136,50 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
-  <img src="assets/stack.svg" width="100%" alt="Tools: TypeScript, Python, Rust, Solidity, React, Next.js, Three.js, RAG, MCP, SQL, ClickHouse, Redis, Linux and Docker.">
+  <img src="assets/stack.svg" width="100%" alt="Core tech stack: Python, Java, TypeScript and Solidity. React, Next.js, Three.js, RAG, MCP, SQL, ClickHouse, Redis, Linux and Docker.">
 </picture>
+
+### Core Tech Stack
+
+**Python · Java · TypeScript · Solidity**
+
+| Area | Technologies |
+| :--- | :--- |
+| **AI & Agents** | RAG · Tool Calling · MCP · SSE · JSON Schema |
+| **Web & Visualization** | React · Next.js · Tailwind CSS · Three.js |
+| **Data & Research** | pandas · NumPy · SQL · ClickHouse · Redis · SQLite |
+| **Engineering & Delivery** | Linux · Docker · Git · CI/CD |
+
+---
+
+<a href="https://github.com/ninglinLiu?tab=overview">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg">
+  <img src="assets/activity.svg" width="100%" alt="GitHub activity — a 3D contribution calendar covering the last 12 months.">
+</picture>
+</a>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/languages-mobile.svg">
+  <img src="assets/languages.svg" width="100%" alt="Language activity measured by code bytes across owned public non-fork repositories.">
+</picture>
+
+### Topics & Ecosystem
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/topics-mobile.svg">
+  <img src="assets/topics.svg" width="100%" alt="Development and ecosystem topics: Google, C++, Linux, Docker, Raspberry Pi, Ethereum, Solana, Base, Robinhood Chain, Arc, Circle, Chainlink, Binance, OKX and more.">
+</picture>
+
+[Ethereum](https://ethereum.org) · [Solana](https://solana.com) · [Base](https://base.org) · [Robinhood Chain](https://docs.robinhood.com/chain/) · [Arc](https://www.arc.io) · [Circle](https://www.circle.com) · [Chainlink](https://chain.link) · [Binance](https://www.binance.com) · [OKX](https://www.okx.com)
+
+---
 
 <p align="center">
   <b>LET'S BUILD SOMETHING WORTH OPENING.</b><br><br>
   AI Agent development · Full-stack engineering · Web3 data & trading systems<br><br>
-  <a href="mailto:x07514475479@gmail.com">Email</a> &nbsp; / &nbsp;
-  <a href="https://omniaihello.com">omniAI</a> &nbsp; / &nbsp;
-  <a href="https://github.com/ninglinLiu?tab=repositories">Repositories</a>
+  <a href="mailto:x07514475479@gmail.com"><b>x07514475479@gmail.com</b></a><br><br>
+  <a href="https://www.linkedin.com/in/yu-liu-359521383/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="https://x.com/ninglin000">X · @ninglin000</a> &nbsp; / &nbsp;
+  <a href="https://omniaihello.com">omniAI</a>
 </p>

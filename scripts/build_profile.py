@@ -207,12 +207,12 @@ def web3(mobile=False):
 
 def stack(mobile=False):
     w,h=(600,550) if mobile else (1200,350)
-    b=eyebrow(36,44,'05 / TOOLS OF THE TRADE')
-    rows=[('BUILD','TypeScript   Python   Rust   Solidity'),('PRODUCT','React   Next.js   Three.js   Tailwind'),('AGENTS','RAG   Tool Calling   MCP   SSE'),('DATA','SQL   ClickHouse   Redis   SQLite'),('SHIP','Linux   Docker   Git   CI / CD')]
+    b=eyebrow(36,44,'05 / CORE TECH STACK')
+    rows=[('LANGUAGES','Python   Java   TypeScript   Solidity'),('PRODUCT','React   Next.js   Three.js   Tailwind'),('AGENTS','RAG   Tool Calling   MCP   SSE'),('DATA','SQL   ClickHouse   Redis   SQLite'),('SHIP','Linux   Docker   Git   CI / CD')]
     for i,(name,tools) in enumerate(rows):
         y=90+i*(87 if mobile else 48)
         b+=txt(36,y,name,16,JADE,600,extra='letter-spacing="1.8"')
-        b+=txt(36 if mobile else 230,y+34 if mobile else y,tools,22 if mobile else 24,WHITE)
+        b+=txt(36 if mobile else 230,y+34 if mobile else y,tools.replace('   ',' · '),22 if mobile else 24,WHITE)
         b+=line(36,y+49 if mobile else y+18,w-36,y+49 if mobile else y+18)
     svg('stack-mobile.svg' if mobile else 'stack.svg',w,h,'Technology stack by engineering area.',b)
 

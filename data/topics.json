@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Python",
+    "slug": "python",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "url": "https://github.com/topics/python",
+    "group": "development"
+  },
+  {
+    "name": "TypeScript",
+    "slug": "typescript",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    "url": "https://github.com/topics/typescript",
+    "group": "development"
+  },
+  {
+    "name": "JavaScript",
+    "slug": "javascript",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    "url": "https://github.com/topics/javascript",
+    "group": "development"
+  },
+  {
+    "name": "C++",
+    "slug": "cplusplus",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    "url": "https://github.com/topics/cpp",
+    "group": "development"
+  },
+  {
+    "name": "C",
+    "slug": "c",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    "url": "https://github.com/topics/c",
+    "group": "development"
+  },
+  {
+    "name": "Rust",
+    "slug": "rust",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg",
+    "url": "https://github.com/topics/rust",
+    "group": "development"
+  },
+  {
+    "name": "Go",
+    "slug": "go",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
+    "url": "https://github.com/topics/go",
+    "group": "development"
+  },
+  {
+    "name": "Java",
+    "slug": "java",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    "url": "https://github.com/topics/java",
+    "group": "development"
+  },
+  {
+    "name": "HTML5",
+    "slug": "html5",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+    "url": "https://github.com/topics/html",
+    "group": "development"
+  },
+  {
+    "name": "CSS3",
+    "slug": "css3",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+    "url": "https://github.com/topics/css",
+    "group": "development"
+  },
+  {
+    "name": "React",
+    "slug": "react",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    "url": "https://github.com/topics/react",
+    "group": "development"
+  },
+  {
+    "name": "Next.js",
+    "slug": "nextjs",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    "url": "https://github.com/topics/nextjs",
+    "group": "development"
+  },
+  {
+    "name": "Vue",
+    "slug": "vuejs",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+    "url": "https://github.com/topics/vue",
+    "group": "development"
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+    "url": "https://github.com/topics/tailwindcss",
+    "group": "development"
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    "url": "https://github.com/topics/nodejs",
+    "group": "development"
+  },
+  {
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg",
+    "url": "https://github.com/topics/fastapi",
+    "group": "development"
+  },
+  {
+    "name": "Linux",
+    "slug": "linux",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+    "url": "https://github.com/topics/linux",
+    "group": "development"
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    "url": "https://github.com/topics/docker",
+    "group": "development"
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg",
+    "url": "https://github.com/topics/kubernetes",
+    "group": "development"
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    "url": "https://github.com/topics/git",
+    "group": "development"
+  },
+  {
+    "name": "GitHub",
+    "slug": "github",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+    "url": "https://github.com/topics/github",
+    "group": "development"
+  },
+  {
+    "name": "GitHub Actions",
+    "slug": "githubactions",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg",
+    "url": "https://github.com/topics/githubactions",
+    "group": "development"
+  },
+  {
+    "name": "Bash",
+    "slug": "bash",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+    "url": "https://github.com/topics/bash",
+    "group": "development"
+  },
+  {
+    "name": "Raspberry Pi",
+    "slug": "raspberrypi",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg",
+    "url": "https://github.com/topics/raspberry-pi",
+    "group": "development"
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    "url": "https://github.com/topics/postgresql",
+    "group": "development"
+  },
+  {
+    "name": "Redis",
+    "slug": "redis",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
+    "url": "https://github.com/topics/redis",
+    "group": "development"
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    "url": "https://github.com/topics/mongodb",
+    "group": "development"
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+    "url": "https://github.com/topics/sqlite",
+    "group": "development"
+  },
+  {
+    "name": "Google",
+    "slug": "google",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg",
+    "url": "https://github.com/topics/google",
+    "group": "development"
+  },
+  {
+    "name": "Google Cloud",
+    "slug": "googlecloud",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg",
+    "url": "https://github.com/topics/googlecloud",
+    "group": "development"
+  },
+  {
+    "name": "Azure",
+    "slug": "azure",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg",
+    "url": "https://github.com/topics/azure",
+    "group": "development"
+  },
+  {
+    "name": "PyTorch",
+    "slug": "pytorch",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+    "url": "https://github.com/topics/pytorch",
+    "group": "development"
+  },
+  {
+    "name": "TensorFlow",
+    "slug": "tensorflow",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+    "url": "https://github.com/topics/tensorflow",
+    "group": "development"
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+    "url": "https://github.com/topics/numpy",
+    "group": "development"
+  },
+  {
+    "name": "Pandas",
+    "slug": "pandas",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg",
+    "url": "https://github.com/topics/pandas",
+    "group": "development"
+  },
+  {
+    "name": "Jupyter",
+    "slug": "jupyter",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg",
+    "url": "https://github.com/topics/jupyter",
+    "group": "development"
+  },
+  {
+    "name": "Three.js",
+    "slug": "threejs",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg",
+    "url": "https://github.com/topics/threejs",
+    "group": "development"
+  },
+  {
+    "name": "Solidity",
+    "slug": "solidity",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg",
+    "url": "https://github.com/topics/solidity",
+    "group": "development"
+  },
+  {
+    "name": "Playwright",
+    "slug": "playwright",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/playwright/playwright-original.svg",
+    "url": "https://github.com/topics/playwright",
+    "group": "development"
+  },
+  {
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "source": "https://cdn.simpleicons.org/ethereum/B8B8FF",
+    "url": "https://ethereum.org",
+    "group": "web3"
+  },
+  {
+    "name": "Solana",
+    "slug": "solana",
+    "source": "https://cdn.simpleicons.org/solana/14F195",
+    "url": "https://solana.com",
+    "group": "web3"
+  },
+  {
+    "name": "Bitcoin",
+    "slug": "bitcoin",
+    "source": "https://cdn.simpleicons.org/bitcoin/F7931A",
+    "url": "https://bitcoin.org",
+    "group": "web3"
+  },
+  {
+    "name": "Base",
+    "slug": "base",
+    "source": "https://raw.githubusercontent.com/base/brand-kit/main/logo/TheSquare/Digital/Base_square_blue.svg",
+    "url": "https://base.org",
+    "group": "web3"
+  },
+  {
+    "name": "Chainlink",
+    "slug": "chainlink",
+    "source": "https://cdn.simpleicons.org/chainlink/5B8BFF",
+    "url": "https://chain.link",
+    "group": "web3"
+  },
+  {
+    "name": "Binance",
+    "slug": "binance",
+    "source": "https://cdn.simpleicons.org/binance/F0B90B",
+    "url": "https://www.binance.com",
+    "group": "web3"
+  },
+  {
+    "name": "OKX",
+    "slug": "okx",
+    "source": "https://cdn.simpleicons.org/okx/FFFFFF",
+    "url": "https://www.okx.com",
+    "group": "web3"
+  },
+  {
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "source": "https://cdn.simpleicons.org/coinbase/4B8BFF",
+    "url": "https://www.coinbase.com",
+    "group": "web3"
+  },
+  {
+    "name": "Robinhood Chain",
+    "slug": "robinhood",
+    "source": "https://cdn.robinhood.com/robinhood_chain/brand_assets/robinhood-chain-brand-assets-v1.zip",
+    "url": "https://docs.robinhood.com/chain/",
+    "group": "web3",
+    "file": "robinhood.jpg",
+    "archive_member": "Robinhood Chain Brand Assets - V1/Robinhood Feather Symbol/Robinhood_Avatar.jpg"
+  },
+  {
+    "name": "Polygon",
+    "slug": "polygon",
+    "source": "https://cdn.simpleicons.org/polygon/A877FF",
+    "url": "https://polygon.technology",
+    "group": "web3"
+  },
+  {
+    "name": "Optimism",
+    "slug": "optimism",
+    "source": "https://cdn.simpleicons.org/optimism/FF404B",
+    "url": "https://optimism.io",
+    "group": "web3"
+  },
+  {
+    "name": "OpenZeppelin",
+    "slug": "openzeppelin",
+    "source": "https://cdn.simpleicons.org/openzeppelin/8CB4FF",
+    "url": "https://www.openzeppelin.com",
+    "group": "web3"
+  },
+  {
+    "name": "IPFS",
+    "slug": "ipfs",
+    "source": "https://cdn.simpleicons.org/ipfs/65C2CB",
+    "url": "https://ipfs.tech",
+    "group": "web3"
+  },
+  {
+    "name": "WalletConnect",
+    "slug": "walletconnect",
+    "source": "https://cdn.simpleicons.org/walletconnect/6DAAFF",
+    "url": "https://walletconnect.network",
+    "group": "web3"
+  },
+  {
+    "name": "Tether",
+    "slug": "tether",
+    "source": "https://cdn.simpleicons.org/tether/66C6A9",
+    "url": "https://tether.to",
+    "group": "web3"
+  },
+  {
+    "name": "Arc by Circle",
+    "slug": "arc",
+    "source": "https://cdn.prod.website-files.com/685311a976e7c248b5dfde95/68926aad995d4eae931403a4_arc-favicon-256x256.png",
+    "url": "https://www.arc.io",
+    "file": "arc.png",
+    "group": "web3"
+  },
+  {
+    "name": "Circle",
+    "slug": "circle",
+    "source": "https://cdn.prod.website-files.com/668c08d1b8a9330bd1d786ad/669a20df8ac2810a6dd50e67_favicon-256.svg",
+    "url": "https://www.circle.com",
+    "file": "circle.svg",
+    "group": "web3"
+  }
+]

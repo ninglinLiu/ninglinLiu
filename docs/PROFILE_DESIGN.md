@@ -19,6 +19,14 @@ Original visual direction: ink, warm ivory, jade and copper. Editorial typograph
 
 ## Presentation
 
-Desktop and mobile SVGs are selected with the README's `picture` elements. CSS animations in SVGs honor `prefers-reduced-motion`; GIFs contain no audio. Main facts and links are also available as native README text. No X/Twitter or unprovided LinkedIn link is included.
+Desktop and mobile SVGs are selected with the README's `picture` elements. CSS animations in SVGs honor `prefers-reduced-motion`; GIFs contain no audio. Main facts and links are also available as native README text. Contact prioritizes the visible email address, followed by the owner's supplied LinkedIn and X profiles.
+
+## Activity, skills and topic icons
+
+`python scripts/refresh_activity.py` reads the public GitHub contribution calendar without authentication and public, owned, non-fork repository language bytes through GitHub GraphQL. `GITHUB_TOKEN` is supplied only through the environment. The rolling calendar includes GitHub contributions, not only commits; height uses a logarithmic scale. Language percentages measure repository bytes, not proficiency or authored lines. Archived public repositories are included.
+
+`python scripts/build_activity.py` builds the isometric calendar, language distribution and curated topic icon panels. Icon sources are recorded in `data/topics.json`; the topics are a curated interest gallery. Core languages are maintained separately as Python, Java, TypeScript and Solidity.
+
+The top Contact link scrolls to the native Contact heading. The complete email remains visible and a Gmail compose link provides a browser-based alternative to `mailto:`. No message is sent by either link.
 
 The existing GitHub Pages portfolio under `docs/index.html` is preserved. Profile publishing modifies the README and supporting assets, not the omniAI application.

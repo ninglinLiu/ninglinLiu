@@ -6,6 +6,8 @@ on:
       - '.github/workflows/refresh-profile.yml'
       - 'scripts/build_profile.py'
       - 'scripts/refresh_contributions.py'
+      - 'scripts/refresh_activity.py'
+      - 'scripts/build_activity.py'
   workflow_dispatch:
   schedule:
     - cron: '19 1 * * *'
@@ -28,11 +30,17 @@ jobs:
         run: python scripts/refresh_contributions.py
       - name: Build profile visuals and contribution index
         run: python scripts/build_profile.py
+      - name: Read public calendar and repository languages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/refresh_activity.py
+      - name: Build activity and topic visuals
+        run: python scripts/build_activity.py
       - name: Commit refreshed evidence
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/contributions.json assets/*.svg docs/OPEN_SOURCE.md
+          git add README.md data/contributions.json data/activity.json assets/*.svg docs/OPEN_SOURCE.md
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh upstream contribution atlas"
           git push
