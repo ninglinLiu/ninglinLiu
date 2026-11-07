@@ -7,7 +7,7 @@
   <a href="https://omniaihello.com"><b>EXPLORE omniAI ↗</b></a> &nbsp; / &nbsp;
   <a href="https://github.com/ninglinLiu/script-to-video-skill"><b>VIDEO SKILL ↗</b></a> &nbsp; / &nbsp;
   <a href="docs/OPEN_SOURCE.md"><b>OPEN SOURCE ↗</b></a> &nbsp; / &nbsp;
-  <a href="#contact"><b>CONTACT ↗</b></a>
+  <a href="#user-content-contact"><b>CONTACT ↗</b></a>
 </p>
 
 **刘羽 / Yu Liu** · XJTLU, IoT Engineering · Shanghai / Remote<br>
