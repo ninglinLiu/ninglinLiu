@@ -8,6 +8,11 @@ on:
       - 'scripts/refresh_contributions.py'
       - 'scripts/refresh_activity.py'
       - 'scripts/build_activity.py'
+      - 'scripts/build_plates.py'
+      - 'scripts/build_fonts.py'
+      - 'scripts/requirements-plates.txt'
+      - 'assets/fonts/**'
+      - 'assets/film/**'
   workflow_dispatch:
   schedule:
     - cron: '19 1 * * *'
@@ -39,11 +44,15 @@ jobs:
         run: python scripts/refresh_activity.py
       - name: Build activity and topic visuals
         run: python scripts/build_activity.py
+      - name: Install plate renderer dependencies
+        run: python -m pip install -r scripts/requirements-plates.txt
+      - name: Redraw the printed portfolio plates
+        run: python scripts/build_plates.py
       - name: Commit refreshed evidence
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/contributions.json data/activity.json assets/*.svg docs/OPEN_SOURCE.md
+          git add README.md data/contributions.json data/activity.json assets/*.svg assets/plates/*.svg docs/OPEN_SOURCE.md
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh upstream contribution atlas"
           git pull --rebase origin main

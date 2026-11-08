@@ -3,3 +3,4 @@ preview/
 __pycache__/
 *.pyc
 preview-video.gif
+review/

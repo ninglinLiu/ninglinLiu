@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" width="100%" alt="Yu Liu · 刘羽 — AI engineer, full-stack builder and open-source contributor. 1,000+ omniAI registered users, 175 merged upstream PRs across 27 repositories.">
+  <source media="(max-width: 600px)" srcset="assets/plates/masthead-m.svg">
+  <img src="assets/plates/masthead.svg" width="100%" alt="Yu Liu（ninglin liu）· 刘羽 — AI engineer, full-stack builder and open-source contributor. 1,000+ omniAI registered users, 175 merged upstream PRs across 27 repositories.">
 </picture>
 
 <p align="center">
@@ -10,7 +10,7 @@
   <a href="#user-content-contact"><b>CONTACT ↗</b></a>
 </p>
 
-**刘羽 / Yu Liu** · XJTLU, IoT Engineering · Shanghai / Remote<br>
+**刘羽 / Yu Liu（ninglin liu）** · XJTLU, IoT Engineering · Shanghai / Remote<br>
 I build **AI agents, full-stack products, creative developer tools and on-chain systems** — from business workflows to software people can use.<br>
 专注 **Agent 应用、全栈产品与开源工程**，持续探索 AI × Web3、金融数据与代码驱动的视觉表达。
 
@@ -23,8 +23,8 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 <a href="https://omniaihello.com">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/omniai-mobile.svg">
-  <img src="assets/omniai.svg" width="100%" alt="omniAI — 1,000+ registered users. Explore a bilingual financial research agent through a 3D workspace.">
+  <source media="(max-width: 600px)" srcset="assets/plates/omniai-m.svg">
+  <img src="assets/plates/omniai.svg" width="100%" alt="omniAI — 1,000+ registered users. Explore a bilingual financial research agent through a 3D workspace.">
 </picture>
 </a>
 
@@ -44,8 +44,8 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 <a href="docs/OPEN_SOURCE.md">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/oss-atlas-mobile.svg">
-  <img src="assets/oss-atlas.svg" width="100%" alt="Open-source contribution atlas: 175 merged PRs in 27 upstream repositories. Features, fixes, tests, refactors and documentation.">
+  <source media="(max-width: 600px)" srcset="assets/plates/upstream-m.svg">
+  <img src="assets/plates/upstream.svg" width="100%" alt="Open-source contribution atlas: 175 merged PRs in 27 upstream repositories. Features, fixes, tests, refactors and documentation.">
 </picture>
 </a>
 
@@ -72,8 +72,8 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 <a href="https://github.com/ninglinLiu/script-to-video-skill">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/video-pipeline-mobile.svg">
-  <img src="assets/video-pipeline.svg" width="100%" alt="Script to Video — evidence, script, narration, Three.js motion, rendering and editable delivery.">
+  <source media="(max-width: 600px)" srcset="assets/plates/film-m.svg">
+  <img src="assets/plates/film.svg" width="100%" alt="Script to Video — evidence, script, narration, Three.js motion, rendering and editable delivery.">
 </picture>
 </a>
 
@@ -93,6 +93,11 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 ---
 
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/plates/index-m.svg">
+  <img src="assets/plates/index.svg" width="100%" alt="Web3 and data systems: on-chain events, data pipelines, applications and trading execution.">
+</picture>
+
 ### More AI engineering · 从业务流程到研究工具
 
 | Project | What I build | Explore |
@@ -103,11 +108,6 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 | **LLM Werewolf Arena** | Multi-agent experimentation with personas, role-specific behavior and private memory isolation. | [Repository](https://github.com/ninglinLiu/AI-llm-werewolf-arena-) |
 
 ---
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/web3-mobile.svg">
-  <img src="assets/web3.svg" width="100%" alt="Web3 and data systems: on-chain events, data pipelines, applications and trading execution.">
-</picture>
 
 ### Web3 · Data & Trading Systems · 链上工程与交易系统
 
@@ -135,8 +135,8 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 ---
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
-  <img src="assets/stack.svg" width="100%" alt="Core tech stack: Python, Java, TypeScript and Solidity. React, Next.js, Three.js, RAG, MCP, SQL, ClickHouse, Redis, Linux and Docker.">
+  <source media="(max-width: 600px)" srcset="assets/plates/toolkit-m.svg">
+  <img src="assets/plates/toolkit.svg" width="100%" alt="Core tech stack: Python, Java, TypeScript and Solidity. React, Next.js, Three.js, RAG, MCP, SQL, ClickHouse, Redis, Linux and Docker.">
 </picture>
 
 ### Core Tech Stack
@@ -154,26 +154,26 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 <a href="https://github.com/ninglinLiu?tab=overview">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg">
-  <img src="assets/activity.svg" width="100%" alt="GitHub activity — a 3D contribution calendar covering the last 12 months.">
+  <source media="(max-width: 600px)" srcset="assets/plates/activity-m.svg">
+  <img src="assets/plates/activity.svg" width="100%" alt="GitHub activity — a 3D contribution calendar covering the last 12 months.">
 </picture>
 </a>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/languages-mobile.svg">
-  <img src="assets/languages.svg" width="100%" alt="Language activity measured by code bytes across owned public non-fork repositories.">
-</picture>
 
 ### Topics & Ecosystem
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/topics-mobile.svg">
-  <img src="assets/topics.svg" width="100%" alt="Development and ecosystem topics: Google, C++, Linux, Docker, Raspberry Pi, Ethereum, Solana, Base, Robinhood Chain, Arc, Circle, Chainlink, Binance, OKX and more.">
+  <source media="(max-width: 600px)" srcset="assets/plates/stamps-m.svg">
+  <img src="assets/plates/stamps.svg" width="100%" alt="Development and ecosystem topics: Google, C++, Linux, Docker, Raspberry Pi, Ethereum, Solana, Base, Robinhood Chain, Arc, Circle, Chainlink, Binance, OKX and more.">
 </picture>
 
 [Ethereum](https://ethereum.org) · [Solana](https://solana.com) · [Base](https://base.org) · [Robinhood Chain](https://docs.robinhood.com/chain/) · [Arc](https://www.arc.io) · [Circle](https://www.circle.com) · [Chainlink](https://chain.link) · [Binance](https://www.binance.com) · [OKX](https://www.okx.com)
 
 ---
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/plates/colophon-m.svg">
+  <img src="assets/plates/colophon.svg" width="100%" alt="Contact: x07514475479@gmail.com, LinkedIn yu-liu-359521383 and X @ninglin000.">
+</picture>
 
 <p align="center">
   <b>LET'S BUILD SOMETHING WORTH OPENING.</b><br><br>

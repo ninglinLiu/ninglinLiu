@@ -1,6 +1,23 @@
 # Profile design and maintenance
 
-Original visual direction: ink, warm ivory, jade and copper. Editorial typography, an orbital systems diagram, product footage, a dense upstream contribution atlas and animated workflow diagrams.
+Current visual direction: a printed folio in warm paper, ink, vermilion, ultramarine and gamboge. Nine responsive plates pair display type and Chinese numerals with rolling counters, merged-PR tick marks, a moving film strip, a contribution city and an ecosystem stamp sheet.
+
+The previous ink/jade edition remains in [README.before-folio-20261108.md](../README.before-folio-20261108.md). All previous assets and generator scripts remain available.
+
+## Build the folio
+
+```
+python -m pip install -r scripts/requirements-plates.txt
+python scripts/build_plates.py
+```
+
+The renderer uses the checked-in static masters under `assets/fonts`, public snapshots under `data`, and the existing public product/showcase imagery. It emits desktop and mobile versions of all nine plates to `assets/plates`. Fonts are subset and embedded; no runtime font CDN is required. Font licenses and image sources are listed in [ASSET_CREDITS.md](ASSET_CREDITS.md).
+
+`scripts/build_fonts.py` is only needed when changing font instances or adding Chinese characters to the renderer. The normal workflow uses the committed masters. The workflow keeps both earlier generators, then rebuilds the folio after contribution and language data have refreshed. The existing schedule remains 01:19 UTC (09:19 Asia/Taipei).
+
+Native README copy and link destinations are preserved. The activity plate combines the former contribution and language panels; the index plate covers the existing AI and Web3 project lists. The contact plate accompanies the original clickable contact text.
+
+Display hairlines receive a small optical stroke, numeric punctuation uses a stronger monospaced face, and paper grain is behind the artwork. Mobile repository rows use full-width labels; the mobile ecosystem sheet uses four columns.
 
 ## Rebuild
 
@@ -19,7 +36,7 @@ Original visual direction: ink, warm ivory, jade and copper. Editorial typograph
 
 ## Presentation
 
-Desktop and mobile SVGs are selected with the README's `picture` elements. CSS animations in SVGs honor `prefers-reduced-motion`; GIFs contain no audio. Main facts and links are also available as native README text. Contact prioritizes the visible email address, followed by the owner's supplied LinkedIn and X profiles.
+Desktop and mobile SVGs are selected with the README's `picture` elements. SVG styles include `prefers-reduced-motion` rules; browser handling inside GitHub image elements remains part of the post-publication check. GIFs contain no audio. Main facts and links are also available as native README text. Contact prioritizes the visible email address, followed by the owner's supplied LinkedIn and X profiles.
 
 ## Activity, skills and topic icons
 
