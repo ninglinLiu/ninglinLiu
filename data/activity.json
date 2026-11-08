@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "calendar_source": [
     "https://github.com/users/ninglinLiu/contributions?from=2025-01-01&to=2025-12-31",
     "https://github.com/users/ninglinLiu/contributions?from=2026-01-01&to=2026-12-31"
   ],
   "calendar": [
-    {
-      "date": "2025-11-08",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-09",
       "level": 0,
@@ -1748,22 +1743,22 @@
     {
       "date": "2026-10-22",
       "level": 1,
-      "count": 30
+      "count": 25
     },
     {
       "date": "2026-10-23",
       "level": 2,
-      "count": 42
+      "count": 36
     },
     {
       "date": "2026-10-24",
       "level": 2,
-      "count": 51
+      "count": 50
     },
     {
       "date": "2026-10-25",
       "level": 4,
-      "count": 97
+      "count": 94
     },
     {
       "date": "2026-10-26",
@@ -1829,6 +1824,11 @@
       "date": "2026-11-07",
       "level": 1,
       "count": 25
+    },
+    {
+      "date": "2026-11-08",
+      "level": 1,
+      "count": 30
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",

@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**173 merged pull requests across 25 upstream repositories.**
+**175 merged pull requests across 27 upstream repositories.**
 
-Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -256,6 +256,12 @@ Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#46171 — fix: correct Palm 'decommissioned' typo in error message](https://github.com/BerriAI/litellm/pull/46171) | 2026-10-27 |
 
+## Leaflet/Leaflet · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#10543 — docs: fix allready typo in ImageOverlay spec](https://github.com/Leaflet/Leaflet/pull/10543) | 2026-11-08 |
+
 ## OpenZeppelin/openzeppelin-monitor · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -291,6 +297,12 @@ Updated: 2026-11-07. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#260 — docs: fix dead links in the audio recording, PSTN server and P2P READMEs](https://github.com/pipecat-ai/pipecat-examples/pull/260) | 2026-10-27 |
+
+## preactjs/preact · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#5355 — docs: fix duplicated words and initial-letter typo](https://github.com/preactjs/preact/pull/5355) | 2026-11-08 |
 
 ## pydantic/pydantic · 1 merged
 

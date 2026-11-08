@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" width="100%" alt="Yu Liu · 刘羽 — AI engineer, full-stack builder and open-source contributor. 1,000+ omniAI registered users, 173 merged upstream PRs across 25 repositories.">
+  <img src="assets/hero.svg" width="100%" alt="Yu Liu · 刘羽 — AI engineer, full-stack builder and open-source contributor. 1,000+ omniAI registered users, 175 merged upstream PRs across 27 repositories.">
 </picture>
 
 <p align="center">
@@ -45,7 +45,7 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 <a href="docs/OPEN_SOURCE.md">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/oss-atlas-mobile.svg">
-  <img src="assets/oss-atlas.svg" width="100%" alt="Open-source contribution atlas: 173 merged PRs in 25 upstream repositories. Features, fixes, tests, refactors and documentation.">
+  <img src="assets/oss-atlas.svg" width="100%" alt="Open-source contribution atlas: 175 merged PRs in 27 upstream repositories. Features, fixes, tests, refactors and documentation.">
 </picture>
 </a>
 
@@ -66,7 +66,7 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 **[Browse every merged contribution →](docs/OPEN_SOURCE.md)** &nbsp; **[Live GitHub activity →](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)**
 
-<sub>Snapshot: 2026-11-07 · merged PRs authored by ninglinLiu · own repositories excluded.</sub>
+<sub>Snapshot: 2026-11-08 · merged PRs authored by ninglinLiu · own repositories excluded.</sub>
 
 ---
 

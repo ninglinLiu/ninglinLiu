@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "Leaflet/Leaflet",
+      "number": 10543,
+      "title": "docs: fix allready typo in ImageOverlay spec",
+      "url": "https://github.com/Leaflet/Leaflet/pull/10543",
+      "merged_at": "2026-11-08T06:46:45Z"
+    },
+    {
+      "repository": "preactjs/preact",
+      "number": 5355,
+      "title": "docs: fix duplicated words and initial-letter typo",
+      "url": "https://github.com/preactjs/preact/pull/5355",
+      "merged_at": "2026-11-08T00:37:00Z"
+    },
     {
       "repository": "pydantic/pydantic",
       "number": 14226,
