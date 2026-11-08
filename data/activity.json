@@ -1,8 +1,8 @@
 {
   "updated_at": "2026-11-08",
   "calendar_source": [
-    "https://github.com/users/ninglinLiu/contributions?from=2025-01-01&to=2025-12-31",
-    "https://github.com/users/ninglinLiu/contributions?from=2026-01-01&to=2026-12-31"
+    "https://api.github.com/graphql",
+    "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
     {
@@ -13,7 +13,7 @@
     {
       "date": "2025-11-10",
       "level": 1,
-      "count": 2
+      "count": 1
     },
     {
       "date": "2025-11-11",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2025-11-18",
-      "level": 2,
+      "level": 1,
       "count": 4
     },
     {
@@ -67,8 +67,8 @@
     },
     {
       "date": "2025-11-21",
-      "level": 2,
-      "count": 3
+      "level": 1,
+      "count": 2
     },
     {
       "date": "2025-11-22",
@@ -87,8 +87,8 @@
     },
     {
       "date": "2025-11-25",
-      "level": 3,
-      "count": 6
+      "level": 1,
+      "count": 4
     },
     {
       "date": "2025-11-26",
@@ -122,8 +122,8 @@
     },
     {
       "date": "2025-12-02",
-      "level": 1,
-      "count": 1
+      "level": 0,
+      "count": 0
     },
     {
       "date": "2025-12-03",
@@ -137,8 +137,8 @@
     },
     {
       "date": "2025-12-05",
-      "level": 3,
-      "count": 6
+      "level": 1,
+      "count": 5
     },
     {
       "date": "2025-12-06",
@@ -263,7 +263,7 @@
     {
       "date": "2025-12-30",
       "level": 1,
-      "count": 2
+      "count": 1
     },
     {
       "date": "2025-12-31",
@@ -1698,7 +1698,7 @@
     {
       "date": "2026-10-13",
       "level": 3,
-      "count": 85
+      "count": 83
     },
     {
       "date": "2026-10-14",
@@ -1718,7 +1718,7 @@
     {
       "date": "2026-10-17",
       "level": 1,
-      "count": 16
+      "count": 15
     },
     {
       "date": "2026-10-18",
@@ -1743,12 +1743,12 @@
     {
       "date": "2026-10-22",
       "level": 1,
-      "count": 25
+      "count": 23
     },
     {
       "date": "2026-10-23",
       "level": 2,
-      "count": 36
+      "count": 34
     },
     {
       "date": "2026-10-24",
@@ -1757,23 +1757,23 @@
     },
     {
       "date": "2026-10-25",
-      "level": 4,
-      "count": 94
+      "level": 3,
+      "count": 89
     },
     {
       "date": "2026-10-26",
       "level": 3,
-      "count": 90
+      "count": 81
     },
     {
       "date": "2026-10-27",
       "level": 4,
-      "count": 113
+      "count": 109
     },
     {
       "date": "2026-10-28",
       "level": 4,
-      "count": 104
+      "count": 100
     },
     {
       "date": "2026-10-29",
@@ -1783,7 +1783,7 @@
     {
       "date": "2026-10-30",
       "level": 3,
-      "count": 74
+      "count": 71
     },
     {
       "date": "2026-10-31",
@@ -1827,8 +1827,8 @@
     },
     {
       "date": "2026-11-08",
-      "level": 1,
-      "count": 30
+      "level": 2,
+      "count": 32
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",
@@ -2314,7 +2314,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "bytes": 32141
+          "bytes": 103309
         }
       ]
     },
@@ -2663,7 +2663,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 17978254,
+      "bytes": 18049422,
       "color": "#3572A5"
     },
     {
