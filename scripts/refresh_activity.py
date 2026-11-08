@@ -1,11 +1,11 @@
 """Fetch public profile activity and language bytes; keep tokens out of artifacts."""
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
-from html.parser import HTMLParser
 from collections import Counter
 import json
 import os
-import re
+import time
+import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,48 +18,53 @@ def request(url, payload=None, authenticated=False):
         headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
     body = json.dumps(payload).encode() if payload else None
     if body: headers['Content-Type'] = 'application/json'
-    with urllib.request.urlopen(urllib.request.Request(url, data=body, headers=headers), timeout=60) as response:
-        return response.read().decode('utf-8')
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, data=body, headers=headers), timeout=45) as response:
+                return response.read().decode('utf-8')
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** (attempt + 1))
 
-class Calendar(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.cells = {}
-        self.tips = {}
-        self.current = None
-    def handle_starttag(self, tag, attrs):
-        a = dict(attrs)
-        if tag == 'td' and a.get('data-date'):
-            self.cells[a['id']] = {'date': a['data-date'], 'level': int(a.get('data-level', 0))}
-        if tag == 'tool-tip':
-            self.current = a.get('for')
-            self.tips[self.current] = ''
-    def handle_data(self, data):
-        if self.current: self.tips[self.current] += data
-    def handle_endtag(self, tag):
-        if tag == 'tool-tip': self.current = None
+def parse_calendar(weeks, start, today):
+    levels = {'NONE': 0, 'FIRST_QUARTILE': 1, 'SECOND_QUARTILE': 2,
+              'THIRD_QUARTILE': 3, 'FOURTH_QUARTILE': 4}
+    days = []
+    for week in weeks:
+        for day in week['contributionDays']:
+            if not str(start) <= day['date'] <= str(today):
+                continue
+            count = day['contributionCount']
+            if not isinstance(count, int) or count < 0:
+                raise RuntimeError('Invalid contribution count; preserve previous data.')
+            days.append({'date': day['date'], 'level': levels[day['contributionLevel']], 'count': count})
+    expected = {str(start + timedelta(days=i)) for i in range((today - start).days + 1)}
+    if len(days) != len(expected) or {d['date'] for d in days} != expected:
+        raise RuntimeError('Incomplete or duplicate public calendar; preserve previous data.')
+    return sorted(days, key=lambda d: d['date'])
 
 def main():
     today = datetime.now(timezone.utc).date()
     start = today - timedelta(days=364)
-    urls = []
-    days = []
-    for year in range(start.year, today.year + 1):
-        url = f'https://github.com/users/{USER}/contributions?from={year}-01-01&to={year}-12-31'
-        urls.append(url)
-        calendar = Calendar()
-        calendar.feed(request(url))
-        for identity, day in calendar.cells.items():
-            if not str(start) <= day['date'] <= str(today): continue
-            tip = calendar.tips.get(identity, '')
-            count = re.search(r'([\d,]+) contributions?\b', tip)
-            if count: value = int(count.group(1).replace(',', ''))
-            elif re.search(r'No contributions?\b', tip, re.I): value = 0
-            else: raise RuntimeError('Calendar count could not be parsed; preserve previous data.')
-            days.append({**day, 'count': value})
-    days = list({d['date']:d for d in days}.values())
-    days.sort(key=lambda d: d['date'])
-    if len(days) < 364: raise RuntimeError(f'Incomplete public calendar: {len(days)} days')
+    # Official schema: https://docs.github.com/en/graphql/reference/users#contributionscollection
+    # Actions uses a repository token without read:user scope: public contributions only.
+    calendar_query = '''query($login:String!, $from:DateTime!, $to:DateTime!) {
+      user(login:$login) { contributionsCollection(from:$from, to:$to) {
+        contributionCalendar { weeks { contributionDays { date contributionCount contributionLevel } } }
+      } }
+    }'''
+    calendar_payload = json.loads(request('https://api.github.com/graphql',
+        {'query': calendar_query, 'variables': {'login': USER,
+         'from': f'{start}T00:00:00Z', 'to': f'{today}T23:59:59Z'}}, authenticated=True))
+    if calendar_payload.get('errors'):
+        raise RuntimeError('GitHub GraphQL rejected the calendar query: ' + str(calendar_payload['errors']))
+    weeks = calendar_payload['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+    days = parse_calendar(weeks, start, today)
+    urls = ['https://api.github.com/graphql', f'https://github.com/{USER}?tab=overview']
 
     query = '''query($login:String!, $cursor:String) { user(login:$login) {
       repositories(first:100, after:$cursor, privacy:PUBLIC, isFork:false, ownerAffiliations:OWNER,

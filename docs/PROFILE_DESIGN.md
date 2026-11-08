@@ -40,7 +40,7 @@ Desktop and mobile SVGs are selected with the README's `picture` elements. SVG s
 
 ## Activity, skills and topic icons
 
-`python scripts/refresh_activity.py` reads the public GitHub contribution calendar without authentication and public, owned, non-fork repository language bytes through GitHub GraphQL. `GITHUB_TOKEN` is supplied only through the environment. The rolling calendar includes GitHub contributions, not only commits; height uses a logarithmic scale. Language percentages measure repository bytes, not proficiency or authored lines. Archived public repositories are included.
+`python scripts/refresh_activity.py` reads the contribution calendar and public, owned, non-fork repository language bytes through GitHub GraphQL. The scheduled job uses a repository-scoped `GITHUB_TOKEN` without `read:user`; credentials are supplied only through the environment. The calendar query follows the [official ContributionsCollection schema](https://docs.github.com/en/graphql/reference/users#contributionscollection), avoids the unreliable HTML calendar endpoint, retries transient errors, and rejects incomplete or duplicate days before replacing the snapshot. The rolling calendar includes GitHub contributions, not only commits; height uses a logarithmic scale. Language percentages measure repository bytes, not proficiency or authored lines. Archived public repositories are included.
 
 `python scripts/build_activity.py` builds the isometric calendar, language distribution and curated topic icon panels. Icon sources are recorded in `data/topics.json`; the topics are a curated interest gallery. Core languages are maintained separately as Python, Java, TypeScript and Solidity.
 
