@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**175 merged pull requests across 27 upstream repositories.**
+**178 merged pull requests across 29 upstream repositories.**
 
-Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-09. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -197,6 +197,15 @@ Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#8093 — fix(worker): return 503 from health until RegisterWorkerResponse](https://github.com/livekit/agents/pull/8093) | 2026-10-25 |
 | [#7891 — fix(google): count Gemini thinking tokens in LLM completion_tokens](https://github.com/livekit/agents/pull/7891) | 2026-10-25 |
 
+## livekit/components-js · 4 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1506 — docs: fix overriden typo in IYamlApiFile comment](https://github.com/livekit/components-js/pull/1506) | 2026-11-08 |
+| [#1503 — docs: fix controling/visualing typos in Agents UI README](https://github.com/livekit/components-js/pull/1503) | 2026-11-04 |
+| [#1498 — docs: remove duplicated word in README examples note](https://github.com/livekit/components-js/pull/1498) | 2026-11-03 |
+| [#1479 — refactor(react): use areTokenSourceFetchOptionsEqual from livekit-client in useSession](https://github.com/livekit/components-js/pull/1479) | 2026-10-27 |
+
 ## NonceGeek/dim-sum-right-proof · 3 merged
 
 | Pull request | Merged (UTC) |
@@ -220,14 +229,6 @@ Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#11925 — fix(arrow-select): merge dictionaries in merge and merge_n instead of panicking on key overflow](https://github.com/apache/arrow-rs/pull/11925) | 2026-10-28 |
 | [#11915 — fix(arrow-avro): keep nulls when reading strings as Utf8View](https://github.com/apache/arrow-rs/pull/11915) | 2026-10-26 |
 | [#11906 — fix(arrow-data): extend Interval(DayTime) as IntervalDayTime in MutableArrayData](https://github.com/apache/arrow-rs/pull/11906) | 2026-10-26 |
-
-## livekit/components-js · 3 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#1503 — docs: fix controling/visualing typos in Agents UI README](https://github.com/livekit/components-js/pull/1503) | 2026-11-04 |
-| [#1498 — docs: remove duplicated word in README examples note](https://github.com/livekit/components-js/pull/1498) | 2026-11-03 |
-| [#1479 — refactor(react): use areTokenSourceFetchOptionsEqual from livekit-client in useSession](https://github.com/livekit/components-js/pull/1479) | 2026-10-27 |
 
 ## apache/iceberg-rust · 2 merged
 
@@ -262,6 +263,12 @@ Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#10543 — docs: fix allready typo in ImageOverlay spec](https://github.com/Leaflet/Leaflet/pull/10543) | 2026-11-08 |
 
+## NethermindEth/nethermind · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#15734 — docs: remove duplicated words in comments and StatsAnalyzer docs](https://github.com/NethermindEth/nethermind/pull/15734) | 2026-11-09 |
+
 ## OpenZeppelin/openzeppelin-monitor · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -273,6 +280,12 @@ Updated: 2026-11-08. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#26681 — chore(csv): use shared aggr_test_schema in CSV scan tests](https://github.com/apache/datafusion/pull/26681) | 2026-10-24 |
+
+## biomejs/biome · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#13039 — docs: remove duplicated word in HTML formatter debug comment](https://github.com/biomejs/biome/pull/13039) | 2026-11-09 |
 
 ## foundry-rs/book · 1 merged
 

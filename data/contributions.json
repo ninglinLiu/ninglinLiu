@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "NethermindEth/nethermind",
+      "number": 15734,
+      "title": "docs: remove duplicated words in comments and StatsAnalyzer docs",
+      "url": "https://github.com/NethermindEth/nethermind/pull/15734",
+      "merged_at": "2026-11-09T07:07:45Z"
+    },
+    {
+      "repository": "biomejs/biome",
+      "number": 13039,
+      "title": "docs: remove duplicated word in HTML formatter debug comment",
+      "url": "https://github.com/biomejs/biome/pull/13039",
+      "merged_at": "2026-11-09T04:48:54Z"
+    },
+    {
+      "repository": "livekit/components-js",
+      "number": 1506,
+      "title": "docs: fix overriden typo in IYamlApiFile comment",
+      "url": "https://github.com/livekit/components-js/pull/1506",
+      "merged_at": "2026-11-08T21:22:07Z"
+    },
     {
       "repository": "Leaflet/Leaflet",
       "number": 10543,
