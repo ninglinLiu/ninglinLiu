@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "apache/datafusion-comet",
+      "number": 7215,
+      "title": "fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast",
+      "url": "https://github.com/apache/datafusion-comet/pull/7215",
+      "merged_at": "2026-11-10T01:07:16Z"
+    },
+    {
+      "repository": "foundry-rs/foundry-core",
+      "number": 290,
+      "title": "fix(explorers): return an error for an unparseable solc list entry instead of panicking",
+      "url": "https://github.com/foundry-rs/foundry-core/pull/290",
+      "merged_at": "2026-11-09T14:43:40Z"
+    },
+    {
+      "repository": "storybookjs/storybook",
+      "number": 37267,
+      "title": "Docs: Fix seperator typo and duplicated words",
+      "url": "https://github.com/storybookjs/storybook/pull/37267",
+      "merged_at": "2026-11-09T09:15:25Z"
+    },
     {
       "repository": "NethermindEth/nethermind",
       "number": 15734,

@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "calendar_source": [
     "https://api.github.com/graphql",
     "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
-    {
-      "date": "2025-11-10",
-      "level": 1,
-      "count": 1
-    },
     {
       "date": "2025-11-11",
       "level": 0,
@@ -1693,7 +1688,7 @@
     {
       "date": "2026-10-13",
       "level": 3,
-      "count": 83
+      "count": 84
     },
     {
       "date": "2026-10-14",
@@ -1748,7 +1743,7 @@
     {
       "date": "2026-10-24",
       "level": 2,
-      "count": 50
+      "count": 55
     },
     {
       "date": "2026-10-25",
@@ -1763,12 +1758,12 @@
     {
       "date": "2026-10-27",
       "level": 4,
-      "count": 105
+      "count": 96
     },
     {
       "date": "2026-10-28",
       "level": 4,
-      "count": 100
+      "count": 103
     },
     {
       "date": "2026-10-29",
@@ -1778,7 +1773,7 @@
     {
       "date": "2026-10-30",
       "level": 3,
-      "count": 71
+      "count": 74
     },
     {
       "date": "2026-10-31",
@@ -1793,12 +1788,12 @@
     {
       "date": "2026-11-02",
       "level": 1,
-      "count": 27
+      "count": 30
     },
     {
       "date": "2026-11-03",
       "level": 1,
-      "count": 12
+      "count": 14
     },
     {
       "date": "2026-11-04",
@@ -1812,8 +1807,8 @@
     },
     {
       "date": "2026-11-06",
-      "level": 1,
-      "count": 28
+      "level": 2,
+      "count": 31
     },
     {
       "date": "2026-11-07",
@@ -1828,7 +1823,12 @@
     {
       "date": "2026-11-09",
       "level": 1,
-      "count": 25
+      "count": 28
+    },
+    {
+      "date": "2026-11-10",
+      "level": 1,
+      "count": 21
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",
@@ -2168,17 +2168,22 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "bytes": 569549
+          "bytes": 1076770
         },
         {
           "name": "CSS",
           "color": "#663399",
-          "bytes": 44522
+          "bytes": 149247
+        },
+        {
+          "name": "PLpgSQL",
+          "color": "#336790",
+          "bytes": 59213
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "bytes": 10498
+          "bytes": 35099
         },
         {
           "name": "HTML",
@@ -2397,17 +2402,17 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "bytes": 2572191
+          "bytes": 2593720
         },
         {
           "name": "Python",
           "color": "#3572A5",
-          "bytes": 252636
+          "bytes": 309010
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "bytes": 5777
+          "bytes": 6878
         },
         {
           "name": "Shell",
@@ -2663,17 +2668,17 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 18049422,
+      "bytes": 18105796,
       "color": "#3572A5"
     },
     {
       "name": "HTML",
-      "bytes": 7195951,
+      "bytes": 7197052,
       "color": "#e34c26"
     },
     {
       "name": "TypeScript",
-      "bytes": 5637726,
+      "bytes": 6144947,
       "color": "#3178c6"
     },
     {
@@ -2683,7 +2688,7 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 2824680,
+      "bytes": 2870810,
       "color": "#f1e05a"
     },
     {
@@ -2692,19 +2697,24 @@
       "color": "#89e051"
     },
     {
+      "name": "CSS",
+      "bytes": 272225,
+      "color": "#663399"
+    },
+    {
       "name": "Rust",
       "bytes": 172988,
       "color": "#dea584"
     },
     {
-      "name": "CSS",
-      "bytes": 167500,
-      "color": "#663399"
-    },
-    {
       "name": "Solidity",
       "bytes": 59489,
       "color": "#AA6746"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 59213,
+      "color": "#336790"
     },
     {
       "name": "PowerShell",

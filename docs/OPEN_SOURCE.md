@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**178 merged pull requests across 29 upstream repositories.**
+**181 merged pull requests across 31 upstream repositories.**
 
-Updated: 2026-11-09. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-10. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -120,10 +120,11 @@ Updated: 2026-11-09. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#2917 — [REFACTOR][MultiAgentRouter][Remove the unread shared_memory_system parameter]](https://github.com/kyegomez/swarms/pull/2917) | 2026-10-27 |
 | [#2891 — chore(agent): remove unused Agent.check_available_tokens](https://github.com/kyegomez/swarms/pull/2891) | 2026-10-26 |
 
-## foundry-rs/foundry-core · 8 merged
+## foundry-rs/foundry-core · 9 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
+| [#290 — fix(explorers): return an error for an unparseable solc list entry instead of panicking](https://github.com/foundry-rs/foundry-core/pull/290) | 2026-11-09 |
 | [#279 — fix(artifacts): keep a context's trailing slash when displaying remappings on Windows](https://github.com/foundry-rs/foundry-core/pull/279) | 2026-10-27 |
 | [#276 — test(explorers): use a still-unverified address in the mainnet verify test](https://github.com/foundry-rs/foundry-core/pull/276) | 2026-10-27 |
 | [#283 — fix(explorers): return ParseOverflow instead of wrapping or panicking in parse_units](https://github.com/foundry-rs/foundry-core/pull/283) | 2026-10-27 |
@@ -281,6 +282,12 @@ Updated: 2026-11-09. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#26681 — chore(csv): use shared aggr_test_schema in CSV scan tests](https://github.com/apache/datafusion/pull/26681) | 2026-10-24 |
 
+## apache/datafusion-comet · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#7215 — fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast](https://github.com/apache/datafusion-comet/pull/7215) | 2026-11-10 |
+
 ## biomejs/biome · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -322,6 +329,12 @@ Updated: 2026-11-09. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#14226 — Fix typo in `ErrorTypeDefaults` comment](https://github.com/pydantic/pydantic/pull/14226) | 2026-11-06 |
+
+## storybookjs/storybook · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#37267 — Docs: Fix seperator typo and duplicated words](https://github.com/storybookjs/storybook/pull/37267) | 2026-11-09 |
 
 ## topoteretes/cognee · 1 merged
 
