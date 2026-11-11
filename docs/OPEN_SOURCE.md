@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**181 merged pull requests across 31 upstream repositories.**
+**186 merged pull requests across 35 upstream repositories.**
 
-Updated: 2026-11-10. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -245,6 +245,13 @@ Updated: 2026-11-10. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#6052 — docs(skills): update browser-hour price $0.05 → $0.02](https://github.com/browser-use/browser-use/pull/6052) | 2026-10-17 |
 | [#6051 — docs(skills): align signup credit with live pricing ($15 → $1)](https://github.com/browser-use/browser-use/pull/6051) | 2026-10-17 |
 
+## preactjs/preact · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#5357 — chore: fix typos in comments](https://github.com/preactjs/preact/pull/5357) | 2026-11-11 |
+| [#5355 — docs: fix duplicated words and initial-letter typo](https://github.com/preactjs/preact/pull/5355) | 2026-11-08 |
+
 ## pydantic/pydantic-ai · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -300,6 +307,18 @@ Updated: 2026-11-10. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#2196 — docs(tempo): fix dead TIP-1049 link](https://github.com/foundry-rs/book/pull/2196) | 2026-10-27 |
 
+## highlightjs/highlight.js · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4580 — docs: fix typos in security policy and contributor docs](https://github.com/highlightjs/highlight.js/pull/4580) | 2026-11-11 |
+
+## markedjs/marked · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4220 — docs: fix typo in demo comment](https://github.com/markedjs/marked/pull/4220) | 2026-11-11 |
+
 ## microsoft/onnxruntime · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -318,17 +337,23 @@ Updated: 2026-11-10. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#260 — docs: fix dead links in the audio recording, PSTN server and P2P READMEs](https://github.com/pipecat-ai/pipecat-examples/pull/260) | 2026-10-27 |
 
-## preactjs/preact · 1 merged
+## prettier/prettier · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
-| [#5355 — docs: fix duplicated words and initial-letter typo](https://github.com/preactjs/preact/pull/5355) | 2026-11-08 |
+| [#20479 — docs: remove duplicated word in changelog and test title](https://github.com/prettier/prettier/pull/20479) | 2026-11-10 |
 
 ## pydantic/pydantic · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#14226 — Fix typo in `ErrorTypeDefaults` comment](https://github.com/pydantic/pydantic/pull/14226) | 2026-11-06 |
+
+## sqlalchemy/sqlalchemy · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#13774 — docs: remove duplicated words in FETCH docstring and association proxy guide](https://github.com/sqlalchemy/sqlalchemy/pull/13774) | 2026-11-10 |
 
 ## storybookjs/storybook · 1 merged
 

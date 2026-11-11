@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "highlightjs/highlight.js",
+      "number": 4580,
+      "title": "docs: fix typos in security policy and contributor docs",
+      "url": "https://github.com/highlightjs/highlight.js/pull/4580",
+      "merged_at": "2026-11-11T07:20:44Z"
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4220,
+      "title": "docs: fix typo in demo comment",
+      "url": "https://github.com/markedjs/marked/pull/4220",
+      "merged_at": "2026-11-11T04:09:30Z"
+    },
+    {
+      "repository": "preactjs/preact",
+      "number": 5357,
+      "title": "chore: fix typos in comments",
+      "url": "https://github.com/preactjs/preact/pull/5357",
+      "merged_at": "2026-11-11T00:48:40Z"
+    },
+    {
+      "repository": "sqlalchemy/sqlalchemy",
+      "number": 13774,
+      "title": "docs: remove duplicated words in FETCH docstring and association proxy guide",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/pull/13774",
+      "merged_at": "2026-11-10T18:17:19Z"
+    },
+    {
+      "repository": "prettier/prettier",
+      "number": 20479,
+      "title": "docs: remove duplicated word in changelog and test title",
+      "url": "https://github.com/prettier/prettier/pull/20479",
+      "merged_at": "2026-11-10T17:51:19Z"
+    },
     {
       "repository": "apache/datafusion-comet",
       "number": 7215,
