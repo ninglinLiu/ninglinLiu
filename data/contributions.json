@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "postcss/postcss",
+      "number": 2196,
+      "title": "docs: fix typo in plugin guidelines heading",
+      "url": "https://github.com/postcss/postcss/pull/2196",
+      "merged_at": "2026-11-12T08:05:16Z"
+    },
+    {
+      "repository": "agronholm/anyio",
+      "number": 1473,
+      "title": "docs: remove duplicated word in lock/semaphore tips",
+      "url": "https://github.com/agronholm/anyio/pull/1473",
+      "merged_at": "2026-11-12T07:54:18Z"
+    },
+    {
+      "repository": "pypa/packaging",
+      "number": 1516,
+      "title": "Fix duplicated words in comments and docstrings",
+      "url": "https://github.com/pypa/packaging/pull/1516",
+      "merged_at": "2026-11-12T04:46:49Z"
+    },
+    {
+      "repository": "sveltejs/svelte",
+      "number": 19237,
+      "title": "docs: remove duplicated word in option value comment",
+      "url": "https://github.com/sveltejs/svelte/pull/19237",
+      "merged_at": "2026-11-11T14:43:00Z"
+    },
     {
       "repository": "highlightjs/highlight.js",
       "number": 4580,

@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**186 merged pull requests across 35 upstream repositories.**
+**190 merged pull requests across 39 upstream repositories.**
 
-Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -283,6 +283,12 @@ Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#526 — test: add a shared MonitorMatch test builder](https://github.com/OpenZeppelin/openzeppelin-monitor/pull/526) | 2026-10-28 |
 
+## agronholm/anyio · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1473 — docs: remove duplicated word in lock/semaphore tips](https://github.com/agronholm/anyio/pull/1473) | 2026-11-12 |
+
 ## apache/datafusion · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -337,6 +343,12 @@ Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#260 — docs: fix dead links in the audio recording, PSTN server and P2P READMEs](https://github.com/pipecat-ai/pipecat-examples/pull/260) | 2026-10-27 |
 
+## postcss/postcss · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2196 — docs: fix typo in plugin guidelines heading](https://github.com/postcss/postcss/pull/2196) | 2026-11-12 |
+
 ## prettier/prettier · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -349,6 +361,12 @@ Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#14226 — Fix typo in `ErrorTypeDefaults` comment](https://github.com/pydantic/pydantic/pull/14226) | 2026-11-06 |
 
+## pypa/packaging · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1516 — Fix duplicated words in comments and docstrings](https://github.com/pypa/packaging/pull/1516) | 2026-11-12 |
+
 ## sqlalchemy/sqlalchemy · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -360,6 +378,12 @@ Updated: 2026-11-11. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#37267 — Docs: Fix seperator typo and duplicated words](https://github.com/storybookjs/storybook/pull/37267) | 2026-11-09 |
+
+## sveltejs/svelte · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#19237 — docs: remove duplicated word in option value comment](https://github.com/sveltejs/svelte/pull/19237) | 2026-11-11 |
 
 ## topoteretes/cognee · 1 merged
 
