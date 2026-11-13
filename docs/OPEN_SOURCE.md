@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**190 merged pull requests across 39 upstream repositories.**
+**195 merged pull requests across 43 upstream repositories.**
 
-Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -238,6 +238,13 @@ Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#3553 — chore(release): check crate LICENSE/NOTICE files in verify_rc.sh](https://github.com/apache/iceberg-rust/pull/3553) | 2026-10-27 |
 | [#3528 — chore(dev): fold the crate LICENSE/NOTICE check into licenses.py](https://github.com/apache/iceberg-rust/pull/3528) | 2026-10-27 |
 
+## biomejs/biome · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#13132 — docs: typo in static value doc comments](https://github.com/biomejs/biome/pull/13132) | 2026-11-13 |
+| [#13039 — docs: remove duplicated word in HTML formatter debug comment](https://github.com/biomejs/biome/pull/13039) | 2026-11-09 |
+
 ## browser-use/browser-use · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -301,12 +308,6 @@ Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#7215 — fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast](https://github.com/apache/datafusion-comet/pull/7215) | 2026-11-10 |
 
-## biomejs/biome · 1 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#13039 — docs: remove duplicated word in HTML formatter debug comment](https://github.com/biomejs/biome/pull/13039) | 2026-11-09 |
-
 ## foundry-rs/book · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -367,6 +368,18 @@ Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#1516 — Fix duplicated words in comments and docstrings](https://github.com/pypa/packaging/pull/1516) | 2026-11-12 |
 
+## redis/redis-py · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4624 — Fix typo: duplicated 'in' in connection pool test comments](https://github.com/redis/redis-py/pull/4624) | 2026-11-12 |
+
+## socketio/socket.io · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#5594 — chore(engine.io): fix typo in debug message](https://github.com/socketio/socket.io/pull/5594) | 2026-11-12 |
+
 ## sqlalchemy/sqlalchemy · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -390,3 +403,15 @@ Updated: 2026-11-12. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#6266 — docs(ollama): add self-hosted Ollama and OpenAI-compatible setup](https://github.com/topoteretes/cognee/pull/6266) | 2026-10-23 |
+
+## trpc/trpc · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#8038 — docs: fix duplicated 'as' in v10 FAQ headings](https://github.com/trpc/trpc/pull/8038) | 2026-11-12 |
+
+## vllm-project/vllm · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#67346 — docs: typo in Elastic EP error and ASR comment](https://github.com/vllm-project/vllm/pull/67346) | 2026-11-13 |

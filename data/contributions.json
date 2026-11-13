@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-13",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "vllm-project/vllm",
+      "number": 67346,
+      "title": "docs: typo in Elastic EP error and ASR comment",
+      "url": "https://github.com/vllm-project/vllm/pull/67346",
+      "merged_at": "2026-11-13T05:27:27Z"
+    },
+    {
+      "repository": "biomejs/biome",
+      "number": 13132,
+      "title": "docs: typo in static value doc comments",
+      "url": "https://github.com/biomejs/biome/pull/13132",
+      "merged_at": "2026-11-13T03:02:59Z"
+    },
+    {
+      "repository": "trpc/trpc",
+      "number": 8038,
+      "title": "docs: fix duplicated 'as' in v10 FAQ headings",
+      "url": "https://github.com/trpc/trpc/pull/8038",
+      "merged_at": "2026-11-12T22:21:46Z"
+    },
+    {
+      "repository": "redis/redis-py",
+      "number": 4624,
+      "title": "Fix typo: duplicated 'in' in connection pool test comments",
+      "url": "https://github.com/redis/redis-py/pull/4624",
+      "merged_at": "2026-11-12T18:16:49Z"
+    },
+    {
+      "repository": "socketio/socket.io",
+      "number": 5594,
+      "title": "chore(engine.io): fix typo in debug message",
+      "url": "https://github.com/socketio/socket.io/pull/5594",
+      "merged_at": "2026-11-12T08:29:05Z"
+    },
     {
       "repository": "postcss/postcss",
       "number": 2196,
