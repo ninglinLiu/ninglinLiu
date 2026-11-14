@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**195 merged pull requests across 43 upstream repositories.**
+**199 merged pull requests across 45 upstream repositories.**
 
-Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-14. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -147,10 +147,11 @@ Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#9859 — Python: include Anthropic cache tokens in input_token_count](https://github.com/microsoft/agent-framework/pull/9859) | 2026-11-02 |
 | [#9741 — Python: use AZURE_OPENAI_EMBEDDING_MODEL in the Foundry memory sample README](https://github.com/microsoft/agent-framework/pull/9741) | 2026-10-27 |
 
-## 567-labs/instructor · 6 merged
+## 567-labs/instructor · 7 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
+| [#2976 — docs: fix compatability typo in Gemini multimodal tests](https://github.com/567-labs/instructor/pull/2976) | 2026-11-13 |
 | [#2789 — docs(tutorials): stop teaching instructor.patch() as the core path](https://github.com/567-labs/instructor/pull/2789) | 2026-11-03 |
 | [#2788 — docs(tutorials): fix OpenAI().create(...) in 1-introduction.ipynb](https://github.com/567-labs/instructor/pull/2788) | 2026-11-03 |
 | [#2794 — docs(llms.txt): fix Maybe factory and result/error/message fields](https://github.com/567-labs/instructor/pull/2794) | 2026-11-03 |
@@ -158,10 +159,11 @@ Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#2786 — docs(blog): drop non-existent RedisCache from native caching callout](https://github.com/567-labs/instructor/pull/2786) | 2026-11-03 |
 | [#2785 — docs(anthropic): fix PdfWithCacheControl → PDFWithCacheControl](https://github.com/567-labs/instructor/pull/2785) | 2026-11-03 |
 
-## livekit/client-sdk-js · 6 merged
+## livekit/client-sdk-js · 7 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
+| [#2224 — fix(signal): guard instanceof Event for React Native timeouts](https://github.com/livekit/client-sdk-js/pull/2224) | 2026-11-14 |
 | [#2237 — docs: fix withing typo in WrapAroundUnsignedInt comment](https://github.com/livekit/client-sdk-js/pull/2237) | 2026-11-06 |
 | [#2198 — fix(token-source): don't return the cached response for options whose fetch failed](https://github.com/livekit/client-sdk-js/pull/2198) | 2026-10-27 |
 | [#2188 — fix(e2ee): decrypt data packets with the ratcheted key when retrying](https://github.com/livekit/client-sdk-js/pull/2188) | 2026-10-27 |
@@ -308,6 +310,12 @@ Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#7215 — fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast](https://github.com/apache/datafusion-comet/pull/7215) | 2026-11-10 |
 
+## dask/dask · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#12719 — docs: typo, remove duplicated word in shuffle docstring](https://github.com/dask/dask/pull/12719) | 2026-11-13 |
+
 ## foundry-rs/book · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -397,6 +405,12 @@ Updated: 2026-11-13. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#19237 — docs: remove duplicated word in option value comment](https://github.com/sveltejs/svelte/pull/19237) | 2026-11-11 |
+
+## sympy/sympy · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#31065 — docs: typo, remove duplicated words](https://github.com/sympy/sympy/pull/31065) | 2026-11-13 |
 
 ## topoteretes/cognee · 1 merged
 

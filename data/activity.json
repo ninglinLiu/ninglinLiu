@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-14",
   "calendar_source": [
     "https://api.github.com/graphql",
     "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
-    {
-      "date": "2025-11-14",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-15",
       "level": 0,
@@ -1753,7 +1748,7 @@
     {
       "date": "2026-10-29",
       "level": 4,
-      "count": 103
+      "count": 100
     },
     {
       "date": "2026-10-30",
@@ -1772,8 +1767,8 @@
     },
     {
       "date": "2026-11-02",
-      "level": 2,
-      "count": 30
+      "level": 1,
+      "count": 25
     },
     {
       "date": "2026-11-03",
@@ -1783,7 +1778,7 @@
     {
       "date": "2026-11-04",
       "level": 1,
-      "count": 24
+      "count": 23
     },
     {
       "date": "2026-11-05",
@@ -1828,7 +1823,12 @@
     {
       "date": "2026-11-13",
       "level": 1,
-      "count": 21
+      "count": 24
+    },
+    {
+      "date": "2026-11-14",
+      "level": 1,
+      "count": 23
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",
@@ -1997,7 +1997,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "bytes": 146422
+          "bytes": 155075
         },
         {
           "name": "JavaScript",
@@ -2007,7 +2007,7 @@
         {
           "name": "Shell",
           "color": "#89e051",
-          "bytes": 24333
+          "bytes": 25676
         }
       ]
     },
@@ -2689,7 +2689,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 18252218,
+      "bytes": 18260871,
       "color": "#3572A5"
     },
     {
@@ -2714,7 +2714,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 333153,
+      "bytes": 334496,
       "color": "#89e051"
     },
     {
