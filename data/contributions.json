@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "go-sql-driver/mysql",
+      "number": 1855,
+      "title": "docs: remove duplicated word in infile comment",
+      "url": "https://github.com/go-sql-driver/mysql/pull/1855",
+      "merged_at": "2026-11-15T03:49:34Z"
+    },
+    {
+      "repository": "nats-io/nats.go",
+      "number": 2242,
+      "title": "docs: remove duplicated word in MemoryMaxStreamBytes comment",
+      "url": "https://github.com/nats-io/nats.go/pull/2242",
+      "merged_at": "2026-11-15T01:01:47Z"
+    },
+    {
+      "repository": "rust-lang/mdBook",
+      "number": 3267,
+      "title": "docs: remove duplicated word in include test fixture",
+      "url": "https://github.com/rust-lang/mdBook/pull/3267",
+      "merged_at": "2026-11-14T16:05:35Z"
+    },
     {
       "repository": "livekit/client-sdk-js",
       "number": 2224,

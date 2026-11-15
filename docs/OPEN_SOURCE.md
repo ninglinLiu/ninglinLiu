@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**199 merged pull requests across 45 upstream repositories.**
+**202 merged pull requests across 48 upstream repositories.**
 
-Updated: 2026-11-14. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-15. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -322,6 +322,12 @@ Updated: 2026-11-14. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#2196 — docs(tempo): fix dead TIP-1049 link](https://github.com/foundry-rs/book/pull/2196) | 2026-10-27 |
 
+## go-sql-driver/mysql · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1855 — docs: remove duplicated word in infile comment](https://github.com/go-sql-driver/mysql/pull/1855) | 2026-11-15 |
+
 ## highlightjs/highlight.js · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -339,6 +345,12 @@ Updated: 2026-11-14. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#33532 — fix: scope tpause_spin_delay_cycles to the _tpause branch](https://github.com/microsoft/onnxruntime/pull/33532) | 2026-10-22 |
+
+## nats-io/nats.go · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2242 — docs: remove duplicated word in MemoryMaxStreamBytes comment](https://github.com/nats-io/nats.go/pull/2242) | 2026-11-15 |
 
 ## pipecat-ai/docs · 1 merged
 
@@ -381,6 +393,12 @@ Updated: 2026-11-14. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4624 — Fix typo: duplicated 'in' in connection pool test comments](https://github.com/redis/redis-py/pull/4624) | 2026-11-12 |
+
+## rust-lang/mdBook · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#3267 — docs: remove duplicated word in include test fixture](https://github.com/rust-lang/mdBook/pull/3267) | 2026-11-14 |
 
 ## socketio/socket.io · 1 merged
 
