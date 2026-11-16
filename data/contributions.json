@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "diesel-rs/diesel",
+      "number": 5387,
+      "title": "docs: remove duplicated words in sqlite comment and custom_arrays example",
+      "url": "https://github.com/diesel-rs/diesel/pull/5387",
+      "merged_at": "2026-11-16T06:08:32Z"
+    },
+    {
+      "repository": "livekit/components-js",
+      "number": 1515,
+      "title": "docs: remove duplicated words in comments and examples",
+      "url": "https://github.com/livekit/components-js/pull/1515",
+      "merged_at": "2026-11-15T21:45:56Z"
+    },
     {
       "repository": "go-sql-driver/mysql",
       "number": 1855,

@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**202 merged pull requests across 48 upstream repositories.**
+**204 merged pull requests across 49 upstream repositories.**
 
-Updated: 2026-11-15. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -182,6 +182,16 @@ Updated: 2026-11-15. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#6389 — Fix the Gradium key name and drop removed services in env.example](https://github.com/pipecat-ai/pipecat/pull/6389) | 2026-10-27 |
 | [#6387 — Fix the 404 Pipecat Cloud docs link printed by pipecat init](https://github.com/pipecat-ai/pipecat/pull/6387) | 2026-10-27 |
 
+## livekit/components-js · 5 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1515 — docs: remove duplicated words in comments and examples](https://github.com/livekit/components-js/pull/1515) | 2026-11-15 |
+| [#1506 — docs: fix overriden typo in IYamlApiFile comment](https://github.com/livekit/components-js/pull/1506) | 2026-11-08 |
+| [#1503 — docs: fix controling/visualing typos in Agents UI README](https://github.com/livekit/components-js/pull/1503) | 2026-11-04 |
+| [#1498 — docs: remove duplicated word in README examples note](https://github.com/livekit/components-js/pull/1498) | 2026-11-03 |
+| [#1479 — refactor(react): use areTokenSourceFetchOptionsEqual from livekit-client in useSession](https://github.com/livekit/components-js/pull/1479) | 2026-10-27 |
+
 ## foundry-rs/foundry · 4 merged
 
 | Pull request | Merged (UTC) |
@@ -199,15 +209,6 @@ Updated: 2026-11-15. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#8151 — docs(plugins): fix environment variables in the neuphonic and rtzr READMEs](https://github.com/livekit/agents/pull/8151) | 2026-10-27 |
 | [#8093 — fix(worker): return 503 from health until RegisterWorkerResponse](https://github.com/livekit/agents/pull/8093) | 2026-10-25 |
 | [#7891 — fix(google): count Gemini thinking tokens in LLM completion_tokens](https://github.com/livekit/agents/pull/7891) | 2026-10-25 |
-
-## livekit/components-js · 4 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#1506 — docs: fix overriden typo in IYamlApiFile comment](https://github.com/livekit/components-js/pull/1506) | 2026-11-08 |
-| [#1503 — docs: fix controling/visualing typos in Agents UI README](https://github.com/livekit/components-js/pull/1503) | 2026-11-04 |
-| [#1498 — docs: remove duplicated word in README examples note](https://github.com/livekit/components-js/pull/1498) | 2026-11-03 |
-| [#1479 — refactor(react): use areTokenSourceFetchOptionsEqual from livekit-client in useSession](https://github.com/livekit/components-js/pull/1479) | 2026-10-27 |
 
 ## NonceGeek/dim-sum-right-proof · 3 merged
 
@@ -315,6 +316,12 @@ Updated: 2026-11-15. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#12719 — docs: typo, remove duplicated word in shuffle docstring](https://github.com/dask/dask/pull/12719) | 2026-11-13 |
+
+## diesel-rs/diesel · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#5387 — docs: remove duplicated words in sqlite comment and custom_arrays example](https://github.com/diesel-rs/diesel/pull/5387) | 2026-11-16 |
 
 ## foundry-rs/book · 1 merged
 

@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "calendar_source": [
     "https://api.github.com/graphql",
     "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
-    {
-      "date": "2025-11-16",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-17",
       "level": 0,
@@ -1782,13 +1777,13 @@
     },
     {
       "date": "2026-11-06",
-      "level": 2,
-      "count": 28
+      "level": 1,
+      "count": 21
     },
     {
       "date": "2026-11-07",
       "level": 1,
-      "count": 25
+      "count": 20
     },
     {
       "date": "2026-11-08",
@@ -1828,7 +1823,12 @@
     {
       "date": "2026-11-15",
       "level": 2,
-      "count": 34
+      "count": 35
+    },
+    {
+      "date": "2026-11-16",
+      "level": 1,
+      "count": 24
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",
@@ -2189,27 +2189,42 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "bytes": 1076770
+          "bytes": 1115581
         },
         {
           "name": "CSS",
           "color": "#663399",
-          "bytes": 149247
+          "bytes": 149547
         },
         {
           "name": "PLpgSQL",
           "color": "#336790",
-          "bytes": 59213
+          "bytes": 61872
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "bytes": 35099
+          "bytes": 51314
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "bytes": 3769
         },
         {
           "name": "HTML",
           "color": "#e34c26",
           "bytes": 1016
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "bytes": 420
+        },
+        {
+          "name": "Batchfile",
+          "color": "#C1F12E",
+          "bytes": 79
         }
       ]
     },
@@ -2689,7 +2704,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 18260871,
+      "bytes": 18264640,
       "color": "#3572A5"
     },
     {
@@ -2699,7 +2714,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 6144947,
+      "bytes": 6183758,
       "color": "#3178c6"
     },
     {
@@ -2709,17 +2724,17 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 2899373,
+      "bytes": 2915588,
       "color": "#f1e05a"
     },
     {
       "name": "Shell",
-      "bytes": 334496,
+      "bytes": 334916,
       "color": "#89e051"
     },
     {
       "name": "CSS",
-      "bytes": 272225,
+      "bytes": 272525,
       "color": "#663399"
     },
     {
@@ -2728,14 +2743,14 @@
       "color": "#dea584"
     },
     {
+      "name": "PLpgSQL",
+      "bytes": 61872,
+      "color": "#336790"
+    },
+    {
       "name": "Solidity",
       "bytes": 59489,
       "color": "#AA6746"
-    },
-    {
-      "name": "PLpgSQL",
-      "bytes": 59213,
-      "color": "#336790"
     },
     {
       "name": "PowerShell",
@@ -2754,7 +2769,7 @@
     },
     {
       "name": "Batchfile",
-      "bytes": 9833,
+      "bytes": 9912,
       "color": "#C1F12E"
     },
     {
