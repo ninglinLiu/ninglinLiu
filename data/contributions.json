@@ -1,7 +1,84 @@
 {
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-17",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "pylint-dev/pylint",
+      "number": 11837,
+      "title": "docs: remove duplicated words in comments and docs",
+      "url": "https://github.com/pylint-dev/pylint/pull/11837",
+      "merged_at": "2026-11-17T02:36:51Z"
+    },
+    {
+      "repository": "ethereum/execution-apis",
+      "number": 968,
+      "title": "docs: fix Transfering/overriden typos in eth_simulate notes",
+      "url": "https://github.com/ethereum/execution-apis/pull/968",
+      "merged_at": "2026-11-16T23:18:02Z"
+    },
+    {
+      "repository": "ethereum/execution-apis",
+      "number": 966,
+      "title": "docs: drop duplicated word in intro contributing sentence",
+      "url": "https://github.com/ethereum/execution-apis/pull/966",
+      "merged_at": "2026-11-16T23:17:59Z"
+    },
+    {
+      "repository": "containerd/containerd",
+      "number": 14579,
+      "title": "docs: fix compatability typo in RELEASES.md",
+      "url": "https://github.com/containerd/containerd/pull/14579",
+      "merged_at": "2026-11-16T23:07:02Z"
+    },
+    {
+      "repository": "pypa/virtualenv",
+      "number": 3544,
+      "title": "🧪 test(create): fix typo in long-path test comment",
+      "url": "https://github.com/pypa/virtualenv/pull/3544",
+      "merged_at": "2026-11-16T22:30:59Z"
+    },
+    {
+      "repository": "websockets/ws",
+      "number": 2363,
+      "title": "docs: fix typo in permessage-deflate JSDoc",
+      "url": "https://github.com/websockets/ws/pull/2363",
+      "merged_at": "2026-11-16T20:15:45Z"
+    },
+    {
+      "repository": "Python-Markdown/markdown",
+      "number": 1709,
+      "title": "docs: fix typos in comments and documentation",
+      "url": "https://github.com/Python-Markdown/markdown/pull/1709",
+      "merged_at": "2026-11-16T16:39:03Z"
+    },
+    {
+      "repository": "reduxjs/redux-toolkit",
+      "number": 5616,
+      "title": "docs: remove duplicated words in JSDoc and test comment",
+      "url": "https://github.com/reduxjs/redux-toolkit/pull/5616",
+      "merged_at": "2026-11-16T15:41:49Z"
+    },
+    {
+      "repository": "microsoft/agent-framework",
+      "number": 10352,
+      "title": ".NET: docs: remove duplicated words in comments",
+      "url": "https://github.com/microsoft/agent-framework/pull/10352",
+      "merged_at": "2026-11-16T13:02:59Z"
+    },
+    {
+      "repository": "SeaQL/sea-orm",
+      "number": 3268,
+      "title": "docs: fix typos in comments and examples",
+      "url": "https://github.com/SeaQL/sea-orm/pull/3268",
+      "merged_at": "2026-11-16T09:10:44Z"
+    },
+    {
+      "repository": "derailed/k9s",
+      "number": 4389,
+      "title": "docs: fix typos in scale-daemonsets plugin comment",
+      "url": "https://github.com/derailed/k9s/pull/4389",
+      "merged_at": "2026-11-16T08:19:16Z"
+    },
     {
       "repository": "diesel-rs/diesel",
       "number": 5387,

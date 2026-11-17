@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**204 merged pull requests across 49 upstream repositories.**
+**215 merged pull requests across 58 upstream repositories.**
 
-Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -134,10 +134,11 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#274 — fix(compilers): store cached remappings root-relative](https://github.com/foundry-rs/foundry-core/pull/274) | 2026-10-26 |
 | [#275 — chore(deps): bump crypto-bigint to 0.7.10 for RUSTSEC-2026-0387](https://github.com/foundry-rs/foundry-core/pull/275) | 2026-10-26 |
 
-## microsoft/agent-framework · 8 merged
+## microsoft/agent-framework · 9 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
+| [#10352 — .NET: docs: remove duplicated words in comments](https://github.com/microsoft/agent-framework/pull/10352) | 2026-11-16 |
 | [#10108 — .NET: docs: fix dont typos in ChatCompletions comments](https://github.com/microsoft/agent-framework/pull/10108) | 2026-11-05 |
 | [#10070 — docs: fix spelling typos in decision records](https://github.com/microsoft/agent-framework/pull/10070) | 2026-11-04 |
 | [#9873 — .NET: fall back when a restored agent mode is no longer configured](https://github.com/microsoft/agent-framework/pull/9873) | 2026-11-02 |
@@ -255,6 +256,13 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#6052 — docs(skills): update browser-hour price $0.05 → $0.02](https://github.com/browser-use/browser-use/pull/6052) | 2026-10-17 |
 | [#6051 — docs(skills): align signup credit with live pricing ($15 → $1)](https://github.com/browser-use/browser-use/pull/6051) | 2026-10-17 |
 
+## ethereum/execution-apis · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#968 — docs: fix Transfering/overriden typos in eth_simulate notes](https://github.com/ethereum/execution-apis/pull/968) | 2026-11-16 |
+| [#966 — docs: drop duplicated word in intro contributing sentence](https://github.com/ethereum/execution-apis/pull/966) | 2026-11-16 |
+
 ## preactjs/preact · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -293,6 +301,18 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#526 — test: add a shared MonitorMatch test builder](https://github.com/OpenZeppelin/openzeppelin-monitor/pull/526) | 2026-10-28 |
 
+## Python-Markdown/markdown · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1709 — docs: fix typos in comments and documentation](https://github.com/Python-Markdown/markdown/pull/1709) | 2026-11-16 |
+
+## SeaQL/sea-orm · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#3268 — docs: fix typos in comments and examples](https://github.com/SeaQL/sea-orm/pull/3268) | 2026-11-16 |
+
 ## agronholm/anyio · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -311,11 +331,23 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#7215 — fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast](https://github.com/apache/datafusion-comet/pull/7215) | 2026-11-10 |
 
+## containerd/containerd · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#14579 — docs: fix compatability typo in RELEASES.md](https://github.com/containerd/containerd/pull/14579) | 2026-11-16 |
+
 ## dask/dask · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#12719 — docs: typo, remove duplicated word in shuffle docstring](https://github.com/dask/dask/pull/12719) | 2026-11-13 |
+
+## derailed/k9s · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4389 — docs: fix typos in scale-daemonsets plugin comment](https://github.com/derailed/k9s/pull/4389) | 2026-11-16 |
 
 ## diesel-rs/diesel · 1 merged
 
@@ -389,17 +421,35 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#14226 — Fix typo in `ErrorTypeDefaults` comment](https://github.com/pydantic/pydantic/pull/14226) | 2026-11-06 |
 
+## pylint-dev/pylint · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#11837 — docs: remove duplicated words in comments and docs](https://github.com/pylint-dev/pylint/pull/11837) | 2026-11-17 |
+
 ## pypa/packaging · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#1516 — Fix duplicated words in comments and docstrings](https://github.com/pypa/packaging/pull/1516) | 2026-11-12 |
 
+## pypa/virtualenv · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#3544 — 🧪 test(create): fix typo in long-path test comment](https://github.com/pypa/virtualenv/pull/3544) | 2026-11-16 |
+
 ## redis/redis-py · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4624 — Fix typo: duplicated 'in' in connection pool test comments](https://github.com/redis/redis-py/pull/4624) | 2026-11-12 |
+
+## reduxjs/redux-toolkit · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#5616 — docs: remove duplicated words in JSDoc and test comment](https://github.com/reduxjs/redux-toolkit/pull/5616) | 2026-11-16 |
 
 ## rust-lang/mdBook · 1 merged
 
@@ -454,3 +504,9 @@ Updated: 2026-11-16. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#67346 — docs: typo in Elastic EP error and ASR comment](https://github.com/vllm-project/vllm/pull/67346) | 2026-11-13 |
+
+## websockets/ws · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2363 — docs: fix typo in permessage-deflate JSDoc](https://github.com/websockets/ws/pull/2363) | 2026-11-16 |
