@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**215 merged pull requests across 58 upstream repositories.**
+**210 merged pull requests across 61 upstream repositories.**
 
-Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -133,20 +133,6 @@ Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#285 — fix(explorers): don't panic on a cache TTL that overflows](https://github.com/foundry-rs/foundry-core/pull/285) | 2026-10-27 |
 | [#274 — fix(compilers): store cached remappings root-relative](https://github.com/foundry-rs/foundry-core/pull/274) | 2026-10-26 |
 | [#275 — chore(deps): bump crypto-bigint to 0.7.10 for RUSTSEC-2026-0387](https://github.com/foundry-rs/foundry-core/pull/275) | 2026-10-26 |
-
-## microsoft/agent-framework · 9 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#10352 — .NET: docs: remove duplicated words in comments](https://github.com/microsoft/agent-framework/pull/10352) | 2026-11-16 |
-| [#10108 — .NET: docs: fix dont typos in ChatCompletions comments](https://github.com/microsoft/agent-framework/pull/10108) | 2026-11-05 |
-| [#10070 — docs: fix spelling typos in decision records](https://github.com/microsoft/agent-framework/pull/10070) | 2026-11-04 |
-| [#9873 — .NET: fall back when a restored agent mode is no longer configured](https://github.com/microsoft/agent-framework/pull/9873) | 2026-11-02 |
-| [#9781 — Python: use FOUNDRY_* settings in the red teaming sample README](https://github.com/microsoft/agent-framework/pull/9781) | 2026-11-02 |
-| [#9758 — Python: use FOUNDRY_* settings in the ChatKit integration sample README](https://github.com/microsoft/agent-framework/pull/9758) | 2026-11-02 |
-| [#9740 — Python: use FOUNDRY_MODEL in the Content Understanding DevUI sample READMEs](https://github.com/microsoft/agent-framework/pull/9740) | 2026-11-02 |
-| [#9859 — Python: include Anthropic cache tokens in input_token_count](https://github.com/microsoft/agent-framework/pull/9859) | 2026-11-02 |
-| [#9741 — Python: use AZURE_OPENAI_EMBEDDING_MODEL in the Foundry memory sample README](https://github.com/microsoft/agent-framework/pull/9741) | 2026-10-27 |
 
 ## 567-labs/instructor · 7 merged
 
@@ -373,17 +359,17 @@ Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#4580 — docs: fix typos in security policy and contributor docs](https://github.com/highlightjs/highlight.js/pull/4580) | 2026-11-11 |
 
+## ipython/ipython · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#15479 — docs: typo, remove duplicated word in displayhook](https://github.com/ipython/ipython/pull/15479) | 2026-11-17 |
+
 ## markedjs/marked · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4220 — docs: fix typo in demo comment](https://github.com/markedjs/marked/pull/4220) | 2026-11-11 |
-
-## microsoft/onnxruntime · 1 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#33532 — fix: scope tpause_spin_delay_cycles to the _tpause branch](https://github.com/microsoft/onnxruntime/pull/33532) | 2026-10-22 |
 
 ## nats-io/nats.go · 1 merged
 
@@ -415,6 +401,12 @@ Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#20479 — docs: remove duplicated word in changelog and test title](https://github.com/prettier/prettier/pull/20479) | 2026-11-10 |
 
+## pyca/cryptography · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#16022 — docs: remove duplicated word in test-vectors docs](https://github.com/pyca/cryptography/pull/16022) | 2026-11-18 |
+
 ## pydantic/pydantic · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -438,6 +430,18 @@ Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#3544 — 🧪 test(create): fix typo in long-path test comment](https://github.com/pypa/virtualenv/pull/3544) | 2026-11-16 |
+
+## python-pillow/Pillow · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#10540 — Fix typos in installation docs and comments](https://github.com/python-pillow/Pillow/pull/10540) | 2026-11-18 |
+
+## react-hook-form/react-hook-form · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#14033 — docs: fix typo in isRadioOrCheckbox test name](https://github.com/react-hook-form/react-hook-form/pull/14033) | 2026-11-18 |
 
 ## redis/redis-py · 1 merged
 
@@ -474,6 +478,12 @@ Updated: 2026-11-17. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#37267 — Docs: Fix seperator typo and duplicated words](https://github.com/storybookjs/storybook/pull/37267) | 2026-11-09 |
+
+## supabase/supabase-js · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2832 — docs: fix overriden typo in PostgREST type comments](https://github.com/supabase/supabase-js/pull/2832) | 2026-11-17 |
 
 ## sveltejs/svelte · 1 merged
 

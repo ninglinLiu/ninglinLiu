@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "pyca/cryptography",
+      "number": 16022,
+      "title": "docs: remove duplicated word in test-vectors docs",
+      "url": "https://github.com/pyca/cryptography/pull/16022",
+      "merged_at": "2026-11-18T02:33:16Z"
+    },
+    {
+      "repository": "python-pillow/Pillow",
+      "number": 10540,
+      "title": "Fix typos in installation docs and comments",
+      "url": "https://github.com/python-pillow/Pillow/pull/10540",
+      "merged_at": "2026-11-18T00:17:49Z"
+    },
+    {
+      "repository": "react-hook-form/react-hook-form",
+      "number": 14033,
+      "title": "docs: fix typo in isRadioOrCheckbox test name",
+      "url": "https://github.com/react-hook-form/react-hook-form/pull/14033",
+      "merged_at": "2026-11-18T00:15:09Z"
+    },
+    {
+      "repository": "ipython/ipython",
+      "number": 15479,
+      "title": "docs: typo, remove duplicated word in displayhook",
+      "url": "https://github.com/ipython/ipython/pull/15479",
+      "merged_at": "2026-11-17T13:36:17Z"
+    },
+    {
+      "repository": "supabase/supabase-js",
+      "number": 2832,
+      "title": "docs: fix overriden typo in PostgREST type comments",
+      "url": "https://github.com/supabase/supabase-js/pull/2832",
+      "merged_at": "2026-11-17T12:56:39Z"
+    },
     {
       "repository": "pylint-dev/pylint",
       "number": 11837,
@@ -57,13 +92,6 @@
       "title": "docs: remove duplicated words in JSDoc and test comment",
       "url": "https://github.com/reduxjs/redux-toolkit/pull/5616",
       "merged_at": "2026-11-16T15:41:49Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 10352,
-      "title": ".NET: docs: remove duplicated words in comments",
-      "url": "https://github.com/microsoft/agent-framework/pull/10352",
-      "merged_at": "2026-11-16T13:02:59Z"
     },
     {
       "repository": "SeaQL/sea-orm",
@@ -311,25 +339,11 @@
       "merged_at": "2026-11-06T00:48:02Z"
     },
     {
-      "repository": "microsoft/agent-framework",
-      "number": 10108,
-      "title": ".NET: docs: fix dont typos in ChatCompletions comments",
-      "url": "https://github.com/microsoft/agent-framework/pull/10108",
-      "merged_at": "2026-11-05T12:25:08Z"
-    },
-    {
       "repository": "foundry-rs/foundry",
       "number": 18097,
       "title": "docs: fix dont typos in fmt dynamic comments",
       "url": "https://github.com/foundry-rs/foundry/pull/18097",
       "merged_at": "2026-11-04T16:25:29Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 10070,
-      "title": "docs: fix spelling typos in decision records",
-      "url": "https://github.com/microsoft/agent-framework/pull/10070",
-      "merged_at": "2026-11-04T10:22:28Z"
     },
     {
       "repository": "livekit/components-js",
@@ -409,46 +423,11 @@
       "merged_at": "2026-11-03T02:13:47Z"
     },
     {
-      "repository": "microsoft/agent-framework",
-      "number": 9873,
-      "title": ".NET: fall back when a restored agent mode is no longer configured",
-      "url": "https://github.com/microsoft/agent-framework/pull/9873",
-      "merged_at": "2026-11-02T13:04:52Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 9781,
-      "title": "Python: use FOUNDRY_* settings in the red teaming sample README",
-      "url": "https://github.com/microsoft/agent-framework/pull/9781",
-      "merged_at": "2026-11-02T11:19:56Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 9758,
-      "title": "Python: use FOUNDRY_* settings in the ChatKit integration sample README",
-      "url": "https://github.com/microsoft/agent-framework/pull/9758",
-      "merged_at": "2026-11-02T11:17:17Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 9740,
-      "title": "Python: use FOUNDRY_MODEL in the Content Understanding DevUI sample READMEs",
-      "url": "https://github.com/microsoft/agent-framework/pull/9740",
-      "merged_at": "2026-11-02T11:15:16Z"
-    },
-    {
       "repository": "foundry-rs/foundry",
       "number": 17925,
       "title": "fix(cast): keep decode-error/event --json stdout as JSON only",
       "url": "https://github.com/foundry-rs/foundry/pull/17925",
       "merged_at": "2026-11-02T10:46:33Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 9859,
-      "title": "Python: include Anthropic cache tokens in input_token_count",
-      "url": "https://github.com/microsoft/agent-framework/pull/9859",
-      "merged_at": "2026-11-02T09:36:22Z"
     },
     {
       "repository": "livekit/agents",
@@ -778,13 +757,6 @@
       "title": "Fix the Gradium key name and drop removed services in env.example",
       "url": "https://github.com/pipecat-ai/pipecat/pull/6389",
       "merged_at": "2026-10-27T12:46:47Z"
-    },
-    {
-      "repository": "microsoft/agent-framework",
-      "number": 9741,
-      "title": "Python: use AZURE_OPENAI_EMBEDDING_MODEL in the Foundry memory sample README",
-      "url": "https://github.com/microsoft/agent-framework/pull/9741",
-      "merged_at": "2026-10-27T12:36:59Z"
     },
     {
       "repository": "CrossGL/crosstl",
@@ -1450,13 +1422,6 @@
       "title": "docs: close Sphinx inline literal in private_global_prefix docstring",
       "url": "https://github.com/CrossGL/crosstl/pull/2751",
       "merged_at": "2026-10-23T16:28:51Z"
-    },
-    {
-      "repository": "microsoft/onnxruntime",
-      "number": 33532,
-      "title": "fix: scope tpause_spin_delay_cycles to the _tpause branch",
-      "url": "https://github.com/microsoft/onnxruntime/pull/33532",
-      "merged_at": "2026-10-22T20:24:01Z"
     },
     {
       "repository": "browser-use/browser-use",
