@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "calendar_source": [
     "https://api.github.com/graphql",
     "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
-    {
-      "date": "2025-11-19",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-20",
       "level": 0,
@@ -1783,12 +1778,12 @@
     {
       "date": "2026-11-09",
       "level": 1,
-      "count": 24
+      "count": 18
     },
     {
       "date": "2026-11-10",
       "level": 1,
-      "count": 21
+      "count": 14
     },
     {
       "date": "2026-11-11",
@@ -1798,7 +1793,7 @@
     {
       "date": "2026-11-12",
       "level": 2,
-      "count": 40
+      "count": 41
     },
     {
       "date": "2026-11-13",
@@ -1818,7 +1813,7 @@
     {
       "date": "2026-11-16",
       "level": 2,
-      "count": 29
+      "count": 30
     },
     {
       "date": "2026-11-17",
@@ -1827,6 +1822,11 @@
     },
     {
       "date": "2026-11-18",
+      "level": 2,
+      "count": 27
+    },
+    {
+      "date": "2026-11-19",
       "level": 1,
       "count": 25
     }

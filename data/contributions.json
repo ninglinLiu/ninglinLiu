@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "puppeteer/puppeteer",
+      "number": 15827,
+      "title": "docs: fix typo in examples README",
+      "url": "https://github.com/puppeteer/puppeteer/pull/15827",
+      "merged_at": "2026-11-18T17:37:35Z"
+    },
+    {
+      "repository": "Automattic/mongoose",
+      "number": 16714,
+      "title": "docs: fix typos in comments, tests, and typings",
+      "url": "https://github.com/Automattic/mongoose/pull/16714",
+      "merged_at": "2026-11-18T16:09:11Z"
+    },
+    {
+      "repository": "aio-libs/yarl",
+      "number": 2031,
+      "title": "docs: fix typo in install docs and is_absolute docstring",
+      "url": "https://github.com/aio-libs/yarl/pull/2031",
+      "merged_at": "2026-11-18T12:31:39Z"
+    },
+    {
+      "repository": "rclone/rclone",
+      "number": 10322,
+      "title": "vfs: fix typo in Open comment",
+      "url": "https://github.com/rclone/rclone/pull/10322",
+      "merged_at": "2026-11-18T11:22:09Z"
+    },
+    {
+      "repository": "prisma/orm",
+      "number": 30981,
+      "title": "docs: remove duplicated word in migrate CLI porting checklist",
+      "url": "https://github.com/prisma/orm/pull/30981",
+      "merged_at": "2026-11-18T10:41:01Z"
+    },
     {
       "repository": "pyca/cryptography",
       "number": 16022,

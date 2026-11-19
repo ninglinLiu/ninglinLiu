@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**210 merged pull requests across 61 upstream repositories.**
+**215 merged pull requests across 66 upstream repositories.**
 
-Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -263,6 +263,12 @@ Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#10230 — Use the `result.usage` property in the `ModelResponse.usage` docstring](https://github.com/pydantic/pydantic-ai/pull/10230) | 2026-10-15 |
 | [#10171 — Use the `result.usage` property in the `SystemReminders` docs](https://github.com/pydantic/pydantic-ai/pull/10171) | 2026-10-13 |
 
+## Automattic/mongoose · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#16714 — docs: fix typos in comments, tests, and typings](https://github.com/Automattic/mongoose/pull/16714) | 2026-11-18 |
+
 ## BerriAI/litellm · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -304,6 +310,12 @@ Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#1473 — docs: remove duplicated word in lock/semaphore tips](https://github.com/agronholm/anyio/pull/1473) | 2026-11-12 |
+
+## aio-libs/yarl · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2031 — docs: fix typo in install docs and is_absolute docstring](https://github.com/aio-libs/yarl/pull/2031) | 2026-11-18 |
 
 ## apache/datafusion · 1 merged
 
@@ -401,6 +413,18 @@ Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#20479 — docs: remove duplicated word in changelog and test title](https://github.com/prettier/prettier/pull/20479) | 2026-11-10 |
 
+## prisma/orm · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#30981 — docs: remove duplicated word in migrate CLI porting checklist](https://github.com/prisma/orm/pull/30981) | 2026-11-18 |
+
+## puppeteer/puppeteer · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#15827 — docs: fix typo in examples README](https://github.com/puppeteer/puppeteer/pull/15827) | 2026-11-18 |
+
 ## pyca/cryptography · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -436,6 +460,12 @@ Updated: 2026-11-18. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#10540 — Fix typos in installation docs and comments](https://github.com/python-pillow/Pillow/pull/10540) | 2026-11-18 |
+
+## rclone/rclone · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#10322 — vfs: fix typo in Open comment](https://github.com/rclone/rclone/pull/10322) | 2026-11-18 |
 
 ## react-hook-form/react-hook-form · 1 merged
 
