@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**215 merged pull requests across 66 upstream repositories.**
+**220 merged pull requests across 71 upstream repositories.**
 
-Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -275,6 +275,12 @@ Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#46171 — fix: correct Palm 'decommissioned' typo in error message](https://github.com/BerriAI/litellm/pull/46171) | 2026-10-27 |
 
+## BurntSushi/ripgrep · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#3600 — docs: remove duplicated word in glob parser comment](https://github.com/BurntSushi/ripgrep/pull/3600) | 2026-11-20 |
+
 ## Leaflet/Leaflet · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -353,6 +359,12 @@ Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#5387 — docs: remove duplicated words in sqlite comment and custom_arrays example](https://github.com/diesel-rs/diesel/pull/5387) | 2026-11-16 |
 
+## express-rate-limit/express-rate-limit · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#716 — test: fix typo in external test runner messages](https://github.com/express-rate-limit/express-rate-limit/pull/716) | 2026-11-20 |
+
 ## foundry-rs/book · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -382,6 +394,12 @@ Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4220 — docs: fix typo in demo comment](https://github.com/markedjs/marked/pull/4220) | 2026-11-11 |
+
+## mobxjs/mobx · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4785 — chore: fix typo in comments and tests](https://github.com/mobxjs/mobx/pull/4785) | 2026-11-20 |
 
 ## nats-io/nats.go · 1 merged
 
@@ -485,6 +503,12 @@ Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#5616 — docs: remove duplicated words in JSDoc and test comment](https://github.com/reduxjs/redux-toolkit/pull/5616) | 2026-11-16 |
 
+## rs/cors · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#233 — Fix "penality" typo in README](https://github.com/rs/cors/pull/233) | 2026-11-19 |
+
 ## rust-lang/mdBook · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -538,6 +562,12 @@ Updated: 2026-11-19. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#8038 — docs: fix duplicated 'as' in v10 FAQ headings](https://github.com/trpc/trpc/pull/8038) | 2026-11-12 |
+
+## valyala/fasthttp · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2596 — Fix typos in test comments](https://github.com/valyala/fasthttp/pull/2596) | 2026-11-19 |
 
 ## vllm-project/vllm · 1 merged
 

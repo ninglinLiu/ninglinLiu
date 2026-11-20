@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-20",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "express-rate-limit/express-rate-limit",
+      "number": 716,
+      "title": "test: fix typo in external test runner messages",
+      "url": "https://github.com/express-rate-limit/express-rate-limit/pull/716",
+      "merged_at": "2026-11-20T07:14:10Z"
+    },
+    {
+      "repository": "mobxjs/mobx",
+      "number": 4785,
+      "title": "chore: fix typo in comments and tests",
+      "url": "https://github.com/mobxjs/mobx/pull/4785",
+      "merged_at": "2026-11-20T05:14:32Z"
+    },
+    {
+      "repository": "BurntSushi/ripgrep",
+      "number": 3600,
+      "title": "docs: remove duplicated word in glob parser comment",
+      "url": "https://github.com/BurntSushi/ripgrep/pull/3600",
+      "merged_at": "2026-11-20T01:46:51Z"
+    },
+    {
+      "repository": "rs/cors",
+      "number": 233,
+      "title": "Fix \"penality\" typo in README",
+      "url": "https://github.com/rs/cors/pull/233",
+      "merged_at": "2026-11-19T12:47:38Z"
+    },
+    {
+      "repository": "valyala/fasthttp",
+      "number": 2596,
+      "title": "Fix typos in test comments",
+      "url": "https://github.com/valyala/fasthttp/pull/2596",
+      "merged_at": "2026-11-19T09:39:54Z"
+    },
     {
       "repository": "puppeteer/puppeteer",
       "number": 15827,
