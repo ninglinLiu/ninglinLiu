@@ -1,7 +1,49 @@
 {
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "sinonjs/sinon",
+      "number": 2816,
+      "title": "docs: remove duplicated word in fake-timers docs",
+      "url": "https://github.com/sinonjs/sinon/pull/2816",
+      "merged_at": "2026-11-20T16:50:34Z"
+    },
+    {
+      "repository": "joke2k/faker",
+      "number": 2545,
+      "title": "docs: fix typo in release process and comments",
+      "url": "https://github.com/joke2k/faker/pull/2545",
+      "merged_at": "2026-11-20T16:46:55Z"
+    },
+    {
+      "repository": "microsoft/semantic-kernel",
+      "number": 14758,
+      "title": "Python: docs: remove duplicated words in comments, samples, and ADRs",
+      "url": "https://github.com/microsoft/semantic-kernel/pull/14758",
+      "merged_at": "2026-11-20T13:37:10Z"
+    },
+    {
+      "repository": "ipython/ipython",
+      "number": 15486,
+      "title": "TST: fix typo in test name (overriden → overridden)",
+      "url": "https://github.com/ipython/ipython/pull/15486",
+      "merged_at": "2026-11-20T10:15:45Z"
+    },
+    {
+      "repository": "redis/go-redis",
+      "number": 4364,
+      "title": "docs: fix typo in Addr comment",
+      "url": "https://github.com/redis/go-redis/pull/4364",
+      "merged_at": "2026-11-20T09:44:17Z"
+    },
+    {
+      "repository": "pion/mediadevices",
+      "number": 733,
+      "title": "docs: fix typo in MimeType comments",
+      "url": "https://github.com/pion/mediadevices/pull/733",
+      "merged_at": "2026-11-20T09:25:08Z"
+    },
     {
       "repository": "express-rate-limit/express-rate-limit",
       "number": 716,

@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**220 merged pull requests across 71 upstream repositories.**
+**226 merged pull requests across 76 upstream repositories.**
 
-Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-21. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -249,6 +249,13 @@ Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#968 — docs: fix Transfering/overriden typos in eth_simulate notes](https://github.com/ethereum/execution-apis/pull/968) | 2026-11-16 |
 | [#966 — docs: drop duplicated word in intro contributing sentence](https://github.com/ethereum/execution-apis/pull/966) | 2026-11-16 |
 
+## ipython/ipython · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#15486 — TST: fix typo in test name (overriden → overridden)](https://github.com/ipython/ipython/pull/15486) | 2026-11-20 |
+| [#15479 — docs: typo, remove duplicated word in displayhook](https://github.com/ipython/ipython/pull/15479) | 2026-11-17 |
+
 ## preactjs/preact · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -383,17 +390,23 @@ Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#4580 — docs: fix typos in security policy and contributor docs](https://github.com/highlightjs/highlight.js/pull/4580) | 2026-11-11 |
 
-## ipython/ipython · 1 merged
+## joke2k/faker · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
-| [#15479 — docs: typo, remove duplicated word in displayhook](https://github.com/ipython/ipython/pull/15479) | 2026-11-17 |
+| [#2545 — docs: fix typo in release process and comments](https://github.com/joke2k/faker/pull/2545) | 2026-11-20 |
 
 ## markedjs/marked · 1 merged
 
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4220 — docs: fix typo in demo comment](https://github.com/markedjs/marked/pull/4220) | 2026-11-11 |
+
+## microsoft/semantic-kernel · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#14758 — Python: docs: remove duplicated words in comments, samples, and ADRs](https://github.com/microsoft/semantic-kernel/pull/14758) | 2026-11-20 |
 
 ## mobxjs/mobx · 1 merged
 
@@ -406,6 +419,12 @@ Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#2242 — docs: remove duplicated word in MemoryMaxStreamBytes comment](https://github.com/nats-io/nats.go/pull/2242) | 2026-11-15 |
+
+## pion/mediadevices · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#733 — docs: fix typo in MimeType comments](https://github.com/pion/mediadevices/pull/733) | 2026-11-20 |
 
 ## pipecat-ai/docs · 1 merged
 
@@ -491,6 +510,12 @@ Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#14033 — docs: fix typo in isRadioOrCheckbox test name](https://github.com/react-hook-form/react-hook-form/pull/14033) | 2026-11-18 |
 
+## redis/go-redis · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#4364 — docs: fix typo in Addr comment](https://github.com/redis/go-redis/pull/4364) | 2026-11-20 |
+
 ## redis/redis-py · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -514,6 +539,12 @@ Updated: 2026-11-20. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#3267 — docs: remove duplicated word in include test fixture](https://github.com/rust-lang/mdBook/pull/3267) | 2026-11-14 |
+
+## sinonjs/sinon · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2816 — docs: remove duplicated word in fake-timers docs](https://github.com/sinonjs/sinon/pull/2816) | 2026-11-20 |
 
 ## socketio/socket.io · 1 merged
 
