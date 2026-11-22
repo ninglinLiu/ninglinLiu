@@ -66,7 +66,7 @@ I build **AI agents, full-stack products, creative developer tools and on-chain 
 
 **[Browse every merged contribution →](docs/OPEN_SOURCE.md)** &nbsp; **[Live GitHub activity →](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)**
 
-<sub>Snapshot: 2026-11-21 · merged PRs authored by ninglinLiu · own repositories excluded.</sub>
+<sub>Snapshot: 2026-11-22 · merged PRs authored by ninglinLiu · own repositories excluded.</sub>
 
 ---
 
