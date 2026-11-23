@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**226 merged pull requests across 76 upstream repositories.**
+**228 merged pull requests across 78 upstream repositories.**
 
-Updated: 2026-11-22. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-23. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -342,6 +342,12 @@ Updated: 2026-11-22. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#7215 — fix: resolve SHORT_IDS and region zone suffixes in native string-to-timestamp cast](https://github.com/apache/datafusion-comet/pull/7215) | 2026-11-10 |
 
+## chartjs/Chart.js · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#12394 — docs: remove duplicated word in doughnut spacing JSDoc](https://github.com/chartjs/Chart.js/pull/12394) | 2026-11-22 |
+
 ## containerd/containerd · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -389,6 +395,12 @@ Updated: 2026-11-22. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#4580 — docs: fix typos in security policy and contributor docs](https://github.com/highlightjs/highlight.js/pull/4580) | 2026-11-11 |
+
+## hynek/structlog · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#859 — docs: fix typo in docs and comments](https://github.com/hynek/structlog/pull/859) | 2026-11-22 |
 
 ## joke2k/faker · 1 merged
 

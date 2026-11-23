@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-23",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "chartjs/Chart.js",
+      "number": 12394,
+      "title": "docs: remove duplicated word in doughnut spacing JSDoc",
+      "url": "https://github.com/chartjs/Chart.js/pull/12394",
+      "merged_at": "2026-11-22T16:41:51Z"
+    },
+    {
+      "repository": "hynek/structlog",
+      "number": 859,
+      "title": "docs: fix typo in docs and comments",
+      "url": "https://github.com/hynek/structlog/pull/859",
+      "merged_at": "2026-11-22T12:20:23Z"
+    },
     {
       "repository": "sinonjs/sinon",
       "number": 2816,
