@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-23",
+  "updated_at": "2026-11-24",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "Automattic/mongoose",
+      "number": 16730,
+      "title": "test: fix typo in populate test titles",
+      "url": "https://github.com/Automattic/mongoose/pull/16730",
+      "merged_at": "2026-11-23T18:18:44Z"
+    },
     {
       "repository": "chartjs/Chart.js",
       "number": 12394,

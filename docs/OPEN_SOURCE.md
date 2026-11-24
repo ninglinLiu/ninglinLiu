@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**228 merged pull requests across 78 upstream repositories.**
+**229 merged pull requests across 78 upstream repositories.**
 
-Updated: 2026-11-23. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-24. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -221,6 +221,13 @@ Updated: 2026-11-23. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#11915 — fix(arrow-avro): keep nulls when reading strings as Utf8View](https://github.com/apache/arrow-rs/pull/11915) | 2026-10-26 |
 | [#11906 — fix(arrow-data): extend Interval(DayTime) as IntervalDayTime in MutableArrayData](https://github.com/apache/arrow-rs/pull/11906) | 2026-10-26 |
 
+## Automattic/mongoose · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#16730 — test: fix typo in populate test titles](https://github.com/Automattic/mongoose/pull/16730) | 2026-11-23 |
+| [#16714 — docs: fix typos in comments, tests, and typings](https://github.com/Automattic/mongoose/pull/16714) | 2026-11-18 |
+
 ## apache/iceberg-rust · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -269,12 +276,6 @@ Updated: 2026-11-23. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#10230 — Use the `result.usage` property in the `ModelResponse.usage` docstring](https://github.com/pydantic/pydantic-ai/pull/10230) | 2026-10-15 |
 | [#10171 — Use the `result.usage` property in the `SystemReminders` docs](https://github.com/pydantic/pydantic-ai/pull/10171) | 2026-10-13 |
-
-## Automattic/mongoose · 1 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#16714 — docs: fix typos in comments, tests, and typings](https://github.com/Automattic/mongoose/pull/16714) | 2026-11-18 |
 
 ## BerriAI/litellm · 1 merged
 
