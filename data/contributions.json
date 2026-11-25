@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "gabime/spdlog",
+      "number": 3708,
+      "title": "docs: fix typo in comments",
+      "url": "https://github.com/gabime/spdlog/pull/3708",
+      "merged_at": "2026-11-25T03:57:03Z"
+    },
+    {
+      "repository": "Python-Markdown/markdown",
+      "number": 1722,
+      "title": "tests: fix typo in extension name (non_existant → non_existent)",
+      "url": "https://github.com/Python-Markdown/markdown/pull/1722",
+      "merged_at": "2026-11-24T15:21:22Z"
+    },
     {
       "repository": "Automattic/mongoose",
       "number": 16730,

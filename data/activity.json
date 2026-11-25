@@ -1,15 +1,10 @@
 {
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "calendar_source": [
     "https://api.github.com/graphql",
     "https://github.com/ninglinLiu?tab=overview"
   ],
   "calendar": [
-    {
-      "date": "2025-11-25",
-      "level": 1,
-      "count": 4
-    },
     {
       "date": "2025-11-26",
       "level": 0,
@@ -1808,7 +1803,7 @@
     {
       "date": "2026-11-20",
       "level": 2,
-      "count": 30
+      "count": 31
     },
     {
       "date": "2026-11-21",
@@ -1829,6 +1824,11 @@
       "date": "2026-11-24",
       "level": 0,
       "count": 0
+    },
+    {
+      "date": "2026-11-25",
+      "level": 1,
+      "count": 1
     }
   ],
   "language_scope": "GitHub language bytes in owned, public, non-fork repositories, including archived repositories.",

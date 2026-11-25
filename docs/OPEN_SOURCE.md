@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**229 merged pull requests across 78 upstream repositories.**
+**231 merged pull requests across 79 upstream repositories.**
 
-Updated: 2026-11-24. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-25. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -228,6 +228,13 @@ Updated: 2026-11-24. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#16730 — test: fix typo in populate test titles](https://github.com/Automattic/mongoose/pull/16730) | 2026-11-23 |
 | [#16714 — docs: fix typos in comments, tests, and typings](https://github.com/Automattic/mongoose/pull/16714) | 2026-11-18 |
 
+## Python-Markdown/markdown · 2 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#1722 — tests: fix typo in extension name (non_existant → non_existent)](https://github.com/Python-Markdown/markdown/pull/1722) | 2026-11-24 |
+| [#1709 — docs: fix typos in comments and documentation](https://github.com/Python-Markdown/markdown/pull/1709) | 2026-11-16 |
+
 ## apache/iceberg-rust · 2 merged
 
 | Pull request | Merged (UTC) |
@@ -307,12 +314,6 @@ Updated: 2026-11-24. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 |---|---|
 | [#526 — test: add a shared MonitorMatch test builder](https://github.com/OpenZeppelin/openzeppelin-monitor/pull/526) | 2026-10-28 |
 
-## Python-Markdown/markdown · 1 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#1709 — docs: fix typos in comments and documentation](https://github.com/Python-Markdown/markdown/pull/1709) | 2026-11-16 |
-
 ## SeaQL/sea-orm · 1 merged
 
 | Pull request | Merged (UTC) |
@@ -384,6 +385,12 @@ Updated: 2026-11-24. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#2196 — docs(tempo): fix dead TIP-1049 link](https://github.com/foundry-rs/book/pull/2196) | 2026-10-27 |
+
+## gabime/spdlog · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#3708 — docs: fix typo in comments](https://github.com/gabime/spdlog/pull/3708) | 2026-11-25 |
 
 ## go-sql-driver/mysql · 1 merged
 
