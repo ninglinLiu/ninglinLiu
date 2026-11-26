@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "getzep/graphiti",
+      "number": 2081,
+      "title": "fix(search): parenthesize group_id OR clause in Neo4j fulltext queries",
+      "url": "https://github.com/getzep/graphiti/pull/2081",
+      "merged_at": "2026-11-25T20:00:01Z"
+    },
     {
       "repository": "gabime/spdlog",
       "number": 3708,

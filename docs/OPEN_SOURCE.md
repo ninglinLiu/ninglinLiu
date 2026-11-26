@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**231 merged pull requests across 79 upstream repositories.**
+**232 merged pull requests across 80 upstream repositories.**
 
-Updated: 2026-11-25. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-26. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -391,6 +391,12 @@ Updated: 2026-11-25. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#3708 — docs: fix typo in comments](https://github.com/gabime/spdlog/pull/3708) | 2026-11-25 |
+
+## getzep/graphiti · 1 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2081 — fix(search): parenthesize group_id OR clause in Neo4j fulltext queries](https://github.com/getzep/graphiti/pull/2081) | 2026-11-25 |
 
 ## go-sql-driver/mysql · 1 merged
 
