@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "query": "is:pr author:ninglinLiu is:merged -user:ninglinLiu",
   "contributions": [
+    {
+      "repository": "foundry-rs/book",
+      "number": 2200,
+      "title": "docs(forge): document transient storage under isolated gas reports",
+      "url": "https://github.com/foundry-rs/book/pull/2200",
+      "merged_at": "2026-11-26T18:25:54Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2201,
+      "title": "docs(forge): warn about expectRevert on low-level calls and testFail_",
+      "url": "https://github.com/foundry-rs/book/pull/2201",
+      "merged_at": "2026-11-26T18:23:01Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2202,
+      "title": "docs(forge-std): add StdChains reference with getChain examples",
+      "url": "https://github.com/foundry-rs/book/pull/2202",
+      "merged_at": "2026-11-26T18:22:56Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2203,
+      "title": "docs(agents): recommend pnpm for local Vocs (Fixes #1891)",
+      "url": "https://github.com/foundry-rs/book/pull/2203",
+      "merged_at": "2026-11-26T18:22:51Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2206,
+      "title": "docs(chisel): clarify integer literal typing and abi.encode(-1)",
+      "url": "https://github.com/foundry-rs/book/pull/2206",
+      "merged_at": "2026-11-26T18:22:46Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2207,
+      "title": "docs(anvil): document trailing @block fork URL syntax",
+      "url": "https://github.com/foundry-rs/book/pull/2207",
+      "merged_at": "2026-11-26T18:22:42Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2209,
+      "title": "docs(config): add a dedicated cbor_metadata reference section",
+      "url": "https://github.com/foundry-rs/book/pull/2209",
+      "merged_at": "2026-11-26T18:22:37Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2211,
+      "title": "docs(editors): add Zed forge fmt on-save settings",
+      "url": "https://github.com/foundry-rs/book/pull/2211",
+      "merged_at": "2026-11-26T18:22:33Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2212,
+      "title": "docs(forge): document when to use or skip call isolation",
+      "url": "https://github.com/foundry-rs/book/pull/2212",
+      "merged_at": "2026-11-26T18:22:28Z"
+    },
+    {
+      "repository": "foundry-rs/book",
+      "number": 2213,
+      "title": "docs(deploy): clarify forge verify-contract has no --remappings flag",
+      "url": "https://github.com/foundry-rs/book/pull/2213",
+      "merged_at": "2026-11-26T18:22:23Z"
+    },
     {
       "repository": "getzep/graphiti",
       "number": 2081,

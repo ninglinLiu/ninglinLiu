@@ -1,8 +1,8 @@
 # Open-source contributions
 
-**232 merged pull requests across 80 upstream repositories.**
+**242 merged pull requests across 80 upstream repositories.**
 
-Updated: 2026-11-26. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
+Updated: 2026-11-27. Scope: PRs authored by `ninglinLiu`, merged upstream, excluding repositories owned by `ninglinLiu`. Features, fixes, tests, refactoring and documentation are all included.
 
 [Back to profile](../README.md) · [Live GitHub search](https://github.com/search?q=is%3Apr+author%3AninglinLiu+is%3Amerged+-user%3AninglinLiu&type=pullrequests)
 
@@ -119,6 +119,22 @@ Updated: 2026-11-26. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | [#2912 — [REFACTOR][SequentialWorkflow][Remove the unread shared_memory_system parameter]](https://github.com/kyegomez/swarms/pull/2912) | 2026-10-27 |
 | [#2917 — [REFACTOR][MultiAgentRouter][Remove the unread shared_memory_system parameter]](https://github.com/kyegomez/swarms/pull/2917) | 2026-10-27 |
 | [#2891 — chore(agent): remove unused Agent.check_available_tokens](https://github.com/kyegomez/swarms/pull/2891) | 2026-10-26 |
+
+## foundry-rs/book · 11 merged
+
+| Pull request | Merged (UTC) |
+|---|---|
+| [#2200 — docs(forge): document transient storage under isolated gas reports](https://github.com/foundry-rs/book/pull/2200) | 2026-11-26 |
+| [#2201 — docs(forge): warn about expectRevert on low-level calls and testFail_](https://github.com/foundry-rs/book/pull/2201) | 2026-11-26 |
+| [#2202 — docs(forge-std): add StdChains reference with getChain examples](https://github.com/foundry-rs/book/pull/2202) | 2026-11-26 |
+| [#2203 — docs(agents): recommend pnpm for local Vocs (Fixes #1891)](https://github.com/foundry-rs/book/pull/2203) | 2026-11-26 |
+| [#2206 — docs(chisel): clarify integer literal typing and abi.encode(-1)](https://github.com/foundry-rs/book/pull/2206) | 2026-11-26 |
+| [#2207 — docs(anvil): document trailing @block fork URL syntax](https://github.com/foundry-rs/book/pull/2207) | 2026-11-26 |
+| [#2209 — docs(config): add a dedicated cbor_metadata reference section](https://github.com/foundry-rs/book/pull/2209) | 2026-11-26 |
+| [#2211 — docs(editors): add Zed forge fmt on-save settings](https://github.com/foundry-rs/book/pull/2211) | 2026-11-26 |
+| [#2212 — docs(forge): document when to use or skip call isolation](https://github.com/foundry-rs/book/pull/2212) | 2026-11-26 |
+| [#2213 — docs(deploy): clarify forge verify-contract has no --remappings flag](https://github.com/foundry-rs/book/pull/2213) | 2026-11-26 |
+| [#2196 — docs(tempo): fix dead TIP-1049 link](https://github.com/foundry-rs/book/pull/2196) | 2026-10-27 |
 
 ## foundry-rs/foundry-core · 9 merged
 
@@ -379,12 +395,6 @@ Updated: 2026-11-26. Scope: PRs authored by `ninglinLiu`, merged upstream, exclu
 | Pull request | Merged (UTC) |
 |---|---|
 | [#716 — test: fix typo in external test runner messages](https://github.com/express-rate-limit/express-rate-limit/pull/716) | 2026-11-20 |
-
-## foundry-rs/book · 1 merged
-
-| Pull request | Merged (UTC) |
-|---|---|
-| [#2196 — docs(tempo): fix dead TIP-1049 link](https://github.com/foundry-rs/book/pull/2196) | 2026-10-27 |
 
 ## gabime/spdlog · 1 merged
 
